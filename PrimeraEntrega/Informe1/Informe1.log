@@ -1,0 +1,608 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.17)  4 FEB 2024 16:51
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"/Users/pabloseijo/Documents/Curso2023-2024/2Cuatrimestre/DAW/Pagina Web/Informe1/Informe1"
+(/Users/pabloseijo/Documents/Curso2023-2024/2Cuatrimestre/DAW/Pagina Web/Informe1/Informe1.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22> (/usr/local/texlive/2023basic/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2023basic/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (/usr/local/texlive/2023basic/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+) (/usr/local/texlive/2023basic/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2023basic/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+) (/usr/local/texlive/2023basic/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2023basic/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (/usr/local/texlive/2023basic/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (/usr/local/texlive/2023basic/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
+) (/usr/local/texlive/2023basic/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
+ (/usr/local/texlive/2023basic/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (/usr/local/texlive/2023basic/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+) (/usr/local/texlive/2023basic/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/local/texlive/2023basic/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/usr/local/texlive/2023basic/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (/usr/local/texlive/2023basic/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/usr/local/texlive/2023basic/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (/usr/local/texlive/2023basic/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/usr/local/texlive/2023basic/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (/usr/local/texlive/2023basic/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (/usr/local/texlive/2023basic/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+ (/usr/local/texlive/2023basic/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/usr/local/texlive/2023basic/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (/usr/local/texlive/2023basic/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count193
+)
+\@linkdim=\dimen143
+\Hy@linkcounter=\count194
+\Hy@pagecounter=\count195
+ (/usr/local/texlive/2023basic/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (/usr/local/texlive/2023basic/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+) (/usr/local/texlive/2023basic/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count196
+ (/usr/local/texlive/2023basic/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4177.
+Package hyperref Info: Link nesting OFF on input line 4182.
+Package hyperref Info: Hyper index ON on input line 4185.
+Package hyperref Info: Plain pages OFF on input line 4192.
+Package hyperref Info: Backreferencing OFF on input line 4197.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4425.
+\c@Hy@tempcnt=\count197
+ (/usr/local/texlive/2023basic/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen144
+ (/usr/local/texlive/2023basic/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (/usr/local/texlive/2023basic/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count198
+\Field@Width=\dimen145
+\Fld@charsize=\dimen146
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+ (/usr/local/texlive/2023basic/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count199
+\c@Item=\count266
+\c@Hfootnote=\count267
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/local/texlive/2023basic/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2023-02-07 v7.00v Hyperref driver for pdfTeX
+ (/usr/local/texlive/2023basic/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count268
+\c@bookmark@seq@number=\count269
+ (/usr/local/texlive/2023basic/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (/usr/local/texlive/2023basic/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+)
+\Hy@SectionHShift=\skip50
+) (/usr/local/texlive/2023basic/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count270
+\float@exts=\toks19
+\float@box=\box51
+\@float@everytoks=\toks20
+\@floatcapt=\box52
+) (/usr/local/texlive/2023basic/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count271
+\l__pdf_internal_box=\box53
+) (./Informe1.aux
+
+LaTeX Warning: Label `fig:mi_imagen' multiply defined.
+
+
+LaTeX Warning: Label `fig:mi_imagen' multiply defined.
+
+
+LaTeX Warning: Label `fig:mi_imagen' multiply defined.
+
+
+LaTeX Warning: Label `fig:mi_imagen' multiply defined.
+
+
+LaTeX Warning: Label `fig:mi_imagen' multiply defined.
+
+
+LaTeX Warning: Label `fig:mi_imagen' multiply defined.
+
+
+LaTeX Warning: Label `fig:mi_imagen' multiply defined.
+
+
+LaTeX Warning: Label `fig:mi_imagen' multiply defined.
+
+
+LaTeX Warning: Label `fig:mi_imagen' multiply defined.
+
+
+LaTeX Warning: Label `fig:mi_imagen' multiply defined.
+
+
+LaTeX Warning: Label `fig:mi_imagen' multiply defined.
+
+
+LaTeX Warning: Label `fig:mi_imagen' multiply defined.
+
+
+LaTeX Warning: Label `fig:mi_imagen' multiply defined.
+
+
+LaTeX Warning: Label `fig:mi_imagen' multiply defined.
+
+
+LaTeX Warning: Label `fig:mi_imagen' multiply defined.
+
+
+LaTeX Warning: Label `fig:mi_imagen' multiply defined.
+
+
+LaTeX Warning: Label `fig:mi_imagen' multiply defined.
+
+
+LaTeX Warning: Label `fig:mi_imagen' multiply defined.
+
+
+LaTeX Warning: Label `fig:mi_imagen' multiply defined.
+
+
+LaTeX Warning: Label `fig:mi_imagen' multiply defined.
+
+
+LaTeX Warning: Label `fig:mi_imagen' multiply defined.
+
+)
+\openout1 = `Informe1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+ (/usr/local/texlive/2023basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count272
+\scratchdimen=\dimen147
+\scratchbox=\box54
+\nofMPsegments=\count273
+\nofMParguments=\count274
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count275
+\MPscratchDim=\dimen148
+\MPnumerator=\count276
+\makeMPintoPDFobject=\count277
+\everyMPtoPDFconversion=\toks22
+) (/usr/local/texlive/2023basic/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/local/texlive/2023basic/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+Package hyperref Info: Link coloring OFF on input line 12.
+ (./Informe1.out) (./Informe1.out)
+\@outlinefile=\write3
+\openout3 = `Informe1.out'.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 15.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 15.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 15.
+ (./Informe1.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 7.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 7.
+)
+\tf@toc=\write4
+\openout4 = `Informe1.toc'.
+
+ [1
+
+{/usr/local/texlive/2023basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<Esquemas/InventarioContenido.png, id=70, 833.1125pt x 642.4pt>
+File: Esquemas/InventarioContenido.png Graphic file (type png)
+<use Esquemas/InventarioContenido.png>
+Package pdftex.def Info: Esquemas/InventarioContenido.png  used on input line 34.
+(pdftex.def)             Requested size: 207.0021pt x 159.60957pt.
+
+Overfull \hbox (7.41724pt too wide) in paragraph at lines 39--40
+[]\OT1/cmr/m/n/10 Nuestra plataforma se ar-tic-ula en di-ver-sas sec-ciones, cada una con un prop^^Sosito
+ []
+
+[2
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.40 
+      <./Esquemas/InventarioContenido.png>]
+<Esquemas/Arquitectura de Informacion.jpg, id=78, 2419.0375pt x 1308.89pt>
+File: Esquemas/Arquitectura de Informacion.jpg Graphic file (type jpg)
+<use Esquemas/Arquitectura de Informacion.jpg>
+Package pdftex.def Info: Esquemas/Arquitectura de Informacion.jpg  used on input line 49.
+(pdftex.def)             Requested size: 517.5pt x 280.00783pt.
+
+Overfull \hbox (89.36395pt too wide) in paragraph at lines 48--50
+ []|  [] 
+ []
+
+[3
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.55 
+      <./Esquemas/Arquitectura de Informacion.jpg>]
+Overfull \hbox (27.52841pt too wide) in paragraph at lines 56--57
+[]\OT1/cmr/m/n/10 Adicionalmente, cabe re-saltar la secci^^Son de-nom-i-nada "Acon-tec-imien-tos Hist^^Soricos",
+ []
+
+<Esquemas/CasosDeUsoSegmentado(1).jpg, id=84, 3169.8425pt x 1343.0175pt>
+File: Esquemas/CasosDeUsoSegmentado(1).jpg Graphic file (type jpg)
+<use Esquemas/CasosDeUsoSegmentado(1).jpg>
+Package pdftex.def Info: Esquemas/CasosDeUsoSegmentado(1).jpg  used on input line 70.
+(pdftex.def)             Requested size: 552.0021pt x 233.8635pt.
+
+Overfull \hbox (109.63968pt too wide) in paragraph at lines 69--71
+ []|  [] 
+ []
+
+[4]
+<Esquemas/CasosDeUsoSegamentado(2).jpg, id=89, 2748.2675pt x 1764.5925pt>
+File: Esquemas/CasosDeUsoSegamentado(2).jpg Graphic file (type jpg)
+<use Esquemas/CasosDeUsoSegamentado(2).jpg>
+Package pdftex.def Info: Esquemas/CasosDeUsoSegamentado(2).jpg  used on input line 78.
+(pdftex.def)             Requested size: 552.0021pt x 354.42007pt.
+
+Overfull \hbox (109.63968pt too wide) in paragraph at lines 77--79
+ []|  [] 
+ []
+
+[5
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.82 
+      <./Esquemas/CasosDeUsoSegmentado(1).jpg>]
+<Esquemas/MapawebFinal.png, id=95, 1304.875pt x 923.45pt>
+File: Esquemas/MapawebFinal.png Graphic file (type png)
+<use Esquemas/MapawebFinal.png>
+Package pdftex.def Info: Esquemas/MapawebFinal.png  used on input line 90.
+(pdftex.def)             Requested size: 345.0pt x 244.14944pt.
+ [6
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.94 
+      <./Esquemas/CasosDeUsoSegamentado(2).jpg>]
+<Esquemas/Sketch.PNG, id=101, 1309.89375pt x 1388.18625pt>
+File: Esquemas/Sketch.PNG Graphic file (type png)
+<use Esquemas/Sketch.PNG>
+Package pdftex.def Info: Esquemas/Sketch.PNG  used on input line 103.
+(pdftex.def)             Requested size: 345.0pt x 365.62231pt.
+ [7
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.107 
+       <./Esquemas/MapawebFinal.png>]
+<Wireframes/PaginaPrincipal.jpg, id=109, 2567.5925pt x 1612.0225pt>
+File: Wireframes/PaginaPrincipal.jpg Graphic file (type jpg)
+<use Wireframes/PaginaPrincipal.jpg>
+Package pdftex.def Info: Wireframes/PaginaPrincipal.jpg  used on input line 115.
+(pdftex.def)             Requested size: 345.0pt x 216.58055pt.
+ [8
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.119 
+       <./Esquemas/Sketch.PNG>]
+<Wireframes/Mapa.jpg, id=115, 2567.5925pt x 1606.0pt>
+File: Wireframes/Mapa.jpg Graphic file (type jpg)
+<use Wireframes/Mapa.jpg>
+Package pdftex.def Info: Wireframes/Mapa.jpg  used on input line 122.
+(pdftex.def)             Requested size: 345.0pt x 215.77141pt.
+<Wireframes/EjemploBatalla.jpg, id=116, 2565.585pt x 1606.0pt>
+File: Wireframes/EjemploBatalla.jpg Graphic file (type jpg)
+<use Wireframes/EjemploBatalla.jpg>
+Package pdftex.def Info: Wireframes/EjemploBatalla.jpg  used on input line 129.
+(pdftex.def)             Requested size: 345.0pt x 215.94295pt.
+ [9
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.133 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.133 
+       <./Wireframes/PaginaPrincipal.jpg> <./Wireframes/Mapa.jpg>]
+<Wireframes/Batallas.jpg, id=123, 2573.615pt x 1608.0075pt>
+File: Wireframes/Batallas.jpg Graphic file (type jpg)
+<use Wireframes/Batallas.jpg>
+Package pdftex.def Info: Wireframes/Batallas.jpg  used on input line 136.
+(pdftex.def)             Requested size: 345.0pt x 215.5504pt.
+<Wireframes/AH.jpg, id=124, 2569.6pt x 1608.0075pt>
+File: Wireframes/AH.jpg Graphic file (type jpg)
+<use Wireframes/AH.jpg>
+Package pdftex.def Info: Wireframes/AH.jpg  used on input line 143.
+(pdftex.def)             Requested size: 345.0pt x 215.8939pt.
+ [10
+pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.147 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.147 
+       <./Wireframes/EjemploBatalla.jpg> <./Wireframes/Batallas.jpg>]
+<Mockup/PaginaPrincipal (1).jpg, id=131, 2386.9175pt x 1489.565pt>
+File: Mockup/PaginaPrincipal (1).jpg Graphic file (type jpg)
+<use Mockup/PaginaPrincipal (1).jpg>
+Package pdftex.def Info: Mockup/PaginaPrincipal (1).jpg  used on input line 154.
+(pdftex.def)             Requested size: 345.0pt x 215.28816pt.
+ [11
+pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.158 
+       <./Wireframes/AH.jpg>]
+<Mockup/MapaMockup.jpg, id=137, 2388.925pt x 1491.5725pt>
+File: Mockup/MapaMockup.jpg Graphic file (type jpg)
+<use Mockup/MapaMockup.jpg>
+Package pdftex.def Info: Mockup/MapaMockup.jpg  used on input line 161.
+(pdftex.def)             Requested size: 345.0pt x 215.39622pt.
+<Mockup/EjemploBatallaMockup.jpg, id=138, 2380.895pt x 1481.535pt>
+File: Mockup/EjemploBatallaMockup.jpg Graphic file (type jpg)
+<use Mockup/EjemploBatallaMockup.jpg>
+Package pdftex.def Info: Mockup/EjemploBatallaMockup.jpg  used on input line 168.
+(pdftex.def)             Requested size: 345.0pt x 214.67014pt.
+ [12
+pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.172 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.172 
+       <./Mockup/PaginaPrincipal (1).jpg> <./Mockup/MapaMockup.jpg>]
+<Mockup/BatallasMockup.jpg, id=145, 1591.9475pt x 1001.7425pt>
+File: Mockup/BatallasMockup.jpg Graphic file (type jpg)
+<use Mockup/BatallasMockup.jpg>
+Package pdftex.def Info: Mockup/BatallasMockup.jpg  used on input line 175.
+(pdftex.def)             Requested size: 345.0pt x 217.0824pt.
+<Mockup/AHMockup.jpg, id=146, 2382.9025pt x 1489.565pt>
+File: Mockup/AHMockup.jpg Graphic file (type jpg)
+<use Mockup/AHMockup.jpg>
+Package pdftex.def Info: Mockup/AHMockup.jpg  used on input line 182.
+(pdftex.def)             Requested size: 345.0pt x 215.65182pt.
+ [13
+pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.186 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.186 
+       <./Mockup/EjemploBatallaMockup.jpg> <./Mockup/BatallasMockup.jpg>]
+<Storyboards/StoryBoard_seleccion_batalla.png, id=154, 1750.54pt x 665.48625pt>
+File: Storyboards/StoryBoard_seleccion_batalla.png Graphic file (type png)
+<use Storyboards/StoryBoard_seleccion_batalla.png>
+Package pdftex.def Info: Storyboards/StoryBoard_seleccion_batalla.png  used on input line 194.
+(pdftex.def)             Requested size: 517.5pt x 196.73308pt.
+
+Overfull \hbox (89.36395pt too wide) in paragraph at lines 193--195
+ []|  [] 
+ []
+
+[14
+pdfTeX warning (ext4): destination with the same identifier (name{figure.16}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.198 
+       <./Mockup/AHMockup.jpg>]
+<Storyboards/StoryBoard_seleccion_libro.png, id=161, 837.42862pt x 239.39438pt>
+File: Storyboards/StoryBoard_seleccion_libro.png Graphic file (type png)
+<use Storyboards/StoryBoard_seleccion_libro.png>
+Package pdftex.def Info: Storyboards/StoryBoard_seleccion_libro.png  used on input line 202.
+(pdftex.def)             Requested size: 517.5pt x 147.94444pt.
+
+Overfull \hbox (89.36395pt too wide) in paragraph at lines 201--203
+ []|  [] 
+ []
+
+<Storyboards/StoryBoard_seleccion_guerra.png, id=162, 842.84888pt x 343.2825pt>
+File: Storyboards/StoryBoard_seleccion_guerra.png Graphic file (type png)
+<use Storyboards/StoryBoard_seleccion_guerra.png>
+Package pdftex.def Info: Storyboards/StoryBoard_seleccion_guerra.png  used on input line 210.
+(pdftex.def)             Requested size: 517.5pt x 210.77962pt.
+
+Overfull \hbox (89.36395pt too wide) in paragraph at lines 209--211
+ []|  [] 
+ []
+
+[15
+pdfTeX warning (ext4): destination with the same identifier (name{figure.17}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.214 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.18}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.214 
+       <./Storyboards/StoryBoard_seleccion_batalla.png> <./Storyboards/StoryBoard_seleccion_libro.png>]
+<Storyboards/StoryboardPersonaje.jpg, id=171, 1567.8575pt x 574.145pt>
+File: Storyboards/StoryboardPersonaje.jpg Graphic file (type jpg)
+<use Storyboards/StoryboardPersonaje.jpg>
+Package pdftex.def Info: Storyboards/StoryboardPersonaje.jpg  used on input line 218.
+(pdftex.def)             Requested size: 517.5pt x 189.50348pt.
+
+Overfull \hbox (89.36395pt too wide) in paragraph at lines 217--219
+ []|  [] 
+ []
+
+<Storyboards/StroryBoardInicioSesion.jpg, id=172, 1599.9775pt x 943.525pt>
+File: Storyboards/StroryBoardInicioSesion.jpg Graphic file (type jpg)
+<use Storyboards/StroryBoardInicioSesion.jpg>
+Package pdftex.def Info: Storyboards/StroryBoardInicioSesion.jpg  used on input line 226.
+(pdftex.def)             Requested size: 517.5pt x 305.1735pt.
+
+Overfull \hbox (89.36395pt too wide) in paragraph at lines 225--227
+ []|  [] 
+ []
+
+[16
+pdfTeX warning (ext4): destination with the same identifier (name{figure.19}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.230 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.20}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.230 
+       <./Storyboards/StoryBoard_seleccion_guerra.png> <./Storyboards/StoryboardPersonaje.jpg>]
+<Esquemas/EstructuraDeFicheros.jpg, id=180, 1447.4075pt x 1612.0225pt>
+File: Esquemas/EstructuraDeFicheros.jpg Graphic file (type jpg)
+<use Esquemas/EstructuraDeFicheros.jpg>
+Package pdftex.def Info: Esquemas/EstructuraDeFicheros.jpg  used on input line 238.
+(pdftex.def)             Requested size: 517.5pt x 576.34288pt.
+
+Overfull \hbox (89.36395pt too wide) in paragraph at lines 237--239
+ []|  [] 
+ []
+
+[17
+pdfTeX warning (ext4): destination with the same identifier (name{figure.21}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.242 
+       <./Storyboards/StroryBoardInicioSesion.jpg>]
+Overfull \vbox (62.28732pt too high) has occurred while \output is active []
+
+ [18
+pdfTeX warning (ext4): destination with the same identifier (name{figure.22}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.242 
+       <./Esquemas/EstructuraDeFicheros.jpg>] [19] (./Informe1.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `Informe1.out' has not changed.
+(rerunfilecheck)             Checksum: 1948B5B2A43A9F8D0C7D781E2EBCDB83;1726.
+ ) 
+Here is how much of TeX's memory you used:
+ 8457 strings out of 477476
+ 138150 string characters out of 5824243
+ 1857388 words of memory out of 5000000
+ 28535 multiletter control sequences out of 15000+600000
+ 516889 words of font info for 47 fonts, out of 8000000 for 9000
+ 319 hyphenation exceptions out of 8191
+ 75i,7n,76p,836b,431s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Informe1.pdf (19 pages, 7048333 bytes).
+PDF statistics:
+ 233 PDF objects out of 1000 (max. 8388607)
+ 173 compressed objects within 2 object streams
+ 54 named destinations out of 1000 (max. 500000)
+ 199 words of extra memory for PDF output out of 10000 (max. 10000000)
+
