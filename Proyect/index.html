@@ -8,32 +8,35 @@
     <meta name="author" content="Pablo Seijo y David Carpintero">
     <title> HISTORY OF WAR </title>
 
+    <!-- Enlace al archivo CSS -->
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body> 
-    <header>
-        <img src="./Images/coin128.png" alt="" width="128" height="128">
-        <nav>
+    <header class="header">
+        <img class="headerImg" src="./Images/coin128.png" alt="" width="128" height="128">
+        <nav class="header-menu">
             <ul>
-                <li> <a href="mapa.html"> Mapa </a> </li>
-                <li> <a href="AcontecimientosHistoricos/AH.html"> Acontecimientos Históricos </a> </li>
-                <li> <a href="biblioteca.html"> Biblioteca </a> </li>
+                <li class="header-menu.item"> <a href="mapa.html"> Mapa </a> </li>
+                <li class="header-menu.item"> <a href="AcontecimientosHistoricos/AH.html"> Acontecimientos Históricos </a> </li>
+                <li class="header-menu.item"> <a href="biblioteca.html"> Biblioteca </a> </li>
             </ul>
         </nav>
 
-        <input type="text" name="nombreUsuario" placeholder="nombre de usuario">
-        <input type="password" name="contraseña" placeholder="contraseña">
+        <input class="loginHolder" type="text" name="nombreUsuario" placeholder="nombre de usuario">
+        <input class="loginHolder" type="password" name="contraseña" placeholder="contraseña">
 
-        <input type="button" name="buttonLogin" value="Login">
-        <input type="button" name="buttonRegistro" value="Registro">
+        <input class="loginButton" type="button" name="buttonLogin" value="Login">
+        <input class="loginButton" type="button" name="buttonRegistro" value="Registro">
 
     </header>
 
     <main>
-        <section>
+        <section class="mainPage">
 
             <h1> BIENVENIDOS A HISTORY OF WAR </h1>
 
-            <img src="./Images/mapa1.png" alt="Mapa rechulon" width="747" height="406">
+            <img class="mainImage" src="./Images/mapa1.png" alt="Mapa rechulon" width="747" height="406">
 
             <p> 
                 En esta página web encontrarás información sobre la historia de algunas las guerras más importantes de la historia, así como información sobre las batallas más importantes, personajes destacados y una bibliografiía de libros recomendados dividos por categorías, que van en función de la época histórica a la que pertenecen.
@@ -47,11 +50,11 @@
         </section>
     </main>
 
-    <footer>
-        <ul>
-            <li> <a href="index.html"> Home </a> </li>
-            <li> <a href="contacto.html"> Contacto </a> </li>
-            <li> <a href="sobrenosotros.html"> Sobre Nosotros </a> </li>
+    <footer class="footer">
+        <ul class="footer-menu">
+            <li class="footer-list-item"> <a href="index.html"> Home </a> </li>
+            <li class="footer-list-item"> <a href="contacto.html"> Contacto </a> </li>
+            <li class="footer-list-item"> <a href="sobrenosotros.html"> Sobre Nosotros </a> </li>
         </ul>
     </footer>
     

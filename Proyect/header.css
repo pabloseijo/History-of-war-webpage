@@ -1,0 +1,43 @@
+/* header.css */
+.header {
+    background-color: #734e38; /* color marrón para el fondo */
+    color: white; /* color blanco para el texto */
+    display: flex; /* flexbox para alinear los elementos */
+    justify-content: space-between; /* alinear los elementos a los extremos */
+    align-items: center; /* centrar verticalmente los elementos */
+    padding: 10px 20px; /* añadir espacio alrededor del contenido */
+}
+
+.headerImg { 
+    margin-right: 20px; /* añadir espacio */
+}
+
+.header-menu {
+    display: flex;
+}
+
+.header-menu .header-menu-item {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.header-menu .header-menu-item a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.loginHolder { /* contenedor para el formulario de login */
+    margin-left: 0px; /* añadir espacio */
+    padding: 5px; /* añadir espacio alrededor del contenido */
+}
+
+.loginButton {
+    background-color: #D9caad; /* color dorado para los botones */
+    border: none;
+    color: black;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: 10px;
+}
