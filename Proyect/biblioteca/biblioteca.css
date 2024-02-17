@@ -1,0 +1,49 @@
+/*
+
+Estilos para la Biblioteca
+
+Autor: David Carpintero Diaz
+Versión: 
+Fecha: 17/02/2024
+
+*/
+/* Estilos para el encabezado */
+
+/* Estilos para la sección de la biblioteca */
+/* Estilos para el encabezado */
+
+
+main{
+    background-color: bisque;
+    position: relative;
+    padding: 30px;
+}
+main img{
+    position: absolute;
+    top:50px;
+    right: 50px;;
+}
+
+.intro{
+    width: 600px;
+}
+
+/* Estilos para la sección de libros */
+main ul{
+    list-style: none;
+}
+
+main li {
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+main li:hover{
+    text-decoration: underline; 
+    color: #555;
+}
