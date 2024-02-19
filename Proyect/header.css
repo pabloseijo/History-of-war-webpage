@@ -9,6 +9,7 @@
     padding: 10px 20px; /* añadir espacio alrededor del contenido */
     min-width: 1366px; /* Establece un ancho mínimo para el encabezado */
     flex-wrap: wrap; /* Permite que los elementos se envuelvan en nuevas líneas */
+    width: 100%; /* Asegura que el encabezado ocupe todo el ancho de la pantalla */
 }
 
 /* Espacio para el logo */
