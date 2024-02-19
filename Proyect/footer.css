@@ -1,28 +1,42 @@
-/* Estilos para el pie de página */
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    margin: 0;
-    text-align: center;
-    min-width: 1366px; /* Establece un ancho mínimo para el encabezado */
-    width: 100%;
+@import 'style.css';
+
+html {
+    height: 100%; /* Establece la altura del cuerpo en 100% */
 }
 
-footer ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+body {
+    display: flex; /* Cambia el diseño del cuerpo a flex */
+    flex-direction: column; /* Establece el diseño de la página en columna */
+    min-height: 100vh; /* Establece la altura mínima del cuerpo a la altura completa de la ventana de visualización */
+    margin: 0; /* Restablece cualquier margen predeterminado */
 }
 
-footer ul li {
-    display: inline-block;
-    margin-right: 20px;
-    margin-bottom: 0px;
+main {
+    flex: 1; /* Hace que el contenido principal ocupe todo el espacio disponible, empujando el footer hacia abajo */
 }
 
-footer ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
+.footer { /* Estilo del pie de página */
+    width: 100%; /* Asegura que el pie de página ocupe todo el ancho de la ventana de visualización */
+    background-color: var(--color-caramel); /* Establece el color de fondo del pie de página */
+    color: var(--color-smoke); /* Establece el color del texto del pie de página */
+    text-align: center; /* Centra el texto del pie de página */
+    padding: 20px 0; /* Añade un relleno de 20px arriba y abajo y 0 a los lados */
+}
+
+.footer-menu { /* Estilo de la lista */
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Restablece cualquier relleno predeterminado */
+    margin: 0 auto; /* Centra la lista */
+    display: flex; /* Cambia el diseño de la lista a flex */
+    justify-content: center; /* Centra los elementos de la lista */
+}
+
+.footer-list-item { /* Estilo de los elementos de la lista */
+    margin: 0 15px; /* Añade un margen de 0 a los lados y 15px arriba y abajo */
+}
+
+.footer-list-item a { /* Estilo de los enlaces */
+    color: #fff; /* Establece el color del texto del enlace */
+    text-decoration: none; /* Elimina la subrayado predeterminado */
+    font-weight: bold; /* Establece el peso de la fuente en negrita */
 }

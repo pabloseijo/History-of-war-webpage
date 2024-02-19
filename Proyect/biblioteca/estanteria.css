@@ -1,3 +1,5 @@
+@import '../style.css';
+
 main{
     position: relative;
     min-width: 1366px;
@@ -25,7 +27,7 @@ main ul {
     border-radius: 10px;
     padding: 10px;
     width: 450px;
-    background-color:beige;
+    background-color: var(--color-smoke);
 }
 
 main li {
@@ -41,7 +43,7 @@ main a {
 
 main a:hover {
     background-color: #333;
-    color: #fff;
+    color: var(--color-smoke);
     font-weight: bold;
 }
 

@@ -1,13 +1,14 @@
+@import 'style.css';
+
 /* Estilos para el encabezado */
 
 .header {
-    background-color: #734e38; /* color marrón para el fondo */
-    color: white; /* color blanco para el texto */
+    background-color: var(--color-chocolate); /* color marrón para el fondo */
+    color: var(--color-smoke); /* color blanco para el texto */
     display: flex; /* flexbox para alinear los elementos */
     justify-content: space-between; /* alinear los elementos a los extremos */
     align-items: center; /* centrar verticalmente los elementos */
     padding: 10px 20px; /* añadir espacio alrededor del contenido */
-    min-width: 1366px; /* Establece un ancho mínimo para el encabezado */
     flex-wrap: wrap; /* Permite que los elementos se envuelvan en nuevas líneas */
     width: 100%; /* Asegura que el encabezado ocupe todo el ancho de la pantalla */
 }
@@ -16,6 +17,7 @@
 
 .headerImg { 
     margin-right: 20px; /* añadir espacio */
+    flex: 0 0 auto; /* asegura que el logo no se estire */
 }
 
 /* Espacio para el título y el menu*/
@@ -24,10 +26,11 @@
     display: flex; /* Usa Flexbox */
     flex-direction: column; /* Organiza los elementos verticalmente */
     align-items: flex-start; /* Alinea los elementos al inicio (izquierda) */
+    flex: 1; /* Asegura que el grupo ocupe todo el espacio disponible */
 }
 
 .header-title {
-    color: white; /* Establece el color del texto en blanco */
+    color: var(--color-smoke); /* Establece el color del texto en blanco */
     font-size: 24px; /* Ajusta el tamaño del texto según sea necesario */
     font-weight: bold; /* Opcional: si deseas que el texto sea en negrita */
     padding: 10px 0; /* Ajusta el espaciado alrededor del texto */
@@ -49,7 +52,7 @@
 
 .header-menu .header-menu-item {
     margin-right: 20px; /* Espacio a la derecha de cada elemento de la lista */
-    background-color: #D9caad; /* Fondo para cada elemento de la lista */
+    background-color: var(--color-smoke); /* Fondo para cada elemento de la lista */
     padding: 10px; /* Espacio alrededor del contenido dentro de las cajas */
     border-radius: 5px; /* Bordes redondeados para las cajas */
 }
@@ -59,38 +62,9 @@
 }
 
 .header-menu .header-menu-item a {
-    color: black; /* Color del texto para los enlaces */
+    color: var(--color-chocolate); /* Color del texto para los enlaces */
     text-decoration: none; /* Elimina el subrayado de los enlaces */
     font-weight: bold; /* Texto en negrita */
     display: block; /* Hace que el enlace llene toda la caja, mejorando la área clickeable */
 }
 
-/*Espacio para el login holder */
-
-.loginHolder {
-    background-color: #D9caad; /* Fondo para las cajas de texto */
-    border: 1px solid #D9caad; /* Borde sutil para las cajas de texto */
-    color: #333; /* Color de texto oscuro para contraste */
-    padding: 3px; /* Espacio interior aún más reducido para las cajas de texto */
-    margin-right: 3px; /* Espacio reducido entre las cajas de texto y los botones */
-    font-size: 14px; /* Texto más pequeño para las cajas */
-}
-
-.loginButton {
-    background-color: #D9caad; /* color para los botones */
-    border: none; /* quitar el borde */
-    color: black; /* color para el texto */
-    padding: 3px 6px; /* reducir espacio alrededor del contenido de los botones */ 
-    text-transform: uppercase; /* convertir el texto a mayúsculas */
-    cursor: pointer; /* cambiar el cursor al pasar por encima */
-    font-size: 14px; /* Texto más pequeño para el botón */
-    margin-left: 3px; /* Espacio reducido a la izquierda del botón */
-    font-weight: bold; /* Texto en negrita */
-}
-
-.loginContainer {
-    display: flex; /* Alinear los elementos del formulario de login en línea */
-    align-items: center; /* Centrar verticalmente los elementos del formulario */
-    margin-left: auto; /* Alinear el contenedor a la derecha */
-    margin-bottom: auto;
-}

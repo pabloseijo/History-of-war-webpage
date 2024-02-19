@@ -3,20 +3,29 @@
 @import 'header.css';
 @import 'footer.css';
 
-/* Reset default styles */
+/* Paleta de color */
+:root {
+  --color-cream: #D9C8B4;  /* Crema */
+  --color-caramel: #A6633C;  /* Caramelo */
+  --color-chocolate: #401A0C;  /* Chocolate */
+  --color-clay: #A65A3F;  /* Arcilla */
+  --color-smoke: #F2F2F2;  /* Humo */
+}
 
+
+/* Reset styles */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Global styles */
+/* Estilos generales */
 body {
   font-family: Arial, sans-serif;
   font-size: 16px;
-  color: black; 
-  background-color: #d9caad;
+  color: var(--color-chocolate); 
+  background-color: var(--color-smoke);
 }
 
-/* Add your custom styles below */
+
