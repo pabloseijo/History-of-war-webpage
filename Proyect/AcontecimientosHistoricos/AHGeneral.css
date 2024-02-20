@@ -1,0 +1,58 @@
+@import '../../style.css';
+
+/* Estilo base para el main */
+.main {
+  display: flex; /* Flexbox para centrar el contenido */
+  flex-direction: column; /* Alinea el contenido verticalmente */
+  align-items: center; /* Centra el contenido horizontalmente */
+  padding: 2rem; /* Espaciado para mejor legibilidad */
+  background: var(--color-smoke); /* Fondo gris claro */
+}
+
+/* Estilo para las secciones principales */
+.main-section { 
+  max-width: 800px; /* Ancho máximo para optimizar la legibilidad */
+  width: 100%; /* Utiliza el ancho completo en pantallas más pequeñas */
+  margin-bottom: 2rem; /* Espaciado entre secciones */
+  background: var(--color-cream); /* Fondo crema */
+  padding: 1rem; /* Espaciado interno */
+  border-radius: 10px; /* Bordes redondeados para un look moderno */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombra suave para dar profundidad */
+}
+
+/* Estilo para los títulos de las secciones */
+.main-section h1 { 
+  font-size: 2.5rem; /* Tamaño grande para el título */
+  color: var(--color-chocolate); /* Color marrón */
+  margin-bottom: 1.5rem; /* Espaciado inferior */
+  text-align: center; /* Centra el texto */
+}
+
+/* Estilos para las imágenes */
+.main-section img { 
+  width: 100%; /* Responsivo para adaptarse al contenedor */
+  height: auto; /* Mantiene la proporción */
+  margin-bottom: 1rem; /* Espaciado inferior */
+  border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Estilo para los artículos */
+.main-article {
+  font-family: 'Arial', sans-serif; /* Fuente sans-serif para mejor legibilidad */
+  color: var(--color-chocolate); /* Color marrón */
+  line-height: 1.6; /* Espaciado de línea para mejor legibilidad */
+}
+
+/* Estilo para los subtítulos */
+.main-article h2 {
+  font-size: 1.8rem; /* Tamaño grande para el subtítulo */
+  color: var(--color-caramel); /* Color caramelo */
+  margin-top: 1rem; /* Espaciado superior */
+  margin-bottom: 0.5rem; /* Espaciado inferior */
+}
+
+/* Estilo para los párrafos */
+.main-article p { 
+  font-size: 1rem; /* Tamaño de fuente normal */
+  margin-bottom: 1rem; /* Espaciado inferior */
+}

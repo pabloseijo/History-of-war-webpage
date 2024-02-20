@@ -40,3 +40,7 @@ main {
     text-decoration: none; /* Elimina la subrayado predeterminado */
     font-weight: bold; /* Establece el peso de la fuente en negrita */
 }
+
+.footer-list-item a:hover { /* Efecto hover para los enlaces */
+    color: var(--color-chocolate); /* Cambiamos el color del texto */
+  }

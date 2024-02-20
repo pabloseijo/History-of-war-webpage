@@ -1,2 +1,62 @@
 @import '../style.css';
 
+/* Estilos para el título de la sección */
+section h1 {
+    text-align: center; /* Centramos el título */
+    font-family: 'Times New Roman', serif; /* Una fuente más clásica para títulos */
+    font-size: 2.5em; /* Tamaño más grande para el título */
+    color: var(--color-chocolate); /* Color definido previamente en la paleta */
+    margin-bottom: 0.5em; /* Espaciado debajo del título */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Sombra de texto para dar profundidad */
+    padding-top: 1em; /* Espaciado en la parte superior */
+  }
+
+/* Estilos para la clase .main y sus elementos internos */
+.main {
+  text-align: center; /* Alineación central para el contenido */
+  max-width: 1200px; /* Ancho máximo para la legibilidad */
+  margin: 0 auto; /* Centrado */
+}
+
+.main-group {
+  display: flex; /* Flexbox para alinear los elementos */
+  flex-direction: column; /* Alineación vertical para listas */
+  align-items: flex-start; /* Alineación a la izquierda */
+  padding: 1em; /* Espacio alrededor del contenido */
+}
+
+.main-list {
+  list-style-type: none; /* Elimina los marcadores de lista */
+  padding: 0; /* Elimina el padding predeterminado */
+  width: 100%; /* Ocupar el ancho disponible */
+}
+
+.main-list-item {
+  margin: 10px 0; /* Espacio entre elementos de la lista */
+  transition: background-color 0.3s; /* Suave transición para el hover */
+}
+
+.main-list-item a {
+  text-decoration: none; /* Elimina el subrayado del enlace */
+  color: var(--color-chocolate); /* Color del texto */
+  font-weight: bold; /* Texto en negrita */
+  display: block; /* Hace que el enlace llene el contenedor LI */
+  padding: 10px; /* Espacio alrededor del texto */
+}
+
+.main-list-item a:hover, .main-list-item a:focus {
+  color: var(--color-caramel); /* Cambia el color al hacer hover */
+  background-color: var(--color-cream); /* Fondo al hacer hover */
+  border-left: 4px solid var(--color-caramel); /* Indicador lateral al hacer hover */
+}
+
+/* Estilos para las imágenes dentro de las secciones */
+section img {
+  display: block; /* Hace que la imagen sea independiente */
+  max-width: 100%; /* Hace que la imagen sea responsiva */
+  height: auto; /* Mantiene la proporción de la imagen */
+  margin: 20px auto; /* Espacio alrededor de la imagen */
+  border: 5px solid var(--color-clay); /* Borde para las imágenes */
+  border-radius: 8px; /* Bordes redondeados */
+}
+

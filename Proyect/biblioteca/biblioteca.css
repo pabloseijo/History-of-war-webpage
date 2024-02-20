@@ -17,7 +17,6 @@ main{
     background-color: bisque;
     position: relative;
     padding: 30px;
-    min-width: 1300px; /* Establece un ancho mínimo para el encabezado */
 }
 main img{
     position: absolute;

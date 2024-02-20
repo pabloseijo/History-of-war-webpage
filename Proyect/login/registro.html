@@ -11,6 +11,15 @@
         <h1>History of War</h1>
         <h3>Introduzca sus credenciales</h3>
         <form action="">
+
+            <label for="Correo">
+                  Correo:
+              </label>
+            <input type="text"
+                   id="correo"
+                   name="correo"
+                   placeholder="Introduzca su correo electrónico" required>
+ 
             <label for="first">
                   Usuario:
               </label>
@@ -19,6 +28,7 @@
                    name="first"
                    placeholder="Introduzca su usuario" required>
  
+            
             <label for="Contraseña">
                   Conatraseña:
               </label>
@@ -26,20 +36,24 @@
                    id="password"
                    name="password"
                    placeholder="Introduzca su contraseña" required>
+
+            <label for="Contraseña">
+                  Repita la contraseña:
+              </label>
+            <input type="password"
+                   id="password2"
+                   name="password2"
+                   placeholder="Repita la contraseña" required>
+
+            
  
             <div class="wrap">
                 <button type="submit"
                         onclick="solve()">
-                    Iniciar Sesión
+                    Registrarse
                 </button>
             </div>
         </form>
-        <p>No tienes cuenta?
-              <a href="registro.html"
-               style="text-decoration: none;">
-                Crear cuenta
-            </a>
-        </p>
     </div>
 </body>
  

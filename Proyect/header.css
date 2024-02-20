@@ -68,3 +68,7 @@
     display: block; /* Hace que el enlace llene toda la caja, mejorando la área clickeable */
 }
 
+.header-menu .header-menu-item a:hover { /* Efecto hover para los enlaces */
+    color: var(--color-caramel); /* Cambiamos el color del texto */
+  }
+
