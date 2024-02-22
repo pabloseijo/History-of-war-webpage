@@ -11,39 +11,56 @@ Fecha: 17/02/2024
 
 /* Estilos para la sección de la biblioteca */
 /* Estilos para el encabezado */
-
+@import '../style.css';
 
 main{
-    background-color: bisque;
+    background-color: var(--color-cream);
     position: relative;
     padding: 30px;
 }
-main img{
-    position: absolute;
-    top:50px;
-    right: 50px;;
-}
+
 
 .intro{
     width: 600px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.intro p{
+    line-height: 35px;
+}
+
+.gif-biblioteca{
+    display: inline-block;
+    margin-left: 20px;
 }
 
 /* Estilos para la sección de libros */
-main ul{
+
+.libros{
+    margin-top:5px;
+    padding: 10px 10px 10px 10px;
+}
+
+.libros h2{
+    margin-bottom: 20px;
+}
+.libros ul{
     list-style: none;
 }
 
-main li {
-    margin-bottom: 10px;
-}
-
-a{
+.libros a{
+    display: inline-block;
+    color:black;
     text-decoration: none;
-    color: #333;
-    font-weight: bold;
+    border: 1px black solid;
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    cursor:pointer;   
 }
 
-main li:hover{
-    text-decoration: underline; 
-    color: #555;
+.libros a:hover{
+    box-shadow: 5px 5px 5px black;
+    background-color: var(--color-smoke);
 }
