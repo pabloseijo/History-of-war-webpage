@@ -35,7 +35,7 @@ select {
 /* Estilo para el botón de selección dentro del selector */
 select:hover {
     cursor: pointer; /* Cambiar el cursor para indicar que es interactuable */
-    background-color: var(--color-cream); /* Cambiar el fondo al pasar el ratón */
+    background-color: var(--color-smoke); /* Cambiar el fondo al pasar el ratón */
 }
 
 /* Estilos para imágenes dentro de los popups para hacerlas responsivas */
