@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-smoke); /* Un suave rosa pastel como fondo */
+    color: var(--color-chocolate); /* Color de texto oscuro para contraste */
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0; /* Espacio arriba y abajo del título */
+}
+
+#map {
+    height: 83vh; /* Ajusta la altura a un 80% de la altura de la ventana */
+    width: 95vw; /* Ajusta el ancho a un 80% del ancho de la ventana */
+    margin: 20px auto; /* Añade un margen superior e inferior, y auto para centrar horizontalmente */
+    border: 2px solid var(--color-caramel); /* Añade un borde sólido con el color deseado */
+    border-radius: 10px; /* Bordes redondeados para suavizar el aspecto */
+    box-shadow: 0 0 15px rgba(0,0,0,0.2); /* Sombra suave para añadir profundidad */
+}
+
+
+select {
+    display: block;
+    margin: 20px auto; /* Centrar el selector */
+    padding: 10px;
+    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid var(--color-caramel); /* Borde del mismo color que el título */
+    width: 50%; /* Ancho del selector */
+    max-width: 300px; /* Ancho máximo para que no sea demasiado grande en pantallas grandes */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra suave para dar profundidad */
+}
+
+/* Estilo para el botón de selección dentro del selector */
+select:hover {
+    cursor: pointer; /* Cambiar el cursor para indicar que es interactuable */
+    background-color: var(--color-cream); /* Cambiar el fondo al pasar el ratón */
+}
+
+/* Estilos para imágenes dentro de los popups para hacerlas responsivas */
+img {
+    max-width: 100%; /* Hacer que las imágenes sean responsivas */
+    height: auto; /* Mantener la proporción de las imágenes */
+    border-radius: 5px; /* Bordes redondeados para las imágenes */
+}

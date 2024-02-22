@@ -6,7 +6,10 @@
   flex-direction: column; /* Alinea el contenido verticalmente */
   align-items: center; /* Centra el contenido horizontalmente */
   padding: 2rem; /* Espaciado para mejor legibilidad */
-  background: var(--color-smoke); /* Fondo gris claro */
+  background-image: url('../Images/fondoAH.png'); /* Agrega la imagen de fondo */
+  background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+  background-attachment: fixed;
+  background-position: center;
 }
 
 /* Estilo para las secciones principales */
