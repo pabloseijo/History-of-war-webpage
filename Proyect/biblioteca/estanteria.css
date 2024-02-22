@@ -1,23 +1,12 @@
 @import '../style.css';
 
+
+.indice-estanteria{
+    
+}
 main{
     position: relative;
 }
-/*main ul{
-    border: 5px solid black;
-    width: 450px;
-}
-main li{
-    margin-bottom: 20px;
-}
-main a{
-    text-decoration: none;
-    color:black;
-}
-main a:hover{
-    font-size: 105%;
-    text-decoration: underline;
-}*/
 
 main ul {
     position: relative;
@@ -38,6 +27,7 @@ main a {
     padding: 10px;
     text-decoration: none;
     color: #333;
+    transition:0.3s;
 }
 
 main a:hover {
@@ -56,6 +46,7 @@ main .portada{
 section{
     position: relative;
     overflow: auto;
+
 }
 
 /*section p{
