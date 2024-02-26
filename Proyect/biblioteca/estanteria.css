@@ -1,25 +1,10 @@
 @import '../style.css';
 
 
-.indice-estanteria{
-    
-}
-main{
-    position: relative;
-}
+.estanteria-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
-main ul {
-    position: relative;
-    left:20px;
-    border: 2px solid #333;
-    border-radius: 10px;
-    padding: 10px;
-    width: 450px;
-    background-color: var(--color-smoke);
-}
-
-main li {
-    margin-bottom: 15px;
 }
 
 main a {
@@ -34,13 +19,6 @@ main a:hover {
     background-color: #333;
     color: var(--color-smoke);
     font-weight: bold;
-}
-
-main .portada{
-    max-width: 100%;
-    position: absolute;
-    top: 50px;
-    right:50px;
 }
 
 section{
@@ -58,12 +36,30 @@ section{
 
 }*/
 
-section p {
-    position: absolute;
-    left:350px;
-    top:100px;
-    width: 500px;
-    text-align: right;
+h1{
+    margin: 10px 0px 20px 5px;
+}
+
+.libro{
+    column-gap: 10px;
+    row-gap: 5px;
+    padding: 10px;
+    transition:0.5s;
+}
+
+.libro img{
+    width: 45%;
+    height: 45%;
+    padding: 3px;
+    display: inline-block;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.3);
+}
+
+.libro p {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    line-height: 25px;
     background-color: #f5f5f5;
     color: #333;
     border: 1px solid #ccc;
@@ -73,16 +69,9 @@ section p {
     font-size: 16px;
 }
 
-
-section a{
-    position: relative;
-    left: 50px;
-}
-
 section a {
-    position: relative;
-    left:100px;
     display: inline-block;
+    position: relative;
     padding: 10px 20px;
     background-color:brown;
     color: #fff;
@@ -96,4 +85,8 @@ section a {
 section a:hover {
     background-color: #45a049;
     transform: translateY(-2px); /* Añadir un efecto de levantamiento al pasar el ratón por encima */
+}
+
+.libro:hover{
+    background-color: #D9C8B4;
 }
