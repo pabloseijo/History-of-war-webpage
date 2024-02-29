@@ -20,13 +20,21 @@ main {
     margin-top: 200px;
     margin-bottom: 200px;
     text-align: center;
-    text-shadow: 
-    -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000; /* Sombra negra alrededor del texto */
-
-    
-
     font-size: 1.8em;
+
+    /* Agrega una animación de deslizamiento hacia arriba */
+    animation: slideUp 2s ease-in-out forwards;
 }
+
+/* Definimos la animación de deslizamiento hacia arriba */
+@keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

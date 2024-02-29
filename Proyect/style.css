@@ -10,6 +10,7 @@
   --color-chocolate: #401A0C;  /* Chocolate */
   --color-clay: #A65A3F;  /* Arcilla */
   --color-smoke: #F2F2F2;  /* Humo */
+  --color-chocolate-transparent: rgba(64, 26, 12, 0.0); /* Ajusta el valor alfa según sea necesario */
 }
 
 
