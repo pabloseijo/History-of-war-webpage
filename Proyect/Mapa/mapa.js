@@ -46,6 +46,8 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r
     maxZoom: 19
 }).addTo(map);
 
+//-------------------- Barra de Navegación --------------------
+// Agregar barra de navegación que nos permitira movernos por el mapa
 document.getElementById('select-location').addEventListener('change', function(e) {
     let coords = e.target.value.split(",");
     map.flyTo(coords, 13);
