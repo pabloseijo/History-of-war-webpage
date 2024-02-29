@@ -11,7 +11,7 @@
     <div class="main">
         <h1>History of War</h1>
         <h3>Introduzca sus credenciales</h3>
-        <form action="">
+        <form id="registerForm" action="javascript:void(0);">
 
             <label for="Correo">
                   Correo:
@@ -46,16 +46,20 @@
                    name="password2"
                    placeholder="Repita la contraseña" required>
 
-            
- 
+        
             <div class="wrap">
-                <button type="submit"
-                        onclick="solve()">
+                <button type="submit">
                     Registrarse
                 </button>
             </div>
         </form>
     </div>
+    <script>
+        document.getElementById('registerForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Previene el envío del formulario
+            window.location.href = './pantallaCarga.html'; // Redirige a la página
+        });
+    </script>
 </body>
  
 </html>
