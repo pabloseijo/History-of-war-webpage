@@ -181,9 +181,6 @@ L.marker([34.392938, 132.452553], {icon: explosionIcon}).addTo(map)
     .on('mouseout', function(e) {
         this.closePopup();
     })
-    .on('click', function(e) {
-        window.location.href = "../AcontecimientosHistoricos/Batallas/batallaTeutoburgo.html";
-    });
 
 // Marcador de la bomba de Nagasaki
 L.marker([32.772810, 129.864185], {icon: explosionIcon}).addTo(map)
@@ -195,6 +192,16 @@ L.marker([32.772810, 129.864185], {icon: explosionIcon}).addTo(map)
     .on('mouseout', function(e) {
         this.closePopup();
     })
+
+// Marcador de la batalla de Avdiivka
+L.marker([48.129628, 37.767856], {icon: gunIcon}).addTo(map)
+    .bindPopup('<h2>Batalla de Avdiivka</h2>')
+    .on('mouseover', function(e) {
+        this.openPopup();
+    })
+    .on('mouseout', function(e) {
+        this.closePopup();
+    })
     .on('click', function(e) {
-        window.location.href = "../AcontecimientosHistoricos/Batallas/batallaTeutoburgo.html";
+        window.location.href = "../AcontecimientosHistoricos/Batallas/batallaAvdiivka.html";
     });
