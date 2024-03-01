@@ -10,9 +10,21 @@
   --color-chocolate: #401A0C;  /* Chocolate */
   --color-clay: #A65A3F;  /* Arcilla */
   --color-smoke: #F2F2F2;  /* Humo */
-  --color-chocolate-transparent: rgba(64, 26, 12, 0.0); /* Ajusta el valor alfa según sea necesario */
-}
 
+  /* Colores marrones adicionales */
+  --color-walnut: #5D432C;  /* Nogal */
+  --color-taupe: #8B6F47;  /* Topo */
+  --color-sienna: #A0522D;  /* Siena */
+  --color-hazelnut: #B57644;  /* Avellana */
+  --color-espresso: #4B2F20;  /* Espresso */
+
+  /* Colores blancos adicionales */
+  --color-ivory: #FFFFF0;  /* Marfil */
+  --color-alabaster: #F2F0E6;  /* Alabastro */
+  --color-vanilla: #F3E5AB;  /* Vainilla */
+  --color-pearl: #FDEECC;  /* Perla */
+  --color-eggshell: #F0EAD6;  /* Cáscara de huevo */
+}
 
 /* Reset styles */
 *{

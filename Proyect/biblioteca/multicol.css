@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Color de fondo para toda la página */
+}
+
+h1 {
+    text-align: center; /* Centra el texto horizontalmente */
+    font-size: 2em; /* Tamaño de fuente más grande */
+    color: #333; /* Color del texto */
+    text-transform: uppercase; /* Convierte el texto a mayúsculas */
+    margin-top: 20px; /* Espacio superior */
+    margin-bottom: 30px; /* Espacio inferior */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+
+.estanteria-multicol {
+    column-count: 3; /* Mostrar tres columnas inicialmente */
+    column-gap: 20px; /* Espacio entre columnas */
+}
+
+
+.libro{
+    column-count: 2;
+    width: 100%;
+    background-color: #fff; /* Fondo blanco para cada libro */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin-bottom: 20px; /* Espacio inferior entre libros */
+    transition: transform 0.3s ease;
+    transition: background-color 0.4s;
+}
+
+.libro:hover {
+    transform: translateY(-5px); /* Desplazar ligeramente hacia arriba al pasar el mouse */
+    background-color: antiquewhite;
+}
+
+
+
+.descripcion{
+    column-count:2;
+    color: #666;
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 1.2em; /* Tamaño de fuente del título */
+    color: #333; /* Color del texto */
+    margin-bottom: 10px; /* Espacio inferior entre el título y la descripción */
+}
+
+@media screen and (max-width: 1200px) {
+    .estanteria-multicol {
+        column-count: 2; /* Cambia a dos columnas cuando el ancho de la pantalla es menor a 800px */
+    }
+    .descripcion{
+        column-count: 1;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .estanteria-multicol {
+        column-count: 1; /* Cambia a una columna cuando el ancho de la pantalla es menor a 500px */
+    }
+}
+
+
+
+.img_libro {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho disponible */
+    border-radius: 10px; /* Bordes redondeados para la imagen */
+    margin-bottom: 10px; /* Espacio inferior entre la imagen y el título */
+}
+
+.libro a {
+    display: inline-block;
+    padding: 10px 20px; /* Espacio interno del enlace */
+    background-color: #f44336; /* Color de fondo del enlace */
+    color: #fff; /* Color del texto del enlace */
+    text-decoration: none; /* Sin subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: transform 0.3s ease; /* Transición suave para la animación de escala */
+}
+
+.libro a:hover {
+    transform: scale(1.1); /* Escalar ligeramente al pasar el mouse */
+    background-color: #c62828; /* Cambio de color de fondo al pasar el mouse */
+}
