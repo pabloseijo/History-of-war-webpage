@@ -1,0 +1,66 @@
+.flex_container{
+    display: flex;
+    flex-wrap: wrap; /* Permite que los libros se envuelvan a la siguiente línea si no caben en la pantalla */
+    justify-content: space-around; /* Distribuye uniformemente los libros a lo largo del eje principal */
+    padding: 20px;
+}
+
+.libro{
+    width: 30%; 
+    max-width: 300px; /* Establece un ancho máximo para evitar que los libros sean demasiado grandes en pantallas grandes */
+    margin: 20px; /* Aumenta el espacio entre los libros para adaptarse a tamaños de pantalla más grandes */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor del libro */
+    border-radius: 10px; /* Bordes redondeados */
+    transition: box-shadow 0.3s ease; /* Transición suave para la sombra */
+}
+
+.libro:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Aumentar la sombra al pasar el mouse */
+}
+
+
+.detalles-libro {
+    height: 100%; /* Asegura que el contenedor ocupe todo el espacio disponible */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+}
+.titulo{
+    margin: 5px;
+    text-align: center;
+}
+
+.img_libro {
+    width: 100%;
+    max-width: 100%;
+    border-top-left-radius: 10px; /* Bordes redondeados para la esquina superior izquierda */
+    border-top-right-radius: 10px;
+}
+
+.autor {
+    margin-top: 10px;
+    color: #666;
+}
+
+.descripcion {
+    margin: 10px;
+    text-align: justify;
+    color: #333;
+
+}
+
+.boton-compra {
+    display: block;
+    margin-top: auto; /* Coloca el botón en la parte inferior del contenedor */
+    margin-bottom: 15px; /* Añade un poco de espacio entre el botón y el contenido anterior */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.boton-compra:hover {
+    background-color: #0056b3;
+}
