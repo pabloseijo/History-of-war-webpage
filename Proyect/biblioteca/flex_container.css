@@ -1,3 +1,14 @@
+h1 {
+    text-align: center; /* Centra el texto horizontalmente */
+    font-size: 2em; /* Tamaño de fuente más grande */
+    color: #333; /* Color del texto */
+    text-transform: uppercase; /* Convierte el texto a mayúsculas */
+    margin-top: 20px; /* Espacio superior */
+    margin-bottom: 30px; /* Espacio inferior */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+
 .flex_container{
     display: flex;
     flex-wrap: wrap; /* Permite que los libros se envuelvan a la siguiente línea si no caben en la pantalla */

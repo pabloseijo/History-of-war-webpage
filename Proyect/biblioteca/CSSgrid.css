@@ -48,6 +48,7 @@ h1 {
     grid-column: 1/4;
     grid-row: 1;
 
+    text-align: center;
     margin-top:10px;
     margin-left: 5px;
     font-size: 20px;
