@@ -41,7 +41,7 @@ main{
 }
 
 .intro{
-    color: white; /* Cambia el color del texto a blanco para que sea legible en el fondo oscuro */
+    color: var(--color-smoke); /* Cambia el color del texto a blanco para que sea legible en el fondo oscuro */
     line-height: 1.6; /* Aumenta el espacio entre líneas para mejorar la legibilidad */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Agrega una sombra al texto para que destaque en el fondo */
 }

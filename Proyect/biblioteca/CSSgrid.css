@@ -1,3 +1,5 @@
+@import '../style.css';
+
 h1 {
     font-size: 36px;
     color: #333;
@@ -67,14 +69,20 @@ h1 {
     grid-row: 3;
 
     padding: 2px 2px;
-    background-color:chocolate;
+    background-color:var(--color-sienna);
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    text-align: center;
+    
+    /* Centrar el botón */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .boton_compra:hover {
-    background-color:peru;
+    background-color:var(--color-hazelnut);
 }
 
