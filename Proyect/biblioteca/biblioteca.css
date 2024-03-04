@@ -2,8 +2,8 @@
 
 Estilos para la Biblioteca
 
-Autor: David Carpintero Diaz
-Versión: 
+Autor: David Carpintero Diaz y Pablo Seijo
+Versión: V.2.0.0
 Fecha: 17/02/2024
 
 */
@@ -14,67 +14,73 @@ Fecha: 17/02/2024
 @import '../style.css';
 
 
-main{
-    background-color: var(--color-cream);
+
+* {
+    box-sizing: border-box;
 }
 
-.presentacion-biblioteca{
-    width: 100%;
-    height: 100vh; /* Ocupa toda la altura de la pantalla */
-    background-image:  url(../Images/fondo_biblioteca.jpg);
-    background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
-    background-position: center; /* Centra la imagen */
-    display: flex;
-    align-items: center; /* Centra el contenido verticalmente */
-    padding: 20px; /* Añade un poco de espacio alrededor del contenido */
-}
-
-@media  screen and (min-width: 800px) {
-    .presentacion-biblioteca{
-        width: 64.75%;
-        float: left;
-    }
-    .libros{
-        width: 31.25%;
-        float:right;
-    }
-}
-
-.intro{
-    color: var(--color-smoke); /* Cambia el color del texto a blanco para que sea legible en el fondo oscuro */
-    line-height: 1.6; /* Aumenta el espacio entre líneas para mejorar la legibilidad */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Agrega una sombra al texto para que destaque en el fondo */
-}
-
-.intro{
-    line-height: 35px;
-}
-/* Estilos para la sección de libros */
-
-.libros{
-    margin-top:5px;
-    padding: 10px 10px 10px 10px;
-}
-
-.libros h2{
-    margin-bottom: 20px;
-}
-.libros ul{
-    list-style: none;
-}
-
-.libros a{
-    display: inline-block;
-    color:black;
-    text-decoration: none;
-    border: 1px black solid;
-    padding: 5px 5px 5px 5px;
-    margin-bottom: 10px;
-    border-radius: 12px;
-    cursor:pointer;   
-}
-
-.libros a:hover{
-    box-shadow: 5px 5px 5px black;
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: var(--color-smoke);
+    color: var(--color-chocolate);
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Images/fondo_biblioteca.jpg) no-repeat center center/cover;
+}
+
+.book-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 40px;
+}
+
+.book-item a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-smoke);
+    color: var(--color-chocolate);
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.book-item a:hover {
+    background-color: var(--color-eggshell);
+    color: var(--color-caramel);
+    transform: translateY(-5px);
+    box-shadow: var(--box-shadow-hover);
+}
+
+/* Opcional: Agrega una mejora visual para títulos y párrafos */
+h1, p {
+    color: var(--color-cream);
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+p {
+    max-width: 600px;
+    margin-bottom: 30px;
+    line-height: 1.5;
 }
