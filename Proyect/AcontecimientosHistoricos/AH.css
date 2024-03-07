@@ -19,6 +19,9 @@ section h1 {
     margin-bottom: 0.5em; /* Espaciado debajo del título */
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Sombra de texto para dar profundidad */
     padding-top: 1em; /* Espaciado en la parte superior */
+
+    /* Agrega una animación de deslizamiento hacia arriba */
+    animation: slideUp 1s ease-in-out forwards;
   }
 
 /* Estilos para la clase .main y sus elementos internos */
@@ -34,6 +37,9 @@ section h1 {
   flex-direction: column; /* Alineación vertical para listas */
   align-items: flex-start; /* Alineación a la izquierda */
   padding: 1em; /* Espacio alrededor del contenido */
+
+  /* Agrega una animación de deslizamiento hacia arriba */
+  animation: slideUp 1s ease-in-out forwards;
 }
 
 .main-list {
@@ -71,3 +77,32 @@ section img {
   border-radius: 8px; /* Bordes redondeados */
 }
 
+.carousel{
+  animation: slideUp 1s ease-in-out forwards;
+}
+
+.carousel-item img {
+  max-width: 100%; /* Limita el ancho máximo de la imagen al 100% del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+
+  /* Agrega una animación de deslizamiento hacia arriba */
+}
+
+.carousel-item img {
+  width: 100%; /* Hace que la imagen se estire para cubrir el ancho del carrusel */
+  height: 500px; /* Altura fija para todas las imágenes */
+  object-fit: cover; /* Asegura que la imagen cubra el contenedor, recortándose si es necesario */
+}
+
+
+/* Definimos la animación de deslizamiento hacia arriba */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -14,7 +14,6 @@ Fecha: 17/02/2024
 @import '../style.css';
 
 
-
 * {
     box-sizing: border-box;
 }
@@ -39,6 +38,11 @@ body, html {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Images/fondo_biblioteca.jpg) no-repeat center center/cover;
 }
 
+.card{
+    /* Agrega una animación de deslizamiento hacia arriba */
+    animation: slideUp 2s ease-in-out forwards;
+}
+
 .book-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -46,6 +50,7 @@ body, html {
     width: 100%;
     max-width: 1200px;
     margin-top: 40px;
+    
 }
 
 .book-item a {
@@ -71,7 +76,7 @@ body, html {
 
 /* Opcional: Agrega una mejora visual para títulos y párrafos */
 h1, p {
-    color: var(--color-cream);
+    color: var(--color-smoke);
 }
 
 h1 {
@@ -84,3 +89,37 @@ p {
     margin-bottom: 30px;
     line-height: 1.5;
 }
+
+/* Ajustes para tabletas y dispositivos de escritorio */
+@media (min-width: 768px) {
+    .presentacion-biblioteca {
+        width: 64.75%;
+        float: left;
+        padding: 20px; /* Asegura algo de espacio alrededor del contenido para legibilidad */
+    }
+
+    .libros {
+        width: 31.25%;
+        float: right;
+        padding: 20px; /* Similarmente, añade espacio alrededor de los libros */
+    }
+
+    /* Ajustes adicionales para manejar el contenido flotante */
+    .main-content:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+/* Definimos la animación de deslizamiento hacia arriba */
+@keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

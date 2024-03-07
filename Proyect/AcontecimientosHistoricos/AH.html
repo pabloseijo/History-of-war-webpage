@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="AH.css">
     <link rel="stylesheet" href="../style.css">
 
+    <link rel="stylesheet" href="../biblioteca/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
     <script src="https://kit.fontawesome.com/1415b55916.js" crossorigin="anonymous"></script>
 
 </head>
@@ -40,8 +43,56 @@
         <section>
 
             <h1> ACONTECIMIENTOS HISTÓRICOS </h1>
-
-            <img src="../Images/ColonLlegandoAmerica.jpg" alt="" width="701" height="436">
+            
+            <!-- Codigo de bootstrap para el carousel -->
+            <section class="container text-center mx-auto" id="carousel-equipo" style="max-width: 1000px;">
+                <div id="carousel-AH" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel-AH" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carousel-AH" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carousel-AH" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carousel-AH" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="../Images/ColonLlegandoAmerica.jpg" alt="" class="d-block mx-auto">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Colón llegando a las Américas</h5>
+                                <p> El 12 de Octubre de 1492, Colón descubre América.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="10000">
+                            <img src="../Images/pizarroEnPeru.jpg" alt=""  class="d-block mx-auto">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>La Captura de Atahualpa</h5>
+                                <p>El dramático momento de la captura de Atahualpa, marcando el fin del Imperio Inca y el avance legendario de la conquista española.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="10000">
+                            <img src="../Images/navasTolosa.png" alt=""  class="d-block mx-auto">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>La legendaria victoria en las navas de Tolosa</h5>
+                                <p>En Julio de 1212 de produce una gran victoria de la cruzada lanzada por el papa, donde los reinos cristianos frenan el avance del califato almohade.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="10000">
+                            <img src="../Images/milagroEmpel.png" alt=""  class="d-block mx-auto">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>El milagro de Empel</h5>
+                                <p>En diciembre de 1585, sitiado el tercio en la isla de Bommel, un soldado español encuentra una tabla flamenca con la virgen. Justo esa noche se congela el río que los sitiaba y derrotan a los holandeses.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-AH" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-AH" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
 
             <p class = "main"> 
                 <nav class = "main-group">
@@ -66,5 +117,6 @@
         </ul>
     </footer>
     
+    <script src="../biblioteca/bootstrap.min.js"></script>
 </body>
 </html>

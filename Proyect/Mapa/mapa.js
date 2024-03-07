@@ -50,7 +50,7 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r
 // Agregar barra de navegación que nos permitira movernos por el mapa
 document.getElementById('select-location').addEventListener('change', function(e) {
     let coords = e.target.value.split(",");
-    map.flyTo(coords, 13);
+    map.flyTo(coords, 10);
 });
 
 //-------------------- Marcadores de las Batallas --------------------
