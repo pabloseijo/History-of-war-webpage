@@ -1,5 +1,5 @@
 // Supongamos que tienes un arreglo de objetos que representan tus páginas
-var pages = [
+let pages = [
     // Páginas principales
     {title: "mapa", url: "../Mapa/mapa.html"},
     {title: "aconteicmientos historicos", url: "../AcontecimientosHistoricos/AH.html"},
@@ -41,10 +41,10 @@ document.getElementById('searchForm').onsubmit = function(event) {
     document.getElementById('noResults').style.display = 'none';
     
     event.preventDefault(); // Prevenir la recarga de la página
-    var searchTerm = document.getElementById('searchInput').value.toLowerCase();
+    let searchTerm = document.getElementById('searchInput').value.toLowerCase();
 
     // Filtrar las páginas que coincidan con el término de búsqueda
-    var searchResults = pages.filter(function(page) {
+    let searchResults = pages.filter(function(page) {
         return page.title.toLowerCase().indexOf(searchTerm) > -1;
     });
 

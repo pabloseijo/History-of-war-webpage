@@ -6,7 +6,7 @@ let map = L.map('map').setView([42.873140, -8.553193], 4);
 //-------------------- Iconos Personalizados --------------------
 
 // Icono personalizado para el marcador 
-var swordIcon = L.icon({
+let swordIcon = L.icon({
     iconUrl: '../Images/espadasMapa.png', 
     iconSize: [30, 30], // Tamaño del icono
     iconAnchor: [15, 15], // El centro del icono se corresponderá con la coordenada del mapa
@@ -14,7 +14,7 @@ var swordIcon = L.icon({
 });
 
 // Icono personalizado para el marcador 
-var shipIcon = L.icon({
+let shipIcon = L.icon({
     iconUrl: '../Images/barcoMapa.png', 
     iconSize: [30, 30], // Tamaño del icono
     iconAnchor: [15, 15], // El centro del icono se corresponderá con la coordenada del mapa
@@ -22,7 +22,7 @@ var shipIcon = L.icon({
 });
 
 // Icono personalizado para el marcador 
-var gunIcon = L.icon({
+let gunIcon = L.icon({
     iconUrl: '../Images/gunMapa.png', 
     iconSize: [30, 30], // Tamaño del icono
     iconAnchor: [15, 15], // El centro del icono se corresponderá con la coordenada del mapa
@@ -30,7 +30,7 @@ var gunIcon = L.icon({
 });
 
 // Icono personalizado para el marcador 
-var explosionIcon = L.icon({
+let explosionIcon = L.icon({
     iconUrl: '../Images/boomMapa.png', 
     iconSize: [30, 30], // Tamaño del icono
     iconAnchor: [15, 15], // El centro del icono se corresponderá con la coordenada del mapa
