@@ -24,7 +24,7 @@
 
                 // Crear un elemento img para la imagen del post
                 let nuevaImagen = $('<img class="img_post">');
-                nuevaImagen.attr('src', URL.createObjectURL(archivo));
+                if(archivo!=null)nuevaImagen.attr('src', URL.createObjectURL(archivo));
 
                 // Crear un elemento p para el texto del post
                 let nuevoParrafo = $('<p class="texto"></p>');
@@ -32,8 +32,8 @@
 
                 // Añadir la imagen y el texto al nuevo elemento "post"
                 nuevoPost.append(nuevaImagen);
-                nuevoPost.append('<h2>Meme Monday</h2>');
-                nuevoPost.append('<div class="info"><img class="pfp" src="../Images/pfp.png" width="50px" height="50px"><p class="autor">AUTOR</p></div>');
+                nuevoPost.append('<h2>Tu idea</h2>');
+                nuevoPost.append('<div class="info"><img class="pfp" src="../Images/pfp.png" width="50px" height="50px"><p class="autor">GUEST</p></div>');
                 nuevoPost.append(nuevoParrafo);
 
                 // Añadir el nuevo elemento "post" al documento
