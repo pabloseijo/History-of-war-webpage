@@ -3,12 +3,16 @@
 
 <head lang="es">
     <link rel="stylesheet" href="./foro.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FORO HISTORICO</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script>
         $(document).ready(function () {
+
+            $('#input_txt').click(() => $('#input_txt').val(""))
+
             $('#miForm').submit(function (event) {
                 // Evitar el envío del formulario predeterminado
                 event.preventDefault();
@@ -24,23 +28,60 @@
 
                 // Crear un elemento img para la imagen del post
                 let nuevaImagen = $('<img class="img_post">');
-                if(archivo!=null)nuevaImagen.attr('src', URL.createObjectURL(archivo));
+                if (archivo != null) nuevaImagen.attr('src', URL.createObjectURL(archivo));
 
                 // Crear un elemento p para el texto del post
-                let nuevoParrafo = $('<p class="texto"></p>');
+                let nuevoParrafo = $('<p class="texto oculto"></p>');
                 nuevoParrafo.text(texto);
 
-                // Añadir la imagen y el texto al nuevo elemento "post"
+                // Crear un botón para mostrar la descripción
+                let botonMostrar = $('<button class="mostrar-descripcion"><i class="fas fa-plus"></i></button>');
+
+                // Crear un botón para eliminar el post
+                let botonEliminar = $('<button class="eliminar-post"><i class="fas fa-trash"></i></button>');
+
+                botonEliminar.addClass('boton-eliminar');
+
+                // Añadir la imagen, el texto y los botones al nuevo elemento "post"
                 nuevoPost.append(nuevaImagen);
                 nuevoPost.append('<h2>Tu idea</h2>');
                 nuevoPost.append('<div class="info"><img class="pfp" src="../Images/pfp.png" width="50px" height="50px"><p class="autor">GUEST</p></div>');
                 nuevoPost.append(nuevoParrafo);
+                nuevoPost.append(botonMostrar);
+                nuevoPost.append(botonEliminar);
 
                 // Añadir el nuevo elemento "post" al documento
                 $('.formulario').before(nuevoPost);
 
                 // Limpiar el formulario después de enviar
                 $('#miForm')[0].reset();
+            });
+
+            // Evento de clic para eliminar un post
+            $(document).on('click', '.eliminar-post', function () {
+                $(this).closest('.post').remove(); // Elimina el post más cercano al botón clickeado
+            });
+            // Evento de clic para mostrar la descripción
+            $(document).on('click', '.mostrar-descripcion', function () {
+                let texto = $(this).find('i');
+                $(this).prev('.texto').toggleClass('oculto');
+                if ($(this).prev('.texto').hasClass('oculto')) {
+                    texto.removeClass('fa-minus').addClass('fa-plus');
+                } else {
+                    texto.removeClass('fa-plus').addClass('fa-minus');
+                }
+            });
+
+            // Evento de clic para mostrar la imagen ampliada
+            $('.img_post, .pfp').click(function () {
+                var src = $(this).attr('src');
+                $('#imagenAmpliadaContenido').attr('src', src);
+                $('#imagenAmpliada').fadeIn();
+            });
+
+            // Evento de clic para ocultar la imagen ampliada
+            $('#imagenAmpliada').click(function () {
+                $(this).fadeOut();
             });
         });
     </script>
@@ -54,20 +95,27 @@
             <img class="img_post" src="../Images/batallaCannas.png">
             <h2>Meme Monday</h2>
             <div class="info">
-                <img class="pfp" src="../Images/pfp.png" width="50px" height="50px">
+                <img class="pfp" src="../Images/pfp_user1.jpg" width="50px" height="50px">
                 <p class="autor">AUTOR</p>
             </div>
-            <p class="texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem doloremque impedit delectus. Optio voluptate est velit eligendi aperiam dolorem quos nobis aspernatur numquam, aliquam voluptatum minima ipsum tempore repellendus? Quia!</p>
+            <p class="texto oculto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem doloremque impedit
+                delectus. Optio voluptate est velit eligendi aperiam dolorem quos nobis aspernatur numquam, aliquam
+                voluptatum minima ipsum tempore repellendus? Quia!</p>
+            <button class="mostrar-descripcion"><i class="fas fa-plus"></i></button>
+
         </div>
 
         <div class="post">
             <img class="img_post" src="../Images/guerrasNapoleonicas.png">
-            <h2>Meme Monday</h2>
+            <h2>Niggas in da hood</h2>
             <div class="info">
-                <img class="pfp" src="../Images/pfp.png" width="50px" height="50px">
-                <p class="autor">AUTOR</p>
+                <img class="pfp" src="../Images/pfp_user2.jpg" width="50px" height="50px">
+                <p class="autor">Mohhamed abdul nigger</p>
             </div>
-            <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ducimus eius nihil minima accusamus! Tenetur optio maxime harum doloremque possimus necessitatibus nostrum totam dolor dolorum. Aliquam blanditiis aspernatur voluptatibus dignissimos.</p>
+            <p class="texto oculto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ducimus eius nihil
+                minima accusamus! Tenetur optio maxime harum doloremque possimus necessitatibus nostrum totam dolor
+                dolorum. Aliquam blanditiis aspernatur voluptatibus dignissimos.</p>
+            <button class="mostrar-descripcion"><i class="fas fa-plus"></i></button>
         </div>
         <div class="formulario">
             <form id="miForm">
@@ -75,6 +123,11 @@
                 <input type="submit" id="submit" value="Submit">
                 <input type="file" id="myfile" name="myfile">
             </form>
+        </div>
+
+        <!-- Div para mostrar la imagen ampliada -->
+        <div id="imagenAmpliada">
+            <img id="imagenAmpliadaContenido" src="" alt="Imagen Ampliada">
         </div>
     </main>
 </body>

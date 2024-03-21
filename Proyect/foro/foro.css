@@ -3,10 +3,12 @@
     margin: 10px;
 }
 
+body{
+    display: flex;
+}
 
 aside {
     width: 20%;
-    display: inline-block;
 }
 
 main {
@@ -24,7 +26,7 @@ main {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border: 1px solid black;
     background-color: antiquewhite;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .img_post {
@@ -33,7 +35,15 @@ main {
     object-fit: contain;
     border-radius: 15px;
     box-shadow: 2px 3px 3px black;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.img_post:hover{
+    box-shadow: 4px 6px 6px rgba(0, 0, 0, 0.5); 
+    opacity: 0.9;
+}
+
 
 .info {
     display: flex;
@@ -41,10 +51,17 @@ main {
     width: 100%;
 }
 
-.pfp {}
+.pfp {
+    cursor: pointer;
+    border-radius: 35px;
+}
 
+.pfp:hover{
+    border: 2px solid #333;
+    transition: border 0.4s ease;
+}
 .autor {
-    font-weight: bold;
+    
 }
 
 input[type=text] {
@@ -72,6 +89,23 @@ input[type=submit]:hover{
     background-color: aliceblue;
 }
 
+.oculto {
+    display: none;
+}
+
+.mostrar-descripcion {
+    background: none;
+    border: none;
+    color: #333;
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.mostrar-descripcion:hover {
+    color: #666;
+}
+
 
 @media screen and (max-width: 600px){
     aside{
@@ -85,3 +119,43 @@ input[type=submit]:hover{
         border-right: none; 
     }
 }
+
+
+/* CSS para la imagen ampliada */
+#imagenAmpliada {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro semi-transparente */
+    z-index: 9999; /* Asegura que la imagen ampliada esté por encima de todo */
+}
+
+#imagenAmpliada img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+
+.boton-eliminar {
+    background-color: #ff3333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    float: right;
+    position: relative;
+    right: 10px;
+}
+
+.boton-eliminar:hover {
+    background-color: #cc0000;
+}
+
