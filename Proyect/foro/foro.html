@@ -2,10 +2,10 @@
 <html>
 
 <head lang="es">
-    <link rel="stylesheet" href="./foro.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
     <script src="https://kit.fontawesome.com/1415b55916.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="./foro.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FORO HISTORICO</title>
@@ -86,6 +86,14 @@
             $('#imagenAmpliada').click(function () {
                 $(this).fadeOut();
             });
+
+            $('.lista_nav li a').mouseover(function(){
+                $(this).prepend('<i class="fa-solid fa-arrow-right"></i>');
+            });
+
+            $('.lista_nav li a').mouseout(function(){
+                $(this).find('i').remove();
+            });
         });
     </script>
 </head>
@@ -109,68 +117,70 @@
             </nav>
         </div>
     </header>
-
-    <aside>
-        <h3 class="titulo_nav">TRENDING POSTS</h3>
-        <nav class="nav_posts">
-            <ul>
-                <li><a href="#post1">Meme Monday</a></li>
-                <li><a href="#post2">Niggas in da hood</a></li>
-            </ul>
-        </nav>
-    </aside>
+    <div class="principal">
+        <aside>
+            <h3 class="titulo_nav">TRENDING POSTS <i class="fa-solid fa-fire"></i></h3>
+            <nav class="nav_posts">
+                <ul class="lista_nav">
+                    <li><a href="#post1">Meme Monday</a></li>
+                    <li><a href="#post2">Niggas in da hood</a></li>
+                </ul>
+            </nav>
+        </aside>
+        
+        <main>
+            <div class="post" id="post1">
+                <img class="img_post" src="../Images/batallaCannas.png">
+                <h2>Meme Monday</h2>
+                <div class="info">
+                    <img class="pfp" src="../Images/pfp_user1.jpg" width="50px" height="50px">
+                    <p class="autor">AUTOR</p>
+                </div>
+                <p class="texto oculto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem doloremque impedit
+                    delectus. Optio voluptate est velit eligendi aperiam dolorem quos nobis aspernatur numquam, aliquam
+                    voluptatum minima ipsum tempore repellendus? Quia!</p>
+                <button class="mostrar-descripcion"><i class="fas fa-plus"></i></button>
     
-    <main>
-        <div class="post" id="post1">
-            <img class="img_post" src="../Images/batallaCannas.png">
-            <h2>Meme Monday</h2>
-            <div class="info">
-                <img class="pfp" src="../Images/pfp_user1.jpg" width="50px" height="50px">
-                <p class="autor">AUTOR</p>
             </div>
-            <p class="texto oculto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem doloremque impedit
-                delectus. Optio voluptate est velit eligendi aperiam dolorem quos nobis aspernatur numquam, aliquam
-                voluptatum minima ipsum tempore repellendus? Quia!</p>
-            <button class="mostrar-descripcion"><i class="fas fa-plus"></i></button>
-
-        </div>
-
-        <div class="post" id="post2">
-            <img class="img_post" src="../Images/guerrasNapoleonicas.png">
-            <h2>Niggas in da hood</h2>
-            <div class="info">
-                <img class="pfp" src="../Images/pfp_user2.jpg" width="50px" height="50px">
-                <p class="autor">Mohhamed abdul nigger</p>
+    
+            <div class="post" id="post2">
+                <img class="img_post" src="../Images/guerrasNapoleonicas.png">
+                <h2>Niggas in da hood</h2>
+                <div class="info">
+                    <img class="pfp" src="../Images/pfp_user2.jpg" width="50px" height="50px">
+                    <p class="autor">Mohhamed abdul nigger</p>
+                </div>
+                <p class="texto oculto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ducimus eius nihil
+                    minima accusamus! Tenetur optio maxime harum doloremque possimus necessitatibus nostrum totam dolor
+                    dolorum. Aliquam blanditiis aspernatur voluptatibus dignissimos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ducimus eius nihil
+                    minima accusamus! Tenetur optio maxime harum doloremque possimus necessitatibus nostrum totam dolor
+                    dolorum. Aliquam blanditiis aspernatur voluptatibus dignissimos.</p>
+                <button class="mostrar-descripcion"><i class="fas fa-plus"></i></button>
             </div>
-            <p class="texto oculto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ducimus eius nihil
-                minima accusamus! Tenetur optio maxime harum doloremque possimus necessitatibus nostrum totam dolor
-                dolorum. Aliquam blanditiis aspernatur voluptatibus dignissimos.</p>
-            <button class="mostrar-descripcion"><i class="fas fa-plus"></i></button>
-        </div>
-        <div class="formulario">
-            <form id="miForm">
-                <input type="text" id="input_txt" value="Comparte tu idea">
-                <input type="submit" id="submit" value="Submit">
-                <input type="file" id="myfile" name="myfile">
-            </form>
-        </div>
-
-        <!-- Div para mostrar la imagen ampliada -->
-        <div id="imagenAmpliada">
-            <img id="imagenAmpliadaContenido" src="" alt="Imagen Ampliada">
-        </div>
-    </main>
-
-    <footer class="footer">
-        <ul class="footer-menu">
-            <li class="footer-list-item"> <a href="../index.html"> Home </a> </li>
-            <li class="footer-list-item"> <a href="../contacto.html"> Contacto </a> </li>
-            <li class="footer-list-item"> <a href="../sobrenosotros.html"> Sobre Nosotros </a> </li>
-            <li class="footer-list-item"> <a href=""> <i class="fa-brands fa-instagram"></i>  </a> </li>
-            <li class="footer-list-item"> <a href=""> <i class="fa-brands fa-x-twitter"></i>  </a> </li>
-            <li class="footer-list-item"> <a href=""> <i class="fa-brands fa-facebook"></i> </a> </li>
-        </ul>
-    </footer>
+            <div class="formulario">
+                <form id="miForm">
+                    <input type="text" id="input_txt" value="Comparte tu idea">
+                    <input type="submit" id="submit" value="Submit">
+                    <input type="file" id="myfile" name="myfile">
+                </form>
+            </div>
+    
+            <!-- Div para mostrar la imagen ampliada -->
+            <div id="imagenAmpliada">
+                <img id="imagenAmpliadaContenido" src="" alt="Imagen Ampliada">
+            </div>
+        </main>
+        <footer class="footer">
+            <ul class="footer-menu">
+                <li class="footer-list-item"> <a href="../index.html"> Home </a> </li>
+                <li class="footer-list-item"> <a href="../contacto.html"> Contacto </a> </li>
+                <li class="footer-list-item"> <a href="../sobrenosotros.html"> Sobre Nosotros </a> </li>
+                <li class="footer-list-item"> <a href=""> <i class="fa-brands fa-instagram"></i>  </a> </li>
+                <li class="footer-list-item"> <a href=""> <i class="fa-brands fa-x-twitter"></i>  </a> </li>
+                <li class="footer-list-item"> <a href=""> <i class="fa-brands fa-facebook"></i> </a> </li>
+            </ul>
+        </footer>
+    </div>
 </body>
 
 </html>
