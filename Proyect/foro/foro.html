@@ -14,7 +14,8 @@
     <script>
         $(document).ready(function () {
 
-            $('#input_txt').click(() => $('#input_txt').val(""))
+            $('#input_txt').click(() => $('#input_txt').val(""));
+            $('#input_titulo').click(() => $('#input_titulo').val(""));
 
             $('#miForm').submit(function (event) {
                 // Evitar el envío del formulario predeterminado
@@ -22,6 +23,8 @@
 
                 // Obtener el valor del campo de texto
                 let texto = $('#input_txt').val();
+
+                let titulo = $('#input_titulo').val();
 
                 // Obtener el archivo cargado
                 let archivo = $('#myfile')[0].files[0];
@@ -37,6 +40,9 @@
                 let nuevoParrafo = $('<p class="texto oculto"></p>');
                 nuevoParrafo.text(texto);
 
+                let nuevoTitulo = $('<h2></h2>');
+                nuevoTitulo.text(titulo);
+
                 // Crear un botón para mostrar la descripción
                 let botonMostrar = $('<button class="mostrar-descripcion"><i class="fas fa-plus"></i></button>');
 
@@ -47,7 +53,7 @@
 
                 // Añadir la imagen, el texto y los botones al nuevo elemento "post"
                 nuevoPost.append(nuevaImagen);
-                nuevoPost.append('<h2>Tu idea</h2>');
+                nuevoPost.append(nuevoTitulo);
                 nuevoPost.append('<div class="info"><img class="pfp" src="../Images/pfp.png" width="50px" height="50px"><p class="autor">GUEST</p></div>');
                 nuevoPost.append(nuevoParrafo);
                 nuevoPost.append(botonMostrar);
@@ -100,22 +106,28 @@
 
 <body>
     <header class="header">
+
         <a href="../index.html">
             <img class="headerImg" src="../Images/coin128.png" alt="Logo" width="100" height="100">
         </a>
+
         <div class="header-group"> <!-- Contenedor para el título y el menú -->
             <span class="header-title">HISTORY OF WAR</span>
             <nav class="header-menu">
-                <ul>
-                    <li class="header-menu-item"> <a href="../mapa/mapa.html"> Mapa </a> </li>
+                <ul class="header-list">
+                    <li class="header-menu-item"> <a href="../Mapa/mapa.html"> Mapa </a> </li>
                     <li class="header-menu-item"> <a href="../AcontecimientosHistoricos/AH.html"> Acontecimientos Históricos </a> </li>
                     <li class="header-menu-item"> <a href="../biblioteca/biblioteca.html"> Biblioteca </a> </li>
-                    <li class="header-menu-item"> <a href="../login/login.html"> Iniciar Sesión </a> </li>
-                    <li class="header-menu-item"> <a href="../buscador/buscador.html"> Buscador </a> </li>
                     <li class="header-menu-item"> <a href="../foro/foro.html"> Foro </a> </li>
+                    <li class="header-menu-item"> <a href="../buscador/buscador.html"> Buscador </a> </li>
+                    <li class="header-menu-item"> <a href="../login/login.html"> Iniciar Sesión </a> </li>
                 </ul>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
             </nav>
         </div>
+
     </header>
     <div class="principal">
         <aside>
@@ -159,6 +171,7 @@
             </div>
             <div class="formulario">
                 <form id="miForm">
+                    <input type="text" id="input_titulo" value="Titulo de tu idea">
                     <input type="text" id="input_txt" value="Comparte tu idea">
                     <input type="submit" id="submit" value="Submit">
                     <input type="file" id="myfile" name="myfile">
@@ -181,6 +194,7 @@
             </ul>
         </footer>
     </div>
+    <script src="../header.js"></script>
 </body>
 
 </html>
