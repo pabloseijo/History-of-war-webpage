@@ -2,10 +2,14 @@ let pages = [];
 
 // Función para cargar las páginas desde el archivo JSON usando XMLHttpRequest
 function loadPages() {
+    // Creamos un objeto XMLHttpRequest, que nos permite hacer peticiones HTTP asíncronas
     var xhr = new XMLHttpRequest();
+
+    // Configuramos la petición
     xhr.open('GET', './buscador.json', true);
 
     xhr.onload = function() {
+        // Si la respuesta del servidor es satisfactoria
         if (this.status >= 200 && this.status < 300) {
             // Parsea y carga los datos en la variable 'pages'
             pages = JSON.parse(this.responseText);
@@ -19,7 +23,7 @@ function loadPages() {
         // Maneja errores de red
         console.error('Error de red.');
     };
-
+    // Envía la petición
     xhr.send();
 }
 

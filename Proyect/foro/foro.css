@@ -1,3 +1,5 @@
+@import '../style.css';
+
 * {
     box-sizing: border-box;
     margin: 10px;
@@ -128,6 +130,7 @@ input[type=text] {
     resize: vertical;
     background-color: azure;
 }
+
 
 #input_txt {
     height: 100px;
@@ -283,6 +286,82 @@ input[type=submit]:hover {
     margin: 15px 0;
     /* Añade un margen de 0 a los lados y 15px arriba y abajo */
 }
+
+.voting-buttons {
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+.like-button,
+.dislike-button {
+    cursor: pointer;
+    padding: 0.5rem;
+    transition: color 0.3s ease;
+    color: #000000; /* Color por defecto */
+}
+
+
+.like-button.active {
+    color: #ff4500;
+}
+
+.dislike-button.active {
+    color: #9494FF;
+}
+
+.like-button:hover {
+    color: #ff4500;
+}
+
+.dislike-button:hover {
+    color: #9494FF;
+}
+
+.likes-count,
+.dislikes-count {
+    margin: 0 0.5rem;
+}
+
+#mostrarFormBtn {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1050;
+    border: none;
+    background-color: var(--color-caramel); /* Ejemplo de color de fondo azul */
+    color: white; /* Color del ícono */
+    width: 50px; /* Ancho del botón */
+    height: 50px; /* Altura del botón */
+    border-radius: 50%; /* Hace el botón circular */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px; /* Tamaño del ícono */
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Opcional: sombra para el botón */
+}
+
+#mostrarFormBtn:hover {
+    background-color: var(--color-chocolate); /* Color más oscuro al pasar el mouse */
+}
+
+#formContainer {
+    display: none; /* Empieza oculto hasta que se presione el botón */
+    position: fixed;
+    bottom: 0;
+    left: 48.5%; /* Centrado horizontalmente */
+    transform: translateX(-50%); /* Ajusta la posición para que quede centrado */
+    width: 80%; /* Ajusta esto según el ancho deseado, similar al de los posts */
+    max-width: 465px; /* Puedes ajustar esto para que coincida con el ancho máximo de tus posts */
+    background-color: var(--color-smoke);
+    padding: 5px;
+    box-shadow: 0 -4px 8px rgba(0,0,0,0.1);
+    z-index: 1040;
+}
+
+
+
 
 @media screen and (max-width: 600px) {
     aside {

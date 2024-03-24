@@ -1,20 +1,151 @@
 <posts>
     <post id="post1">
         <imagen src="../Images/batallaCannas.png"/>
-        <titulo>Meme Monday</titulo>
-        <autor>AUTOR</autor>
-        <texto>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem doloremque impedit
-            delectus. Optio voluptate est velit eligendi aperiam dolorem quos nobis aspernatur numquam, aliquam
-            voluptatum minima ipsum tempore repellendus? Quia!</texto>
+
+        <titulo>Batalla Cannas</titulo>
+        <autor>Catlover56</autor>
+        <pfp src="../Images/pfp_user1.jpg"/> 
+        <likes>123</likes>
+        <dislikes>10</dislikes>
+        <texto>La batalla de Cannas (o Cannæ) tuvo lugar el 2 de agosto del año 216 a. C. entre el ejército púnico, comandado por Aníbal Barca, y las tropas romanas, dirigidas por los cónsules Cayo Terencio Varrón y Lucio Emilio Paulo, en el marco de la segunda guerra púnica.</texto>
     </post>
     <post id="post2">
         <imagen src="../Images/guerrasNapoleonicas.png"/>
-        <titulo>Niggas in da hood</titulo>
-        <autor>Mohhamed abdul nigger</autor>
-        <texto>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ducimus eius nihil
-            minima accusamus! Tenetur optio maxime harum doloremque possimus necessitatibus nostrum totam dolor
-            dolorum. Aliquam blanditiis aspernatur voluptatibus dignissimos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ducimus eius nihil
-            minima accusamus! Tenetur optio maxime harum doloremque possimus necessitatibus nostrum totam dolor
-            dolorum. Aliquam blanditiis aspernatur voluptatibus dignissimos.</texto>
+        <titulo>Guerras Napoleonicas</titulo>
+        <autor>CatDrip43</autor>
+        <pfp src="../Images/pfp_user2.jpg"/> 
+        <likes>46</likes>
+        <dislikes>987</dislikes>
+        <texto>Se conoce como las Guerras Napoleónicas o las guerras de Coalición a la serie de conflictos bélicos que tuvieron lugar en la Europa de inicios del siglo XIX. En ellas se enfrentó Francia contra un conjunto variable de alianzas europeas surgidas en su contra.</texto>
+    </post>
+    <post id="post3">
+        <imagen src="../Images/conquistaDeAlejandria.png"/>
+        <titulo>La Conquista de Alejandría</titulo>
+        <autor>Alejandro Magno</autor>
+        <pfp src="../Images/pfp_alejandro.png"/>
+        <likes>1230</likes>
+        <dislikes>213</dislikes>
+        <texto>La caída de Alejandría ante las tropas macedonias marcó el comienzo de una nueva era para Egipto. Esta es la historia de cómo una de las ciudades más prósperas del mundo antiguo cambió para siempre.</texto>
+    </post>
+
+    <post id="post4">
+        <imagen src="../Images/revolucionIndustrial.png"/>
+        <titulo>El Amanecer de la Revolución Industrial</titulo>
+        <autor>George Stephenson</autor>
+        <pfp src="../Images/pfp_stephenson.png"/>
+        <likes>98</likes>
+        <dislikes>1001</dislikes>
+        <texto>La Revolución Industrial transformó completamente el tejido social y económico de las sociedades. Desde la invención de la locomotora de vapor hasta la creación de fábricas, este periodo redefinió el mundo.</texto>
+    </post>
+
+    <post id="post5">
+        <imagen src="../Images/trenURRS.png"/>
+        <titulo>La industrialización de la URRS</titulo>
+        <autor>Iósif Stalin</autor>
+        <pfp src="../Images/pfp_stalin.png"/>
+        <likes>12300</likes>
+        <dislikes>97</dislikes>
+        <texto>La rápida indsutrialización de la recién creada Unión de Repúblicas Socialistas Soviéticas, se llevo a cabo en el plan quinquenal empezado en 1928.</texto>
+    </post>
+
+    <post id="post6">
+        <imagen src="../Images/invencionTelefono.png"/>
+        <titulo>La Invención del Teléfono</titulo>
+        <autor>Alexander Graham Bell</autor>
+        <pfp src="../Images/pfp_bell.png"/>
+        <likes>132</likes>
+        <dislikes>75</dislikes>
+        <texto>La capacidad de comunicarse instantáneamente a larga distancia era un sueño hasta que Alexander Graham Bell lo hizo realidad. Descubre cómo este invento cambió el mundo.</texto>
+    </post>
+
+    <post id="post7">
+        <imagen src="../Images/ColonLlegandoAmerica.jpg"/>
+        <titulo>El Descubrimiento de América</titulo>
+        <autor>Cristóbal Colón</autor>
+        <pfp src="../Images/pfp_colon.png"/>
+        <likes>3476</likes>
+        <dislikes>876</dislikes>
+        <texto>1492 no solo marca el año en que Colón llegó a las Américas, sino también el comienzo de una era de exploración y conquista. Esta entrada explora las implicaciones de este histórico viaje.</texto>
+    </post>
+
+    <post id="post8">
+    <imagen src="../Images/caidaMuroBerlin.png"/>
+        <titulo>La Caída del Muro de Berlín</titulo>
+        <autor>Mikhail Gorbachev</autor>
+        <pfp src="../Images/pfp_traidor.png"/>
+        <likes>23</likes>
+        <dislikes>4956</dislikes>
+        <texto>El colapso del Muro de Berlín en 1989 no solo reunificó Alemania, sino que también simbolizó el fin de la Guerra Fría. Lee más sobre cómo este evento cambió el curso de la historia.</texto>
+    </post>
+
+    <post id="post9">
+        <imagen src="../Images/indepIndia.png"/>
+        <titulo>La Independencia de la India</titulo>
+        <autor>Mahatma Gandhi</autor>
+        <pfp src="../Images/pfp_gandhi.png"/>
+        <texto>La lucha por la independencia de la India es una historia de resistencia pacífica y determinación. Gandhi lideró a su país hacia la libertad del dominio británico, inspirando movimientos de derechos civiles en todo el mundo.</texto>
+    </post>
+    <post id="post11">
+    <imagen src="../Images/revolucionFrancesa.png"/>
+        <titulo>El Legado de la Revolución Francesa</titulo>
+        <autor>Maximilien Robespierre</autor>
+        <pfp src="../Images/pfp_robespierre.png"/>
+        <texto>La Revolución Francesa, con su lema "Libertad, Igualdad, Fraternidad", no solo cambió Francia, sino que influyó en el desarrollo de la democracia moderna. Este post explora cómo este evento radical alteró el curso de la historia.</texto>
+    </post>
+
+    <post id="post12">
+        <imagen src="../Images/caidaRoma.png"/>
+        <titulo>El Ascenso y Caída del Imperio Romano</titulo>
+        <autor>Julio César</autor>
+        <pfp src="../Images/pfp_cesar.jpg"/>
+        <likes>8965</likes>
+        <dislikes>567</dislikes>
+        <texto>Roma no se construyó en un día, ni tampoco cayó repentinamente. Esta entrada detalla el ascenso de Roma desde una pequeña ciudad-estado hasta convertirse en uno de los imperios más poderosos de la historia, y cómo finalmente llegó a su fin.</texto>
+    </post>
+
+    <post id="post13">
+        <imagen src="../Images/carreraEspacial.jpg"/>
+        <titulo>La Carrera Espacial: Una Nueva Frontera</titulo>
+        <autor>Yuri Gagarin</autor>
+        <pfp src="../Images/pfp_gagarin.jpg"/>
+        <likes>9088</likes>
+        <dislikes>654</dislikes>
+        <texto>La exploración espacial ha capturado la imaginación de la humanidad como ninguna otra empresa. Desde el primer hombre en el espacio hasta el aterrizaje en la Luna, este post explora los hitos de nuestra búsqueda de las estrellas.</texto>
+    </post>
+
+    <post id="post14">
+        <imagen src="../Images/internet.png"/>
+        <titulo>La Creación de Internet y su Impacto en el Mundo</titulo>
+        <autor>Tim Berners-Lee</autor>
+        <pfp src="../Images/pfp_bernersLee.jpg"/>
+        <texto>La invención de Internet ha transformado todos los aspectos de la sociedad, desde la comunicación hasta el comercio. Descubre cómo comenzó todo y las maneras en que ha cambiado nuestro mundo.</texto>
+    </post>
+
+    <post id="post15">
+        <imagen src="../Images/mayas.png"/>
+        <titulo>Misterios de la Cultura Maya</titulo>
+        <autor>Pakal el Grande</autor>
+        <pfp src="../Images/pfp_pakal.png"/>
+        <texto>La civilización Maya es conocida por sus logros en matemáticas, astronomía y escritura. Este post profundiza en los misterios y el legado de esta fascinante cultura antigua.</texto>
+    </post>
+
+    <post id="post16">
+        <imagen src="../Images/renacimiento.png"/>
+        <titulo>El Renacimiento: Un Despertar Cultural</titulo>
+        <autor>Leonardo da Vinci</autor>
+        <pfp src="../Images/pfp_vinci.jpg"/>
+        <likes>543</likes>
+        <dislikes>87</dislikes>
+        <texto>El Renacimiento fue un período de renacimiento cultural y científico que sentó las bases del mundo moderno. Explora cómo artistas, científicos y pensadores de esta época cambiaron el curso de la historia.</texto>
+    </post>
+
+    <post id="post17">
+        <imagen src="../Images/protestante.png"/>
+        <titulo>La Reforma Protestante y su Impacto en Europa</titulo>
+        <autor>Martín Lutero</autor>
+        <pfp src="../Images/pfp_lutero.png"/>
+        <likes>10</likes>
+        <dislikes>3756</dislikes>
+        <texto>La Reforma Protestante desafió la autoridad de la Iglesia Católica y dio lugar a la proliferación de nuevas denominaciones cristianas. Este post examina cómo este movimiento religioso remodeló Europa.</texto>
     </post>
 </posts>
