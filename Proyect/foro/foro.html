@@ -13,7 +13,46 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script>
         $(document).ready(function () {
+            $("#btn_mostrar").click(function () {
+                // Oculta el botón al hacer clic
+                $("#btn_mostrar").css('display', 'none');
 
+                // Realiza una solicitud AJAX para cargar el contenido XML
+                $.ajax({
+                    type: "GET",
+                    url: "demo_test.xml",
+                    dataType: "xml",
+                    success: function (xml) {
+                        // Procesa el XML y agrega los elementos al div contenedor
+                        procesarXML(xml);
+                    },
+                    error: function (xhr, status, error) {
+                        console.error("Error al cargar el archivo XML:", error);
+                    }
+                });
+            });
+
+            function procesarXML(xml) {
+                // Encuentra los posts en el XML
+                $(xml).find('post').each(function () {
+                    var postId = $(this).attr('id');
+                    var imagenSrc = $(this).find('imagen').attr('src');
+                    var titulo = $(this).find('titulo').text();
+                    var autor = $(this).find('autor').text();
+                    var texto = $(this).find('texto').text();
+
+                    // Crea un nuevo elemento HTML para el post
+                    var postDiv = $('<div class="post" id="' + postId + '">');
+                    postDiv.append('<img class="img_post" src="' + imagenSrc + '">');
+                    postDiv.append('<h2 class="titulo">' + titulo + '</h2>');
+                    postDiv.append('<div class="info"><img class="pfp" src="../Images/pfp.png" width="50px" height="50px"><p class="autor">' + autor + '</p></div>');
+                    postDiv.append('<p class="texto oculto">' + texto + '</p>');
+                    postDiv.append('<button class="mostrar-descripcion"><i class="fas fa-plus"></i></button>');
+
+                    // Agrega el post al div contenedor
+                    $('#fill_data').append(postDiv);
+                });
+            }
             $('#input_txt').click(() => $('#input_txt').val(""));
             $('#input_titulo').click(() => $('#input_titulo').val(""));
 
@@ -93,12 +132,12 @@
                 $(this).fadeOut();
             });
 
-            $('.lista_nav li a').mouseover(function(){
-                $(this).find('i').css('visibility','visible');
+            $('.lista_nav li a').mouseover(function () {
+                $(this).find('i').css('visibility', 'visible');
             });
 
-            $('.lista_nav li a').mouseout(function(){
-                $(this).find('i').css('visibility','hidden');
+            $('.lista_nav li a').mouseout(function () {
+                $(this).find('i').css('visibility', 'hidden');
             });
         });
     </script>
@@ -116,7 +155,8 @@
             <nav class="header-menu">
                 <ul class="header-list">
                     <li class="header-menu-item"> <a href="../Mapa/mapa.html"> Mapa </a> </li>
-                    <li class="header-menu-item"> <a href="../AcontecimientosHistoricos/AH.html"> Acontecimientos Históricos </a> </li>
+                    <li class="header-menu-item"> <a href="../AcontecimientosHistoricos/AH.html"> Acontecimientos
+                            Históricos </a> </li>
                     <li class="header-menu-item"> <a href="../biblioteca/biblioteca.html"> Biblioteca </a> </li>
                     <li class="header-menu-item"> <a href="../foro/foro.html"> Foro </a> </li>
                     <li class="header-menu-item"> <a href="../buscador/buscador.html"> Buscador </a> </li>
@@ -139,8 +179,12 @@
                 </ul>
             </nav>
         </aside>
-        
+
         <main>
+            <button id="btn_mostrar" type="button">Mostar nuevos posts</button>
+            <div id="fill_data">
+
+            </div>
             <div class="post" id="post1">
                 <img class="img_post" src="../Images/batallaCannas.png">
                 <h2 class="titulo">Meme Monday</h2>
@@ -148,13 +192,14 @@
                     <img class="pfp" src="../Images/pfp_user1.jpg" width="50px" height="50px">
                     <p class="autor">AUTOR</p>
                 </div>
-                <p class="texto oculto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem doloremque impedit
+                <p class="texto oculto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem doloremque
+                    impedit
                     delectus. Optio voluptate est velit eligendi aperiam dolorem quos nobis aspernatur numquam, aliquam
                     voluptatum minima ipsum tempore repellendus? Quia!</p>
                 <button class="mostrar-descripcion"><i class="fas fa-plus"></i></button>
-    
+
             </div>
-    
+
             <div class="post" id="post2">
                 <img class="img_post" src="../Images/guerrasNapoleonicas.png">
                 <h2 class="titulo">Niggas in da hood</h2>
@@ -164,7 +209,8 @@
                 </div>
                 <p class="texto oculto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ducimus eius nihil
                     minima accusamus! Tenetur optio maxime harum doloremque possimus necessitatibus nostrum totam dolor
-                    dolorum. Aliquam blanditiis aspernatur voluptatibus dignissimos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ducimus eius nihil
+                    dolorum. Aliquam blanditiis aspernatur voluptatibus dignissimos.Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Illo ducimus eius nihil
                     minima accusamus! Tenetur optio maxime harum doloremque possimus necessitatibus nostrum totam dolor
                     dolorum. Aliquam blanditiis aspernatur voluptatibus dignissimos.</p>
                 <button class="mostrar-descripcion"><i class="fas fa-plus"></i></button>
@@ -177,7 +223,7 @@
                     <input type="file" id="myfile" name="myfile">
                 </form>
             </div>
-    
+
             <!-- Div para mostrar la imagen ampliada -->
             <div id="imagenAmpliada">
                 <img id="imagenAmpliadaContenido" src="" alt="Imagen Ampliada">
@@ -188,8 +234,8 @@
                 <li class="footer-list-item"> <a href="../index.html"> Home </a> </li>
                 <li class="footer-list-item"> <a href="../contacto.html"> Contacto </a> </li>
                 <li class="footer-list-item"> <a href="../sobrenosotros.html"> Sobre Nosotros </a> </li>
-                <li class="footer-list-item"> <a href=""> <i class="fa-brands fa-instagram"></i>  </a> </li>
-                <li class="footer-list-item"> <a href=""> <i class="fa-brands fa-x-twitter"></i>  </a> </li>
+                <li class="footer-list-item"> <a href=""> <i class="fa-brands fa-instagram"></i> </a> </li>
+                <li class="footer-list-item"> <a href=""> <i class="fa-brands fa-x-twitter"></i> </a> </li>
                 <li class="footer-list-item"> <a href=""> <i class="fa-brands fa-facebook"></i> </a> </li>
             </ul>
         </footer>

@@ -1,0 +1,20 @@
+<posts>
+    <post id="post1">
+        <imagen src="../Images/batallaCannas.png"/>
+        <titulo>Meme Monday</titulo>
+        <autor>AUTOR</autor>
+        <texto>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem doloremque impedit
+            delectus. Optio voluptate est velit eligendi aperiam dolorem quos nobis aspernatur numquam, aliquam
+            voluptatum minima ipsum tempore repellendus? Quia!</texto>
+    </post>
+    <post id="post2">
+        <imagen src="../Images/guerrasNapoleonicas.png"/>
+        <titulo>Niggas in da hood</titulo>
+        <autor>Mohhamed abdul nigger</autor>
+        <texto>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ducimus eius nihil
+            minima accusamus! Tenetur optio maxime harum doloremque possimus necessitatibus nostrum totam dolor
+            dolorum. Aliquam blanditiis aspernatur voluptatibus dignissimos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ducimus eius nihil
+            minima accusamus! Tenetur optio maxime harum doloremque possimus necessitatibus nostrum totam dolor
+            dolorum. Aliquam blanditiis aspernatur voluptatibus dignissimos.</texto>
+    </post>
+</posts>
