@@ -121,8 +121,10 @@
             });
 
             // Evento de clic para mostrar la imagen ampliada
-            $('.img_post, .pfp').click(function () {
-                var src = $(this).attr('src');
+            //lo ponemos con on para que tambien se apliqeu a las posts nuevos que introducimos y no solo a los que estan por defecto.
+            $(document).on('click', '.img_post, .pfp', function () {
+                let src = $(this).attr('src');
+                if (src == null) console.log("source = NULL");
                 $('#imagenAmpliadaContenido').attr('src', src);
                 $('#imagenAmpliada').fadeIn();
             });
