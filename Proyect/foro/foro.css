@@ -409,10 +409,10 @@ input[type=submit]:hover {
     display: none;
     position: fixed;
     bottom: 75px; /* Da un poco más de espacio del borde */
-    left: 50%;
+    left: 250px;
     transform: translateX(-50%);
-    width: 80%;
-    max-width: 465px; /* Límite para no estirarse demasiado en pantallas grandes */
+    width: 100%;
+    max-width: 500px; /* Límite para no estirarse demasiado en pantallas grandes */
     background-color: white;
     padding: 20px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
