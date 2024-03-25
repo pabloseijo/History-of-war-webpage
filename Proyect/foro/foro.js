@@ -57,12 +57,21 @@ $(document).ready(function () {
         let icon = $(this).find('i');
         if (icon.hasClass('fa-plus')) {
             icon.removeClass('fa-plus').addClass('fa-minus');
-            $(this).text(' Ocultar');
+            // Cambiar solo el texto, manteniendo el ícono
+            $(this).contents().filter(function(){
+                return this.nodeType == 3;
+            }).remove();
+            $(this).append(' Ocultar');
         } else {
             icon.removeClass('fa-minus').addClass('fa-plus');
-            $(this).text(' Descripción');
+            // Cambiar solo el texto, manteniendo el ícono
+            $(this).contents().filter(function(){
+                return this.nodeType == 3;
+            }).remove();
+            $(this).append(' Descripción');
         }
     });
+
 
     // Manejador de eventos para los botones de like y dislike
     $(document).on('click', '.like-button, .dislike-button', function() {

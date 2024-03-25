@@ -211,6 +211,7 @@ input[type=submit]:hover {
     float: right;
     position: relative;
     right: 10px;
+    bottom: 65px;
 }
 
 .boton-eliminar:hover {
