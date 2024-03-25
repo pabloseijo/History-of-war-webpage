@@ -200,23 +200,61 @@ input[type=submit]:hover {
     max-height: 90%;
 }
 
-
 .boton-eliminar {
     background-color: #ff3333;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 50px; /* Restaurado a bordes suavemente redondeados */
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, width 0.3s ease;
     float: right;
     position: relative;
     right: 10px;
-    bottom: 65px;
+    width: 40px; /* Tamaño inicial como botón redondo */
+    height: 40px; /* Igual alto y ancho para forma redonda */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
 .boton-eliminar:hover {
+    width: 80px; /* Se expande para mostrar texto */
+    border-radius: 30px; /* Suaviza los bordes al expandirse */
     background-color: #cc0000;
 }
+
+.boton-eliminar .texto-eliminar {
+    position: absolute;
+    bottom: -30px; /* Inicia justo debajo del botón */
+    transform: translateX(-25%); /* Ajusta para centrar horizontalmente */
+    transform: translateY(10%); /* Inicia oculto debajo del botón */
+    transition: opacity 0.3s ease, bottom 0.3s ease;
+    opacity: 0;
+    font-size: 0.8rem; /* Tamaño de la fuente */
+    font-weight: bold; /* Fuente más gruesa */
+    white-space: nowrap; /* Evita que el texto se envuelva */
+}
+
+.boton-eliminar:hover .texto-eliminar {
+    top: 0;
+    opacity: 1;
+    animation: animate__backInDown 0.5s; /* Usando Animate.css */
+}
+
+.boton-eliminar i.fas {
+    color: inherit;
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+    transform: translateY(0); /* Posición inicial */
+}
+
+.boton-eliminar:hover i.fas {
+    transform: translateY(20px); /* Desplaza hacia abajo al pasar el ratón */
+    animation: none; /* Previene animaciones adicionales */
+}
+
+
 
 .titulo_nav {
     border-bottom: 2px solid #333;

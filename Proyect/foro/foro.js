@@ -154,7 +154,7 @@ $(document).ready(function () {
                                     '<i class="fa fa-arrow-up like-button" aria-hidden="true"></i><span class="likes-count">0</span>' +
                                     '<i class="fa fa-arrow-down dislike-button" aria-hidden="true"></i><span class="dislikes-count">0</span>' +
                                 '</div>' +
-                                '<button class="boton-eliminar"><i class="fas fa-trash"></i></button>' + // Botón de eliminar incluido aquí
+                                '<button class="boton-eliminar"> <span class="texto-eliminar animate__animated">Delete</span><i class="fas fa-trash animate__animated"></i></button>'
                             '</div>';
 
         // Añadir el nuevo post al principio de la sección principal
