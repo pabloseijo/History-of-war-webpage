@@ -130,10 +130,19 @@ $(document).ready(function () {
 
     $("#mostrarFormBtn").click(function() {
         var formVisible = $("#formContainer").is(":visible");
-        $("#formContainer").slideToggle();
+        $("#formContainer").slideToggle('fast', function() {
+            if (!formVisible) {
+                // Restablece el formulario solo si se está cerrando
+                $('#miForm')[0].reset();
+                // Restablece también el texto de archivo seleccionado
+                $('#file-chosen').text('Ningún archivo seleccionado');
+            }
+        });
+
         // Cambiar el ícono del botón dependiendo del estado del formulario
         $(this).html(formVisible ? '<i class="fas fa-plus"></i>' : '<i class="fas fa-minus"></i>');
     });
+
     // Manejo del envío del formulario para crear un nuevo post
     $('#miForm').submit(function (event) {
         event.preventDefault(); // Prevenir el comportamiento predeterminado
@@ -170,6 +179,12 @@ $(document).ready(function () {
     // Evento de clic para eliminar un post
     $(document).on('click', '.boton-eliminar', function() {
         $(this).closest('.post').remove(); // Elimina el post más cercano al botón clickeado
+    });
+
+     // Actualizar el texto al elegir un archivo
+     $('#myfile').change(function () {
+        var fileName = $(this).val().split('\\').pop(); // Obtiene el nombre del archivo
+        $('#file-chosen').text(fileName ? fileName : 'Ningún archivo seleccionado'); // Actualiza el texto
     });
 
 

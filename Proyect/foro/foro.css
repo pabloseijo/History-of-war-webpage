@@ -66,18 +66,15 @@ main {
 
 .post {
     width: 95%;
-    margin: 10px;
+    margin: 10px auto;
     margin-bottom: 30px;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border: 1px solid black;
     background-color: antiquewhite;
-    overflow: hidden;
-}
-
-.post {
     text-align: center;
 }
+
 
 .img_post {
     width: 90%;
@@ -200,6 +197,9 @@ input[type=submit]:hover {
     max-height: 90%;
 }
 
+/*------------------------------*/
+/* Botón para eliminar el post */
+/*------------------------------*/
 .boton-eliminar {
     background-color: #ff3333;
     color: white;
@@ -210,6 +210,7 @@ input[type=submit]:hover {
     float: right;
     position: relative;
     right: 10px;
+    bottom: 68px;
     width: 40px; /* Tamaño inicial como botón redondo */
     height: 40px; /* Igual alto y ancho para forma redonda */
     display: flex;
@@ -254,6 +255,8 @@ input[type=submit]:hover {
     animation: none; /* Previene animaciones adicionales */
 }
 
+/*------------------------------*/
+/*------------------------------*/
 
 
 .titulo_nav {
@@ -326,10 +329,15 @@ input[type=submit]:hover {
     /* Añade un margen de 0 a los lados y 15px arriba y abajo */
 }
 
+/*---------------------*/
+/* Botones de votación */
+/*---------------------*/
+
 .voting-buttons {
     display: flex;
     align-items: center;
     font-size: 1.4rem;
+    transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
 .like-button,
@@ -351,10 +359,12 @@ input[type=submit]:hover {
 
 .like-button:hover {
     color: #ff4500;
+    transform: translateY(-2px); 
 }
 
 .dislike-button:hover {
     color: #9494FF;
+    transform: translateY(2px); 
 }
 
 .likes-count,
@@ -362,45 +372,102 @@ input[type=submit]:hover {
     margin: 0 0.5rem;
 }
 
+/*-----------------------------------------------------*/
+/* Estilos para el botón de mostrar/ocultar formulario */
+/*-----------------------------------------------------*/
 #mostrarFormBtn {
     position: fixed;
     bottom: 20px;
     left: 20px;
     z-index: 1050;
     border: none;
-    background-color: var(--color-caramel); /* Ejemplo de color de fondo azul */
-    color: white; /* Color del ícono */
-    width: 50px; /* Ancho del botón */
-    height: 50px; /* Altura del botón */
-    border-radius: 50%; /* Hace el botón circular */
+    background-color: var(--color-caramel);
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 20px; /* Tamaño del ícono */
+    font-size: 20px;
     cursor: pointer;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Opcional: sombra para el botón */
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
 }
 
 #mostrarFormBtn:hover {
-    background-color: var(--color-chocolate); /* Color más oscuro al pasar el mouse */
+    background-color: var(--color-chocolate); /* Un azul ligeramente más oscuro para el hover */
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px); /* Elevación sutil al pasar el mouse */
 }
 
 #formContainer {
-    display: none; /* Empieza oculto hasta que se presione el botón */
+    display: none;
     position: fixed;
-    bottom: 0;
-    left: 48.5%; /* Centrado horizontalmente */
-    transform: translateX(-50%); /* Ajusta la posición para que quede centrado */
-    width: 80%; /* Ajusta esto según el ancho deseado, similar al de los posts */
-    max-width: 465px; /* Puedes ajustar esto para que coincida con el ancho máximo de tus posts */
-    background-color: var(--color-smoke);
-    padding: 5px;
-    box-shadow: 0 -4px 8px rgba(0,0,0,0.1);
+    bottom: 75px; /* Da un poco más de espacio del borde */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 465px; /* Límite para no estirarse demasiado en pantallas grandes */
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 20px; /* Bordes redondeados para un look más moderno */
     z-index: 1040;
 }
 
 
+.input-file {
+    display: none; /* Oculta el input real */
+}
 
+.file-upload-label {
+    display: inline-block;
+    background-color: var(--color-caramel); 
+    color: white;
+    padding: 8px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.file-upload-label:hover {
+    background-color: var(--color-chocolate); 
+    transform: translateY(-2px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#file-chosen {
+    margin-left: 10px;
+}
+
+#submit {
+    background-color: var(--color-hazelnut); 
+    color: white;
+    border: none;
+    border-radius: 5px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.2s ease, transform 0.2s ease; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    margin-top: 10px; 
+}
+
+#submit:hover {
+    background-color: var(--color-chocolate); 
+    transform: translateY(-2px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#submit:active {
+    background-color: var(--color-chocolate); 
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); 
+    transform: translateY(1px); 
+}
+
+
+/*-----------------------------------------------------*/
+/*-----------------------------------------------------*/
 
 @media screen and (max-width: 600px) {
     aside {
