@@ -118,5 +118,45 @@
     {
         "title": "libros edad contemporanea",
         "url": "../biblioteca/LibrosEC"
+    },
+    {
+        "title": "alejandro magno",
+        "url": "../AcontecimientosHistoricos/personajesEmblematicos/alejandroMagno.html"
+    },
+    {
+        "title": "blas de lezo",
+        "url": "../AcontecimientosHistoricos/personajesEmblematicos/blasLezo.html"
+    },
+    {
+        "title": "el cid",
+        "url": "../AcontecimientosHistoricos/personajesEmblematicos/cid.html"
+    },
+    {
+        "title": "francisco pizarro",
+        "url": "../AcontecimientosHistoricos/personajesEmblematicos/franciscoPizarro.html"
+    },
+    {
+        "title": "gengis khan",
+        "url": "../AcontecimientosHistoricos/personajesEmblematicos/gengisKhan.html"
+    },
+    {
+        "title": "el gran capitan",
+        "url": "../AcontecimientosHistoricos/personajesEmblematicos/granCapitan.html"
+    },
+    {
+        "title": "hernan cortes",
+        "url": "../AcontecimientosHistoricos/personajesEmblematicos/hernanCortes.html"
+    },
+    {
+        "title": "julio cesar",
+        "url": "../AcontecimientosHistoricos/personajesEmblematicos/julioCesar.html"
+    },
+    {
+        "title": "leonidas",
+        "url": "../AcontecimientosHistoricos/personajesEmblematicos/leonidas.html"
+    },
+    {
+        "title": "napoleon",
+        "url": "../AcontecimientosHistoricos/personajesEmblematicos/napoleon.html"
     }
 ]
