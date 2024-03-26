@@ -11,12 +11,17 @@ html {
 
 .principal {
     display: flex;
+    flex-direction: row; 
+    align-items: flex-start;
 }
 
 aside {
+    position: sticky;
+    top: 10px; /* O el espacio que quieras desde el top */
     width: 20%;
+    z-index: 10; 
+    height: auto; 
 }
-
 
 header {
     margin: 0px;
