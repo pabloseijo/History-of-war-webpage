@@ -1,14 +1,4 @@
 <posts>
-    <post id="post1">
-        <imagen src="../Images/batallaCannas.png"/>
-
-        <titulo>Batalla Cannas</titulo>
-        <autor>Catlover56</autor>
-        <pfp src="../Images/pfp_user1.jpg"/> 
-        <likes>123</likes>
-        <dislikes>10</dislikes>
-        <texto>La batalla de Cannas (o Cannæ) tuvo lugar el 2 de agosto del año 216 a. C. entre el ejército púnico, comandado por Aníbal Barca, y las tropas romanas, dirigidas por los cónsules Cayo Terencio Varrón y Lucio Emilio Paulo, en el marco de la segunda guerra púnica.</texto>
-    </post>
     <post id="post2">
         <imagen src="../Images/guerrasNapoleonicas.png"/>
         <titulo>Guerras Napoleonicas</titulo>
@@ -38,15 +28,6 @@
         <texto>La Revolución Industrial transformó completamente el tejido social y económico de las sociedades. Desde la invención de la locomotora de vapor hasta la creación de fábricas, este periodo redefinió el mundo.</texto>
     </post>
 
-    <post id="post5">
-        <imagen src="../Images/trenURRS.png"/>
-        <titulo>La industrialización de la URRS</titulo>
-        <autor>Iósif Stalin</autor>
-        <pfp src="../Images/pfp_stalin.png"/>
-        <likes>12300</likes>
-        <dislikes>97</dislikes>
-        <texto>La rápida indsutrialización de la recién creada Unión de Repúblicas Socialistas Soviéticas, se llevo a cabo en el plan quinquenal empezado en 1928.</texto>
-    </post>
 
     <post id="post6">
         <imagen src="../Images/invencionTelefono.png"/>
@@ -93,33 +74,10 @@
         <texto>La Revolución Francesa, con su lema "Libertad, Igualdad, Fraternidad", no solo cambió Francia, sino que influyó en el desarrollo de la democracia moderna. Este post explora cómo este evento radical alteró el curso de la historia.</texto>
     </post>
 
-    <post id="post12">
-        <imagen src="../Images/caidaRoma.png"/>
-        <titulo>El Ascenso y Caída del Imperio Romano</titulo>
-        <autor>Julio César</autor>
-        <pfp src="../Images/pfp_cesar.jpg"/>
-        <likes>8965</likes>
-        <dislikes>567</dislikes>
-        <texto>Roma no se construyó en un día, ni tampoco cayó repentinamente. Esta entrada detalla el ascenso de Roma desde una pequeña ciudad-estado hasta convertirse en uno de los imperios más poderosos de la historia, y cómo finalmente llegó a su fin.</texto>
-    </post>
 
-    <post id="post13">
-        <imagen src="../Images/carreraEspacial.jpg"/>
-        <titulo>La Carrera Espacial: Una Nueva Frontera</titulo>
-        <autor>Yuri Gagarin</autor>
-        <pfp src="../Images/pfp_gagarin.jpg"/>
-        <likes>9088</likes>
-        <dislikes>654</dislikes>
-        <texto>La exploración espacial ha capturado la imaginación de la humanidad como ninguna otra empresa. Desde el primer hombre en el espacio hasta el aterrizaje en la Luna, este post explora los hitos de nuestra búsqueda de las estrellas.</texto>
-    </post>
 
-    <post id="post14">
-        <imagen src="../Images/internet.png"/>
-        <titulo>La Creación de Internet y su Impacto en el Mundo</titulo>
-        <autor>Tim Berners-Lee</autor>
-        <pfp src="../Images/pfp_bernersLee.jpg"/>
-        <texto>La invención de Internet ha transformado todos los aspectos de la sociedad, desde la comunicación hasta el comercio. Descubre cómo comenzó todo y las maneras en que ha cambiado nuestro mundo.</texto>
-    </post>
+
+   
 
     <post id="post15">
         <imagen src="../Images/mayas.png"/>
