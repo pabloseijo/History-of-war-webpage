@@ -71,18 +71,19 @@ main {
 
 .post {
     width: 95%;
-    margin: 10px auto;
+    margin: 10px;
     margin-bottom: 30px;
+    padding: 10px; 
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border: 1px solid black;
     background-color: antiquewhite;
-    text-align: left;
+    text-align: justify;
 }
 
 
 .img_post {
-    width: 90%;
+    width: 95%;
     height: auto;
     object-fit: contain;
     border-radius: 15px;
@@ -99,6 +100,10 @@ main {
     position: relative;
     float: left;
     left: 12px;
+}
+
+.texto{
+    font-size: 1.2em;
 }
 
 .info {
