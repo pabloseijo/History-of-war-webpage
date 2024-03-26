@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.17)  26 MAR 2024 18:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.17)  26 MAR 2024 21:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -619,6 +619,9 @@ LaTeX Warning: Label `fig:imagenes_conjuntas' multiply defined.
 
 LaTeX Warning: Label `fig:imagenes_conjuntas' multiply defined.
 
+
+LaTeX Warning: Label `fig:imagenes_conjuntas' multiply defined.
+
 )
 \openout1 = `Informe1.aux'.
 
@@ -1068,9 +1071,67 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.25}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.338 \end{document}
-                     <./htmlFotos/AH.jpg> <./htmlFotos/prototipoAH.jpg> <./html
-Fotos/MEAH.jpg>] (./Informe1.aux)
+l.340 
+       <./htmlFotos/AH.jpg> <./htmlFotos/prototipoAH.jpg> <./htmlFotos/MEAH.jpg
+>]
+<htmlFotos/libros.jpg, id=254, 1883.035pt x 1658.195pt>
+File: htmlFotos/libros.jpg Graphic file (type jpg)
+<use htmlFotos/libros.jpg>
+Package pdftex.def Info: htmlFotos/libros.jpg  used on input line 345.
+(pdftex.def)             Requested size: 230.18253pt x 202.6942pt.
+<htmlFotos/prototipoLibros.jpg, id=255, 1872.9975pt x 1644.1425pt>
+File: htmlFotos/prototipoLibros.jpg Graphic file (type jpg)
+<use htmlFotos/prototipoLibros.jpg>
+Package pdftex.def Info: htmlFotos/prototipoLibros.jpg  used on input line 349.
+
+(pdftex.def)             Requested size: 230.18253pt x 202.05522pt.
+<htmlFotos/MElibros.jpg, id=256, 1120.185pt x 1792.6975pt>
+File: htmlFotos/MElibros.jpg Graphic file (type jpg)
+<use htmlFotos/MElibros.jpg>
+Package pdftex.def Info: htmlFotos/MElibros.jpg  used on input line 356.
+(pdftex.def)             Requested size: 203.2142pt x 325.21558pt.
+<htmlFotos/foro.jpg, id=257, 1862.96pt x 2117.9125pt>
+File: htmlFotos/foro.jpg Graphic file (type jpg)
+<use htmlFotos/foro.jpg>
+Package pdftex.def Info: htmlFotos/foro.jpg  used on input line 370.
+(pdftex.def)             Requested size: 230.18253pt x 261.66832pt.
+<htmlFotos/prototipoForo.jpg, id=258, 1858.945pt x 2107.875pt>
+File: htmlFotos/prototipoForo.jpg Graphic file (type jpg)
+<use htmlFotos/prototipoForo.jpg>
+Package pdftex.def Info: htmlFotos/prototipoForo.jpg  used on input line 376.
+(pdftex.def)             Requested size: 230.18253pt x 260.97498pt.
+ [27
+pdfTeX warning (ext4): destination with the same identifier (name{figure.26}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.380 \end{figure}
+                   <./htmlFotos/libros.jpg> <./htmlFotos/prototipoLibros.jpg> <
+./htmlFotos/MElibros.jpg>]
+<htmlFotos/MEforo.jpg, id=265, 851.18pt x 1820.8025pt>
+File: htmlFotos/MEforo.jpg Graphic file (type jpg)
+<use htmlFotos/MEforo.jpg>
+Package pdftex.def Info: htmlFotos/MEforo.jpg  used on input line 388.
+(pdftex.def)             Requested size: 243.25119pt x 520.35106pt.
+ [28
+pdfTeX warning (ext4): destination with the same identifier (name{figure.27}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.392 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.28}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.392 
+       <./htmlFotos/foro.jpg> <./htmlFotos/prototipoForo.jpg>] [29
+pdfTeX warning (ext4): destination with the same identifier (name{figure.29}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.394 \end{document}
+                     <./htmlFotos/MEforo.jpg>] (./Informe1.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1078,23 +1139,23 @@ Package rerunfilecheck Info: File `Informe1.out' has not changed.
 (rerunfilecheck)             Checksum: 7A82E198230F01E2D5CC773A9050FBA5;1939.
  ) 
 Here is how much of TeX's memory you used:
- 19491 strings out of 477476
- 374767 string characters out of 5824243
+ 19545 strings out of 477476
+ 375987 string characters out of 5824243
  1858388 words of memory out of 5000000
- 39326 multiletter control sequences out of 15000+600000
+ 39365 multiletter control sequences out of 15000+600000
  516889 words of font info for 47 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 84i,8n,89p,757b,432s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,8n,89p,757b,457s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
 0.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mbx12.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr10.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmr12.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmti12.pfb>
-Output written on Informe1.pdf (26 pages, 16083435 bytes).
+Output written on Informe1.pdf (29 pages, 18913134 bytes).
 PDF statistics:
- 295 PDF objects out of 1000 (max. 8388607)
- 217 compressed objects within 3 object streams
- 69 named destinations out of 1000 (max. 500000)
- 272 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 321 PDF objects out of 1000 (max. 8388607)
+ 234 compressed objects within 3 object streams
+ 78 named destinations out of 1000 (max. 500000)
+ 302 words of extra memory for PDF output out of 10000 (max. 10000000)
 
