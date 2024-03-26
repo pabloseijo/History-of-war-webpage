@@ -493,6 +493,25 @@ input[type=submit]:hover {
     display: inline-block; 
 }
 
+.autor:hover {
+    color: var(--color-hazelnut); 
+}
+
+/* Subrayado al pasar el mouse */
+.autor::after {
+    content: "";
+    position: absolute; 
+    left: 0;
+    bottom: 25px; 
+    height: 3px; 
+    width: 0%; 
+    background-color: var(--color-hazelnut);
+    transition: width 0.3s ease-in-out; 
+}
+
+.autor:hover::after {
+    width: 100%; 
+}
 
 
 /*-----------------------------------------------------*/
