@@ -11,3 +11,4 @@
 \contentsline {section}{\numberline {8}Estructura de Ficheros y Carpetas}{22}{section.8}%
 \contentsline {section}{\numberline {9}HTML}{24}{section.9}%
 \contentsline {subsection}{\numberline {9.1}Mapa de etiquetas}{24}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Estructura de ficheros actualizada}{30}{subsection.9.2}%
