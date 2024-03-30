@@ -1,20 +1,24 @@
-\contentsline {section}{\numberline {1}History of War: Un camino por la historia}{2}{section.1}%
-\contentsline {section}{\numberline {2}Inventario de Contenido}{3}{section.2}%
-\contentsline {section}{\numberline {3}Arquitectura de la Información}{4}{section.3}%
-\contentsline {section}{\numberline {4}Casos de Uso Típicos}{5}{section.4}%
-\contentsline {section}{\numberline {5}Mapa de Navegación}{7}{section.5}%
-\contentsline {section}{\numberline {6}Interfaces}{8}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Manual (Boceto Manual)}{8}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Wireframes}{9}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Mockups}{13}{subsection.6.3}%
-\contentsline {section}{\numberline {7}Storyboards}{19}{section.7}%
-\contentsline {section}{\numberline {8}Estructura de Ficheros y Carpetas}{22}{section.8}%
-\contentsline {section}{\numberline {9}HTML}{24}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Mapa de etiquetas}{24}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Estructura de ficheros actualizada}{30}{subsection.9.2}%
-\contentsline {section}{\numberline {10}CSS}{31}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Flexible Grids}{31}{subsection.10.1}%
-\contentsline {subsection}{\numberline {10.2}CSS Multicol}{31}{subsection.10.2}%
-\contentsline {subsection}{\numberline {10.3}Flex Container}{32}{subsection.10.3}%
-\contentsline {subsection}{\numberline {10.4}CSS Grid}{33}{subsection.10.4}%
-\contentsline {subsection}{\numberline {10.5}Bootstrap}{34}{subsection.10.5}%
+\contentsline {section}{\numberline {1}History of War: Un camino por la historia}{3}{section.1}%
+\contentsline {section}{\numberline {2}Inventario de Contenido}{4}{section.2}%
+\contentsline {section}{\numberline {3}Arquitectura de la Información}{5}{section.3}%
+\contentsline {section}{\numberline {4}Casos de Uso Típicos}{6}{section.4}%
+\contentsline {section}{\numberline {5}Mapa de Navegación}{8}{section.5}%
+\contentsline {section}{\numberline {6}Interfaces}{9}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Manual (Boceto Manual)}{9}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Wireframes}{10}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Mockups}{14}{subsection.6.3}%
+\contentsline {section}{\numberline {7}Storyboards}{20}{section.7}%
+\contentsline {section}{\numberline {8}Estructura de Ficheros y Carpetas}{23}{section.8}%
+\contentsline {section}{\numberline {9}HTML}{25}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Mapa de etiquetas}{25}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Estructura de ficheros actualizada}{34}{subsection.9.2}%
+\contentsline {section}{\numberline {10}CSS}{35}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Flexible Grids}{35}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}CSS Multicol}{36}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Flex Container}{37}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}CSS Grid}{38}{subsection.10.4}%
+\contentsline {subsection}{\numberline {10.5}Bootstrap}{39}{subsection.10.5}%
+\contentsline {section}{\numberline {11}JavaScript}{41}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Funcionalidades}{41}{subsection.11.1}%
+\contentsline {subsubsection}{\numberline {11.1.1}Header}{41}{subsubsection.11.1.1}%
+\contentsline {subsubsection}{\numberline {11.1.2}Mapa}{43}{subsubsection.11.1.2}%

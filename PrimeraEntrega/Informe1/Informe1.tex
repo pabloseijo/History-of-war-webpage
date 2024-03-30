@@ -6,10 +6,70 @@
 \usepackage{float} % Carga el paquete float
 \usepackage{tikz}
 \usepackage[margin=1in]{geometry}
+\usepackage{listings} % Añade esto a tu preámbulo
+\usepackage{xcolor} % Para colores
 
+\setlength{\parskip}{1em} % Cambia 1em por el valor que prefieras
+
+% Definición de colores estilo neón sobre fondo oscuro
+\definecolor{backgroundcolor}{rgb}{0.1, 0.1, 0.1} % Fondo oscuro
+\definecolor{commentcolor}{rgb}{0.5, 0.8, 0.5} % Comentarios en verde neón
+\definecolor{keywordcolor}{rgb}{0.6, 0.6, 1.0} % Palabras clave en azul neón
+\definecolor{stringcolor}{rgb}{0.9, 0.6, 0.2} % Cadenas en naranja neón
+\definecolor{codecolor}{rgb}{0.7, 0.7, 0.7} % Código en gris claro
+
+\lstdefinestyle{neonstyle}{
+    backgroundcolor=\color{backgroundcolor},
+    commentstyle=\color{commentcolor},
+    keywordstyle=\color{keywordcolor},
+    stringstyle=\color{stringcolor},
+    basicstyle=\ttfamily\small\color{codecolor},
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    numbers=left,
+    numbersep=5pt,
+    numberstyle=\color{black}, % Números de línea en negro
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=2,
+    language=JavaScript
+}
+
+\lstset{style=neonstyle}
+
+% Si quieres personalizar aún más, puedes definir el lenguaje JavaScript
+\lstdefinelanguage{JavaScript}{
+  keywords={break, case, catch, continue, debugger, default, delete, do, else,
+    finally, for, function, if, in, instanceof, new, return, switch, this,
+    throw, try, typeof, var, void, while, with},
+  morecomment=[l]{//},
+  morecomment=[s]{/*}{*/},
+  morestring=[b]",
+  morestring=[b]'
+}
 
 \usetikzlibrary{positioning}
 \usepackage[left=0.6in, right=0.6in]{geometry}
+
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % Limpia el encabezado y pie de página actuales
+
+% Configura el encabezado
+\fancyhead[L]{History of War} % Lado izquierdo
+\fancyhead[C]{Pablo Seijo y David Carpintero} % Centro
+\fancyhead[R]{\thepage} % Lado derecho
+
+% Configura el pie de página
+\fancyfoot[L]{USC} % Lado izquierdo
+\fancyfoot[C]{Desarrollo de Aplicaciones Web} % Centro
+
+\renewcommand{\headrulewidth}{0.4pt} % Línea decorativa debajo del encabezado
+\renewcommand{\footrulewidth}{0pt} % Sin línea en el pie de página
 
 \title{\textit{History of War}}
 \author{Carpintero Díaz David, Seijo García Pablo}
@@ -436,19 +496,18 @@ Durante esta fase del desarrollo, incluimos en nuestra página web hojas de esti
 
 \begin{figure}[H]
     \centering
-    % Primera imagen (izquierda)
-    \begin{minipage}{0.49\textwidth}
-        \includegraphics[width=\linewidth]{cssFotos/multicol.jpg}
-        \caption{Interfaz de LibrosEM.html}
-        \label{fig:foro_interface}
-    \end{minipage}\hfill
-    % Segunda imagen (derecha)
-    \begin{minipage}{0.49\textwidth}
-        \includegraphics[width=\linewidth]{cssFotos/multicolEsquema.jpg}
-        \caption{Prototipo de interfaz de LibrosEM.html}
-        \label{fig:prototipo_foro}
-    \end{minipage}
+    \includegraphics[width=1\textwidth]{cssFotos/multicol.jpg}
+    \caption{Interfaz de LibrosEM.html}
+    \label{fig:foro_interface}
 \end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{cssFotos/multicolEsquema.jpg}
+    \caption{Prototipo de interfaz de LibrosEM.html}
+    \label{fig:prototipo_foro}
+\end{figure}
+
 
 \newpage
 
@@ -499,5 +558,188 @@ Durante esta fase del desarrollo, incluimos en nuestra página web hojas de esti
     \caption{Prototipo de interfaz de AH.html}
     \label{fig:prototipo_foro}
 \end{figure}
+
+También podremos ver como se ha aplicado esta librería en la página de LibrosEA.html.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{cssFotos/LibrosEA.jpg}
+    \caption{Interfaz de LibrosEA.html}
+    \label{fig:foro_interface}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{cssFotos/LibrosEAEsquema.jpg}
+    \caption{Prototipo de interfaz de LibrosEA.html}
+    \label{fig:prototipo_foro}
+\end{figure}
+
+\newpage
+
+\section{JavaScript}
+
+En esta sección se presentan las funcionalidades de JavaScript implementadas en nuestra página web. Estas funciones permiten una interacción dinámica y enriquecedora con el contenido, mejorando la experiencia del usuario y facilitando la navegación a través de las distintas secciones del sitio.
+
+\subsection{Funcionalidades}
+
+En primer lugar mostraremos las funcionalidades de la aplicación, con sus correspondientes efectos en ella mediante capturas de pantalla.
+
+\subsubsection{Header}
+
+En primer lugar, cabe destacar el header, que se encuentra en todas las páginas de la web. En el header incorporamos una funcionalidad tal que, cuando la página web pasa uno de los puntos de ruptura (768 px), el menú de navegación se convierte en un menú desplegable, que se puede abrir y cerrar pulsando el botón de menú.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{jsFotos/headerJS.jpg}
+    \caption{Menú normal}
+    \label{fig:foro_interface}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{jsFotos/headerJSFnct.jpg}
+    \caption{Menú desplegable}
+    \label{fig:foro_interface}
+\end{figure}
+
+\newpage
+
+Para ello, hemos utilizado el siguiente código JavaScript:
+
+\begin{lstlisting}[language=JavaScript, caption=Código de Header.js]
+    /**
+    * Función para mostrar y ocultar el menú de navegación en dispositivos móviles
+    */
+
+    function myFunction() {
+        var x = document.getElementsByClassName("header-list")[0];
+        if (window.innerWidth < 768) {
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    }
+
+    // Evento para manejar el cambio de tamaño de la ventana
+    window.addEventListener('resize', function() {
+        var x = document.getElementsByClassName("header-list")[0];
+        if (window.innerWidth >= 768) {
+            // Elimina el estilo en línea para permitir que los estilos CSS se apliquen
+            x.style.display = "";
+        }
+    });
+\end{lstlisting}
+
+Por una parte, La función \textbf{myFunction()}:
+\begin{itemize}
+    \item Obtiene el primer elemento del documento con la clase header-list.
+    \item Si el ancho de la ventana es menor a 768 píxeles (lo que sugiere que está en un dispositivo móvil):
+    \begin{itemize}
+        \item Si el elemento está visible (display establecido en "block"), lo oculta cambiando su display a "none".
+        \item Si el elemento está oculto (display no está en "block"), lo muestra cambiando su display a "block"
+    \end{itemize}
+\end{itemize}
+
+Por otra parte, el evento \textbf{resize}:
+
+\begin{itemize}
+    \item Se añade un controlador de eventos que escucha por el evento resize en la ventana, lo que ocurre cuando se cambia el tamaño de la ventana del navegador.
+    \item Cada vez que se cambia el tamaño de la ventana, se obtiene nuevamente el primer elemento con la clase header-list.
+    \item Si el ancho de la ventana es igual o superior a 768 píxeles:
+    \begin{itemize}
+        \item Se elimina el estilo en línea del elemento, permitiendo que los estilos CSS previamente definidos en una hoja de estilo se apliquen de nuevo.
+    \end{itemize}
+\end{itemize}
+
+En estas dos partes del código, podemos observar que ser utilizan dos métodos de acceso al DOM, como son \textbf{getElementsByClassName()} y \textbf{addEventListener()}, y por otra parte un evento de JavaScript, como es \textbf{resize}.
+
+\newpage
+
+\subsubsection{Mapa}
+
+El mapa es una de las partes más destacadas a nivel de funcionalidad de nuestra página web, en donde ofrecemos una experiencia mejorada al usuario, permitiendole acceder a las batallas que describimos en nuestra página web con un simple click en los iconos (situados en las coordenadas de las batallas). Todo esto pudimos implementarlo gracias a la librería de JavaScript Leaflet.
+
+Otra cuestión destacada es el evento mouseover que implementamos, el cual muestra un 'pop-up' con el nombre de la batalla con la que se está interactuando.
+
+\begin{figure}[H]
+    \centering
+    % Primera imagen (izquierda)
+    \begin{minipage}{0.49\textwidth}
+        \includegraphics[width=\linewidth]{jsFotos/mapaJS.jpg}
+        \caption{Mapa de batallas}
+        \label{fig:foro_interface}
+    \end{minipage}\hfill
+    % Segunda imagen (derecha)
+    \begin{minipage}{0.49\textwidth}
+        \includegraphics[width=\linewidth]{jsFotos/mapaMouseOver.jpg}
+        \caption{Evento mouseover}
+        \label{fig:prototipo_foro}
+    \end{minipage}
+\end{figure}
+
+
+\newpage
+
+Para ello, hemos utilizado el siguiente código JavaScript:
+
+\begin{lstlisting}[language=JavaScript, caption=Código para cargar el mapa]
+    // Agregar tileLayer mapa base de CartoDB estilo Positron (estilo minimalista)
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+        subdomains: 'abcd',
+        maxZoom: 19
+    }).addTo(map);
+\end{lstlisting}
+
+En este fragmento de código, se añade un mapa base de CartoDB estilo Positron (un estilo minimalista) al mapa. Se utiliza la función \textbf{L.tileLayer()} de la librería Leaflet para cargar el mapa base, especificando la URL del mapa base y sus atributos, como la atribución y el zoom máximo.
+
+\begin{lstlisting}[language=JavaScript, caption=Código para añadir los marcadores al mapa]
+    // Marcador de la Batalla de Covadonga
+    L.marker([43.312085, -5.058803], {icon: swordIcon}).addTo(map)
+        .bindPopup('<h2>Batalla de Covadonga</h2>')
+        .on('mouseover', function(e) {
+            this.openPopup();
+        })
+        .on('mouseout', function(e) {
+            this.closePopup();
+        })
+        .on('click', function(e) {
+            window.location.href = "../AcontecimientosHistoricos/Batallas/batallaCovadonga.html";
+        });
+\end{lstlisting}
+
+En este fragmento, se muestra un ejemplo de como es un evento de los que hay en el mapa. En este caso, se añade un marcador en las coordenadas de la Batalla de Covadonga, se le añade un pop-up con el nombre de la batalla, y se añaden eventos para que, al pasar el ratón por encima del marcador, se muestre el pop-up, y al hacer click en el marcador, se redirija a la página de la batalla.
+
+Otra funcionalidad clave del mapa es la que nos permite ir a la batalla desde una lista de batallas, que se encuentra en la parte superior de la página. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{jsFotos/mapaLista.jpg}
+    \caption{Lista de batallas}
+    \label{fig:foro_interface}
+\end{figure}
+
+Y lo hemos implementado con el siguiente código JavaScript:
+
+\begin{lstlisting}[language=JavaScript, caption=Código para ir a la batalla desde la lista]
+    //-------------------- Barra de Navegación --------------------
+    // Agregar barra de navegación que nos permitira movernos por el mapa
+    document.getElementById('select-location').addEventListener('change', function(e) {
+        let coords = e.target.value.split(",");
+        map.flyTo(coords, 10);
+    });
+\end{lstlisting}
+
+\vspace{5mm}
+En estas funciones podemos ver que utilizamos métodos de la librería Leaflet, como \textbf{L.marker()}, \textbf{.bindPopup()}, \textbf{.on()}, y \textbf{.addTo()}, así como eventos de JavaScript, como \textbf{mouseover}, \textbf{mouseout}, y \textbf{click}. Podemos destacar un método de acceso al DOM, como es \textbf{getElementById()}.
+
+\newpage
+
+\subsubsection{Buscador}
+
+
 
 \end{document}
