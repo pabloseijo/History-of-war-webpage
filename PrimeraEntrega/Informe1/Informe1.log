@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.17)  30 MAR 2024 22:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.17)  30 MAR 2024 22:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -687,9 +687,6 @@ LaTeX Warning: Label `fig:imagenes_conjuntas' multiply defined.
 LaTeX Warning: Label `fig:imagenes_conjuntas' multiply defined.
 
 
-LaTeX Warning: Label `fig:imagenes_conjuntas' multiply defined.
-
-
 LaTeX Warning: Label `fig:mapa_etiquetas_foro' multiply defined.
 
 
@@ -847,7 +844,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \openout5 = `informe1.toc'.
 
  [2] [3]
-<Esquemas/InventarioContenido.png, id=146, 833.1125pt x 642.4pt>
+<Esquemas/InventarioContenido.png, id=151, 833.1125pt x 642.4pt>
 File: Esquemas/InventarioContenido.png Graphic file (type png)
 <use Esquemas/InventarioContenido.png>
 Package pdftex.def Info: Esquemas/InventarioContenido.png  used on input line 1
@@ -860,7 +857,7 @@ s been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.108 \newpage
                <./Esquemas/InventarioContenido.png>]
-<Esquemas/Arquitectura de Informacion.jpg, id=154, 2419.0375pt x 1308.89pt>
+<Esquemas/Arquitectura de Informacion.jpg, id=159, 2419.0375pt x 1308.89pt>
 File: Esquemas/Arquitectura de Informacion.jpg Graphic file (type jpg)
 <use Esquemas/Arquitectura de Informacion.jpg>
 Package pdftex.def Info: Esquemas/Arquitectura de Informacion.jpg  used on inpu
@@ -873,13 +870,13 @@ s been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.127 \newpage
                <./Esquemas/Arquitectura de Informacion.jpg>]
-<Esquemas/CasosDeUsoSegmentado(1).jpg, id=160, 3169.8425pt x 1343.0175pt>
+<Esquemas/CasosDeUsoSegmentado(1).jpg, id=165, 3169.8425pt x 1343.0175pt>
 File: Esquemas/CasosDeUsoSegmentado(1).jpg Graphic file (type jpg)
 <use Esquemas/CasosDeUsoSegmentado(1).jpg>
 Package pdftex.def Info: Esquemas/CasosDeUsoSegmentado(1).jpg  used on input li
 ne 137.
 (pdftex.def)             Requested size: 469.75502pt x 199.02579pt.
-<Esquemas/CasosDeUsoSegamentado(2).jpg, id=161, 2748.2675pt x 1764.5925pt>
+<Esquemas/CasosDeUsoSegamentado(2).jpg, id=166, 2748.2675pt x 1764.5925pt>
 File: Esquemas/CasosDeUsoSegamentado(2).jpg Graphic file (type jpg)
 <use Esquemas/CasosDeUsoSegamentado(2).jpg>
 Package pdftex.def Info: Esquemas/CasosDeUsoSegamentado(2).jpg  used on input l
@@ -898,7 +895,7 @@ s been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.149 \newpage
                <./Esquemas/CasosDeUsoSegamentado(2).jpg>]
-<Esquemas/MapawebFinal.png, id=174, 1304.875pt x 923.45pt>
+<Esquemas/MapawebFinal.png, id=179, 1304.875pt x 923.45pt>
 File: Esquemas/MapawebFinal.png Graphic file (type png)
 <use Esquemas/MapawebFinal.png>
 Package pdftex.def Info: Esquemas/MapawebFinal.png  used on input line 157.
@@ -910,7 +907,7 @@ s been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.162 \newpage
                <./Esquemas/MapawebFinal.png>]
-<Esquemas/Sketch.PNG, id=181, 1309.89375pt x 1388.18625pt>
+<Esquemas/Sketch.PNG, id=186, 1309.89375pt x 1388.18625pt>
 File: Esquemas/Sketch.PNG Graphic file (type png)
 <use Esquemas/Sketch.PNG>
 Package pdftex.def Info: Esquemas/Sketch.PNG  used on input line 172.
@@ -922,13 +919,13 @@ s been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.177 \newpage
                <./Esquemas/Sketch.PNG>]
-<Wireframes/PaginaPrincipal.jpg, id=187, 2567.5925pt x 1612.0225pt>
+<Wireframes/PaginaPrincipal.jpg, id=192, 2567.5925pt x 1612.0225pt>
 File: Wireframes/PaginaPrincipal.jpg Graphic file (type jpg)
 <use Wireframes/PaginaPrincipal.jpg>
 Package pdftex.def Info: Wireframes/PaginaPrincipal.jpg  used on input line 185
 .
 (pdftex.def)             Requested size: 469.75502pt x 294.92343pt.
-<Wireframes/Mapa.jpg, id=188, 2567.5925pt x 1606.0pt>
+<Wireframes/Mapa.jpg, id=193, 2567.5925pt x 1606.0pt>
 File: Wireframes/Mapa.jpg Graphic file (type jpg)
 <use Wireframes/Mapa.jpg>
 Package pdftex.def Info: Wireframes/Mapa.jpg  used on input line 192.
@@ -940,7 +937,7 @@ s been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.196 
        <./Wireframes/PaginaPrincipal.jpg>]
-<Wireframes/EjemploBatalla.jpg, id=194, 2565.585pt x 1606.0pt>
+<Wireframes/EjemploBatalla.jpg, id=199, 2565.585pt x 1606.0pt>
 File: Wireframes/EjemploBatalla.jpg Graphic file (type jpg)
 <use Wireframes/EjemploBatalla.jpg>
 Package pdftex.def Info: Wireframes/EjemploBatalla.jpg  used on input line 199.
@@ -953,7 +950,7 @@ s been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.203 
        <./Wireframes/Mapa.jpg>]
-<Wireframes/Batallas.jpg, id=200, 2573.615pt x 1608.0075pt>
+<Wireframes/Batallas.jpg, id=205, 2573.615pt x 1608.0075pt>
 File: Wireframes/Batallas.jpg Graphic file (type jpg)
 <use Wireframes/Batallas.jpg>
 Package pdftex.def Info: Wireframes/Batallas.jpg  used on input line 206.
@@ -965,7 +962,7 @@ s been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.210 
        <./Wireframes/EjemploBatalla.jpg>]
-<Wireframes/AH.jpg, id=206, 2569.6pt x 1608.0075pt>
+<Wireframes/AH.jpg, id=211, 2569.6pt x 1608.0075pt>
 File: Wireframes/AH.jpg Graphic file (type jpg)
 <use Wireframes/AH.jpg>
 Package pdftex.def Info: Wireframes/AH.jpg  used on input line 213.
@@ -977,7 +974,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.217 
        <./Wireframes/Batallas.jpg>]
-<Mockup/PaginaPrincipal (1).jpg, id=213, 2386.9175pt x 1489.565pt>
+<Mockup/PaginaPrincipal (1).jpg, id=218, 2386.9175pt x 1489.565pt>
 File: Mockup/PaginaPrincipal (1).jpg Graphic file (type jpg)
 <use Mockup/PaginaPrincipal (1).jpg>
 Package pdftex.def Info: Mockup/PaginaPrincipal (1).jpg  used on input line 224
@@ -990,7 +987,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.228 
        <./Wireframes/AH.jpg>]
-<Mockup/MapaMockup.jpg, id=219, 2388.925pt x 1491.5725pt>
+<Mockup/MapaMockup.jpg, id=224, 2388.925pt x 1491.5725pt>
 File: Mockup/MapaMockup.jpg Graphic file (type jpg)
 <use Mockup/MapaMockup.jpg>
 Package pdftex.def Info: Mockup/MapaMockup.jpg  used on input line 231.
@@ -1002,7 +999,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.235 
        <./Mockup/PaginaPrincipal (1).jpg>]
-<Mockup/EjemploBatallaMockup.jpg, id=225, 2380.895pt x 1481.535pt>
+<Mockup/EjemploBatallaMockup.jpg, id=230, 2380.895pt x 1481.535pt>
 File: Mockup/EjemploBatallaMockup.jpg Graphic file (type jpg)
 <use Mockup/EjemploBatallaMockup.jpg>
 Package pdftex.def Info: Mockup/EjemploBatallaMockup.jpg  used on input line 23
@@ -1015,7 +1012,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.242 
        <./Mockup/MapaMockup.jpg>]
-<Mockup/BatallasMockup.jpg, id=231, 1591.9475pt x 1001.7425pt>
+<Mockup/BatallasMockup.jpg, id=236, 1591.9475pt x 1001.7425pt>
 File: Mockup/BatallasMockup.jpg Graphic file (type jpg)
 <use Mockup/BatallasMockup.jpg>
 Package pdftex.def Info: Mockup/BatallasMockup.jpg  used on input line 245.
@@ -1027,7 +1024,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.249 
        <./Mockup/EjemploBatallaMockup.jpg>]
-<Mockup/AHMockup.jpg, id=237, 2382.9025pt x 1489.565pt>
+<Mockup/AHMockup.jpg, id=242, 2382.9025pt x 1489.565pt>
 File: Mockup/AHMockup.jpg Graphic file (type jpg)
 <use Mockup/AHMockup.jpg>
 Package pdftex.def Info: Mockup/AHMockup.jpg  used on input line 252.
@@ -1045,21 +1042,21 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.257 \newpage
                <./Mockup/AHMockup.jpg>]
-<Storyboards/StoryBoard_seleccion_batalla.png, id=249, 1750.54pt x 665.48625pt>
+<Storyboards/StoryBoard_seleccion_batalla.png, id=254, 1750.54pt x 665.48625pt>
 
 File: Storyboards/StoryBoard_seleccion_batalla.png Graphic file (type png)
 <use Storyboards/StoryBoard_seleccion_batalla.png>
 Package pdftex.def Info: Storyboards/StoryBoard_seleccion_batalla.png  used on 
 input line 265.
 (pdftex.def)             Requested size: 469.75502pt x 178.57684pt.
-<Storyboards/StoryBoard_seleccion_libro.png, id=250, 837.42862pt x 239.39438pt>
+<Storyboards/StoryBoard_seleccion_libro.png, id=255, 837.42862pt x 239.39438pt>
 
 File: Storyboards/StoryBoard_seleccion_libro.png Graphic file (type png)
 <use Storyboards/StoryBoard_seleccion_libro.png>
 Package pdftex.def Info: Storyboards/StoryBoard_seleccion_libro.png  used on in
 put line 272.
 (pdftex.def)             Requested size: 469.75502pt x 134.29005pt.
-<Storyboards/StoryBoard_seleccion_guerra.png, id=251, 842.84888pt x 343.2825pt>
+<Storyboards/StoryBoard_seleccion_guerra.png, id=256, 842.84888pt x 343.2825pt>
 
 File: Storyboards/StoryBoard_seleccion_guerra.png Graphic file (type png)
 <use Storyboards/StoryBoard_seleccion_guerra.png>
@@ -1080,13 +1077,13 @@ as been already used, duplicate ignored
 l.283 
        <./Storyboards/StoryBoard_seleccion_batalla.png> <./Storyboards/StoryBoa
 rd_seleccion_libro.png>]
-<Storyboards/StoryboardPersonaje.jpg, id=260, 1567.8575pt x 574.145pt>
+<Storyboards/StoryboardPersonaje.jpg, id=265, 1567.8575pt x 574.145pt>
 File: Storyboards/StoryboardPersonaje.jpg Graphic file (type jpg)
 <use Storyboards/StoryboardPersonaje.jpg>
 Package pdftex.def Info: Storyboards/StoryboardPersonaje.jpg  used on input lin
 e 286.
 (pdftex.def)             Requested size: 469.75502pt x 172.01704pt.
-<Storyboards/StroryBoardInicioSesion.jpg, id=261, 1599.9775pt x 943.525pt>
+<Storyboards/StroryBoardInicioSesion.jpg, id=266, 1599.9775pt x 943.525pt>
 File: Storyboards/StroryBoardInicioSesion.jpg Graphic file (type jpg)
 <use Storyboards/StroryBoardInicioSesion.jpg>
 Package pdftex.def Info: Storyboards/StroryBoardInicioSesion.jpg  used on input
@@ -1112,7 +1109,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.298 \newpage
                <./Storyboards/StroryBoardInicioSesion.jpg>]
-<Esquemas/EstructuraDeFicheros.jpg, id=274, 1447.4075pt x 1612.0225pt>
+<Esquemas/EstructuraDeFicheros.jpg, id=279, 1447.4075pt x 1612.0225pt>
 File: Esquemas/EstructuraDeFicheros.jpg Graphic file (type jpg)
 <use Esquemas/EstructuraDeFicheros.jpg>
 Package pdftex.def Info: Esquemas/EstructuraDeFicheros.jpg  used on input line 
@@ -1125,319 +1122,340 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.312 
        <./Esquemas/EstructuraDeFicheros.jpg>] [24]
-<htmlFotos/pagPrincipal.png, id=284, 1895.08pt x 2150.0325pt>
+<htmlFotos/pagPrincipal.png, id=289, 1895.08pt x 2150.0325pt>
 File: htmlFotos/pagPrincipal.png Graphic file (type png)
 <use htmlFotos/pagPrincipal.png>
 Package pdftex.def Info: htmlFotos/pagPrincipal.png  used on input line 329.
 (pdftex.def)             Requested size: 230.18253pt x 261.14223pt.
-<htmlFotos/prototipoPagPrincipal.png, id=285, 945.5325pt x 1073.00874pt>
+<htmlFotos/prototipoPagPrincipal.png, id=290, 945.5325pt x 1073.00874pt>
 File: htmlFotos/prototipoPagPrincipal.png Graphic file (type png)
 <use htmlFotos/prototipoPagPrincipal.png>
 Package pdftex.def Info: htmlFotos/prototipoPagPrincipal.png  used on input lin
-e 333.
+e 334.
 (pdftex.def)             Requested size: 230.18253pt x 261.21123pt.
-<htmlFotos/MEindex.png, id=286, 859.21pt x 1272.755pt>
+<htmlFotos/MEindex.png, id=291, 859.21pt x 1272.755pt>
 File: htmlFotos/MEindex.png Graphic file (type png)
 <use htmlFotos/MEindex.png>
-Package pdftex.def Info: htmlFotos/MEindex.png  used on input line 340.
-(pdftex.def)             Requested size: 131.7209pt x 195.1193pt.
- [25] [26
+Package pdftex.def Info: htmlFotos/MEindex.png  used on input line 344.
+(pdftex.def)             Requested size: 439.08282pt x 650.41708pt.
+ [25
 pdfTeX warning (ext4): destination with the same identifier (name{figure.23}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.345 \newpage
-               <./htmlFotos/pagPrincipal.png> <./htmlFotos/prototipoPagPrincipa
-l.png> <./htmlFotos/MEindex.png>]
-<htmlFotos/mapa.jpg, id=299, 1870.99pt x 2137.9875pt>
-File: htmlFotos/mapa.jpg Graphic file (type jpg)
-<use htmlFotos/mapa.jpg>
-Package pdftex.def Info: htmlFotos/mapa.jpg  used on input line 355.
-(pdftex.def)             Requested size: 230.18253pt x 263.00679pt.
-<htmlFotos/prototipoMapa.jpg, id=300, 1881.0275pt x 2142.0025pt>
-File: htmlFotos/prototipoMapa.jpg Graphic file (type jpg)
-<use htmlFotos/prototipoMapa.jpg>
-Package pdftex.def Info: htmlFotos/prototipoMapa.jpg  used on input line 359.
-(pdftex.def)             Requested size: 230.18253pt x 262.09528pt.
-<htmlFotos/MEmapa.jpg, id=301, 909.3975pt x 1688.3075pt>
-File: htmlFotos/MEmapa.jpg Graphic file (type jpg)
-<use htmlFotos/MEmapa.jpg>
-Package pdftex.def Info: htmlFotos/MEmapa.jpg  used on input line 366.
-(pdftex.def)             Requested size: 140.13646pt x 260.16502pt.
- [27
+l.348 \newpage
+              
 pdfTeX warning (ext4): destination with the same identifier (name{figure.24}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.371 \newpage
-               <./htmlFotos/mapa.jpg> <./htmlFotos/prototipoMapa.jpg> <./htmlFo
-tos/MEmapa.jpg>]
-<htmlFotos/AH.jpg, id=308, 1907.125pt x 1682.285pt>
-File: htmlFotos/AH.jpg Graphic file (type jpg)
-<use htmlFotos/AH.jpg>
-Package pdftex.def Info: htmlFotos/AH.jpg  used on input line 381.
-(pdftex.def)             Requested size: 230.18253pt x 203.0463pt.
-<htmlFotos/prototipoAH.jpg, id=309, 1905.1175pt x 1672.2475pt>
-File: htmlFotos/prototipoAH.jpg Graphic file (type jpg)
-<use htmlFotos/prototipoAH.jpg>
-Package pdftex.def Info: htmlFotos/prototipoAH.jpg  used on input line 385.
-(pdftex.def)             Requested size: 230.18253pt x 202.03893pt.
-<htmlFotos/MEAH.jpg, id=310, 1184.425pt x 1840.8775pt>
-File: htmlFotos/MEAH.jpg Graphic file (type jpg)
-<use htmlFotos/MEAH.jpg>
-Package pdftex.def Info: htmlFotos/MEAH.jpg  used on input line 392.
-(pdftex.def)             Requested size: 209.24742pt x 325.22014pt.
- [28] [29
+l.348 \newpage
+              
 pdfTeX warning (ext4): destination with the same identifier (name{figure.25}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.400 
-       <./htmlFotos/AH.jpg> <./htmlFotos/prototipoAH.jpg> <./htmlFotos/MEAH.jpg
->]
-<htmlFotos/libros.jpg, id=322, 1883.035pt x 1658.195pt>
-File: htmlFotos/libros.jpg Graphic file (type jpg)
-<use htmlFotos/libros.jpg>
-Package pdftex.def Info: htmlFotos/libros.jpg  used on input line 405.
-(pdftex.def)             Requested size: 230.18253pt x 202.6942pt.
-<htmlFotos/prototipoLibros.jpg, id=323, 1872.9975pt x 1644.1425pt>
-File: htmlFotos/prototipoLibros.jpg Graphic file (type jpg)
-<use htmlFotos/prototipoLibros.jpg>
-Package pdftex.def Info: htmlFotos/prototipoLibros.jpg  used on input line 409.
+l.348 \newpage
+               <./htmlFotos/pagPrincipal.png> <./htmlFotos/prototipoPagPrincipa
+l.png>]
+Overfull \vbox (23.93152pt too high) has occurred while \output is active []
 
-(pdftex.def)             Requested size: 230.18253pt x 202.05522pt.
-<htmlFotos/MElibros.jpg, id=324, 1120.185pt x 1792.6975pt>
-File: htmlFotos/MElibros.jpg Graphic file (type jpg)
-<use htmlFotos/MElibros.jpg>
-Package pdftex.def Info: htmlFotos/MElibros.jpg  used on input line 416.
-(pdftex.def)             Requested size: 203.2142pt x 325.21558pt.
- [30]
-<htmlFotos/foro.jpg, id=330, 1862.96pt x 2117.9125pt>
-File: htmlFotos/foro.jpg Graphic file (type jpg)
-<use htmlFotos/foro.jpg>
-Package pdftex.def Info: htmlFotos/foro.jpg  used on input line 430.
-(pdftex.def)             Requested size: 230.18253pt x 261.66832pt.
-<htmlFotos/prototipoForo.jpg, id=331, 1858.945pt x 2107.875pt>
-File: htmlFotos/prototipoForo.jpg Graphic file (type jpg)
-<use htmlFotos/prototipoForo.jpg>
-Package pdftex.def Info: htmlFotos/prototipoForo.jpg  used on input line 436.
-(pdftex.def)             Requested size: 230.18253pt x 260.97498pt.
- [31
+
+[26
 pdfTeX warning (ext4): destination with the same identifier (name{figure.26}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.440 \end{figure}
-                   <./htmlFotos/libros.jpg> <./htmlFotos/prototipoLibros.jpg> <
-./htmlFotos/MElibros.jpg>]
-<htmlFotos/MEforo.jpg, id=338, 851.18pt x 1820.8025pt>
-File: htmlFotos/MEforo.jpg Graphic file (type jpg)
-<use htmlFotos/MEforo.jpg>
-Package pdftex.def Info: htmlFotos/MEforo.jpg  used on input line 448.
-(pdftex.def)             Requested size: 243.25119pt x 520.35106pt.
- [32
+l.348 \newpage
+               <./htmlFotos/MEindex.png>]
+<htmlFotos/mapa.jpg, id=307, 1870.99pt x 2137.9875pt>
+File: htmlFotos/mapa.jpg Graphic file (type jpg)
+<use htmlFotos/mapa.jpg>
+Package pdftex.def Info: htmlFotos/mapa.jpg  used on input line 358.
+(pdftex.def)             Requested size: 230.18253pt x 263.00679pt.
+<htmlFotos/prototipoMapa.jpg, id=308, 1881.0275pt x 2142.0025pt>
+File: htmlFotos/prototipoMapa.jpg Graphic file (type jpg)
+<use htmlFotos/prototipoMapa.jpg>
+Package pdftex.def Info: htmlFotos/prototipoMapa.jpg  used on input line 362.
+(pdftex.def)             Requested size: 230.18253pt x 262.09528pt.
+<htmlFotos/MEmapa.jpg, id=309, 909.3975pt x 1688.3075pt>
+File: htmlFotos/MEmapa.jpg Graphic file (type jpg)
+<use htmlFotos/MEmapa.jpg>
+Package pdftex.def Info: htmlFotos/MEmapa.jpg  used on input line 369.
+(pdftex.def)             Requested size: 140.13646pt x 260.16502pt.
+ [27
 pdfTeX warning (ext4): destination with the same identifier (name{figure.27}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.452 
-      
+l.374 \newpage
+               <./htmlFotos/mapa.jpg> <./htmlFotos/prototipoMapa.jpg> <./htmlFo
+tos/MEmapa.jpg>]
+<htmlFotos/AH.jpg, id=317, 1907.125pt x 1682.285pt>
+File: htmlFotos/AH.jpg Graphic file (type jpg)
+<use htmlFotos/AH.jpg>
+Package pdftex.def Info: htmlFotos/AH.jpg  used on input line 384.
+(pdftex.def)             Requested size: 230.18253pt x 203.0463pt.
+<htmlFotos/prototipoAH.jpg, id=318, 1905.1175pt x 1672.2475pt>
+File: htmlFotos/prototipoAH.jpg Graphic file (type jpg)
+<use htmlFotos/prototipoAH.jpg>
+Package pdftex.def Info: htmlFotos/prototipoAH.jpg  used on input line 388.
+(pdftex.def)             Requested size: 230.18253pt x 202.03893pt.
+<htmlFotos/MEAH.jpg, id=319, 1184.425pt x 1840.8775pt>
+File: htmlFotos/MEAH.jpg Graphic file (type jpg)
+<use htmlFotos/MEAH.jpg>
+Package pdftex.def Info: htmlFotos/MEAH.jpg  used on input line 395.
+(pdftex.def)             Requested size: 167.3907pt x 260.16489pt.
+ [28
 pdfTeX warning (ext4): destination with the same identifier (name{figure.28}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.452 
-       <./htmlFotos/foro.jpg> <./htmlFotos/prototipoForo.jpg>]
-<htmlFotos/estructuraFichero1.png, id=346, 2328.7pt x 1784.6675pt>
-File: htmlFotos/estructuraFichero1.png Graphic file (type png)
-<use htmlFotos/estructuraFichero1.png>
-Package pdftex.def Info: htmlFotos/estructuraFichero1.png  used on input line 4
-58.
-(pdftex.def)             Requested size: 469.747pt x 360.00438pt.
- [33
+l.403 
+       <./htmlFotos/AH.jpg> <./htmlFotos/prototipoAH.jpg> <./htmlFotos/MEAH.jpg
+>]
+<htmlFotos/libros.jpg, id=326, 1883.035pt x 1658.195pt>
+File: htmlFotos/libros.jpg Graphic file (type jpg)
+<use htmlFotos/libros.jpg>
+Package pdftex.def Info: htmlFotos/libros.jpg  used on input line 408.
+(pdftex.def)             Requested size: 230.18253pt x 202.6942pt.
+<htmlFotos/prototipoLibros.jpg, id=327, 1872.9975pt x 1644.1425pt>
+File: htmlFotos/prototipoLibros.jpg Graphic file (type jpg)
+<use htmlFotos/prototipoLibros.jpg>
+Package pdftex.def Info: htmlFotos/prototipoLibros.jpg  used on input line 412.
+
+(pdftex.def)             Requested size: 230.18253pt x 202.05522pt.
+<htmlFotos/MElibros.jpg, id=328, 1120.185pt x 1792.6975pt>
+File: htmlFotos/MElibros.jpg Graphic file (type jpg)
+<use htmlFotos/MElibros.jpg>
+Package pdftex.def Info: htmlFotos/MElibros.jpg  used on input line 419.
+(pdftex.def)             Requested size: 162.56795pt x 260.16699pt.
+<htmlFotos/foro.jpg, id=329, 1862.96pt x 2117.9125pt>
+File: htmlFotos/foro.jpg Graphic file (type jpg)
+<use htmlFotos/foro.jpg>
+Package pdftex.def Info: htmlFotos/foro.jpg  used on input line 433.
+(pdftex.def)             Requested size: 230.18253pt x 261.66832pt.
+<htmlFotos/prototipoForo.jpg, id=330, 1858.945pt x 2107.875pt>
+File: htmlFotos/prototipoForo.jpg Graphic file (type jpg)
+<use htmlFotos/prototipoForo.jpg>
+Package pdftex.def Info: htmlFotos/prototipoForo.jpg  used on input line 439.
+(pdftex.def)             Requested size: 230.18253pt x 260.97498pt.
+ [29
 pdfTeX warning (ext4): destination with the same identifier (name{figure.29}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.462 
-       <./htmlFotos/MEforo.jpg>] [34
+l.443 \end{figure}
+                   <./htmlFotos/libros.jpg> <./htmlFotos/prototipoLibros.jpg> <
+./htmlFotos/MElibros.jpg>]
+<htmlFotos/MEforo.jpg, id=337, 851.18pt x 1820.8025pt>
+File: htmlFotos/MEforo.jpg Graphic file (type jpg)
+<use htmlFotos/MEforo.jpg>
+Package pdftex.def Info: htmlFotos/MEforo.jpg  used on input line 451.
+(pdftex.def)             Requested size: 243.25119pt x 520.35106pt.
+ [30
 pdfTeX warning (ext4): destination with the same identifier (name{figure.30}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.463 \newpage
+l.455 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.31}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.455 
+       <./htmlFotos/foro.jpg> <./htmlFotos/prototipoForo.jpg>]
+<htmlFotos/estructuraFichero1.png, id=345, 2328.7pt x 1784.6675pt>
+File: htmlFotos/estructuraFichero1.png Graphic file (type png)
+<use htmlFotos/estructuraFichero1.png>
+Package pdftex.def Info: htmlFotos/estructuraFichero1.png  used on input line 4
+61.
+(pdftex.def)             Requested size: 469.747pt x 360.00438pt.
+ [31
+pdfTeX warning (ext4): destination with the same identifier (name{figure.32}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.465 
+       <./htmlFotos/MEforo.jpg>] [32
+pdfTeX warning (ext4): destination with the same identifier (name{figure.33}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.466 \newpage
                <./htmlFotos/estructuraFichero1.png>]
 <cssFotos/flexibleGrids.jpg, id=357, 3854.4pt x 2162.0775pt>
 File: cssFotos/flexibleGrids.jpg Graphic file (type jpg)
 <use cssFotos/flexibleGrids.jpg>
-Package pdftex.def Info: cssFotos/flexibleGrids.jpg  used on input line 483.
+Package pdftex.def Info: cssFotos/flexibleGrids.jpg  used on input line 486.
 (pdftex.def)             Requested size: 230.18253pt x 129.09222pt.
 <cssFotos/flexibleGridsEsquema.jpg, id=358, 768.8725pt x 554.07pt>
 File: cssFotos/flexibleGridsEsquema.jpg Graphic file (type jpg)
 <use cssFotos/flexibleGridsEsquema.jpg>
 Package pdftex.def Info: cssFotos/flexibleGridsEsquema.jpg  used on input line 
-489.
+492.
 (pdftex.def)             Requested size: 230.18253pt x 165.87564pt.
 <cssFotos/multicol.jpg, id=359, 3854.4pt x 2162.0775pt>
 File: cssFotos/multicol.jpg Graphic file (type jpg)
 <use cssFotos/multicol.jpg>
-Package pdftex.def Info: cssFotos/multicol.jpg  used on input line 499.
+Package pdftex.def Info: cssFotos/multicol.jpg  used on input line 502.
 (pdftex.def)             Requested size: 469.75502pt x 263.49596pt.
- [35
-pdfTeX warning (ext4): destination with the same identifier (name{figure.31}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.503 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.32}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.503 
-       <./cssFotos/flexibleGrids.jpg> <./cssFotos/flexibleGridsEsquema.jpg>]
-<cssFotos/multicolEsquema.jpg, id=367, 1190.4475pt x 827.09pt>
-File: cssFotos/multicolEsquema.jpg Graphic file (type jpg)
-<use cssFotos/multicolEsquema.jpg>
-Package pdftex.def Info: cssFotos/multicolEsquema.jpg  used on input line 506.
-(pdftex.def)             Requested size: 281.85587pt x 195.8175pt.
-
-[36
-pdfTeX warning (ext4): destination with the same identifier (name{figure.33}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.512 \newpage
-              
+ [33
 pdfTeX warning (ext4): destination with the same identifier (name{figure.34}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.512 \newpage
+l.506 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.35}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.506 
+       <./cssFotos/flexibleGrids.jpg> <./cssFotos/flexibleGridsEsquema.jpg>]
+<cssFotos/multicolEsquema.jpg, id=367, 1190.4475pt x 827.09pt>
+File: cssFotos/multicolEsquema.jpg Graphic file (type jpg)
+<use cssFotos/multicolEsquema.jpg>
+Package pdftex.def Info: cssFotos/multicolEsquema.jpg  used on input line 509.
+(pdftex.def)             Requested size: 281.85587pt x 195.8175pt.
+
+[34
+pdfTeX warning (ext4): destination with the same identifier (name{figure.36}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.515 \newpage
+              
+pdfTeX warning (ext4): destination with the same identifier (name{figure.37}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.515 \newpage
                <./cssFotos/multicol.jpg> <./cssFotos/multicolEsquema.jpg>]
 <cssFotos/flexContainer.jpg, id=374, 3854.4pt x 2047.65pt>
 File: cssFotos/flexContainer.jpg Graphic file (type jpg)
 <use cssFotos/flexContainer.jpg>
-Package pdftex.def Info: cssFotos/flexContainer.jpg  used on input line 518.
+Package pdftex.def Info: cssFotos/flexContainer.jpg  used on input line 521.
 (pdftex.def)             Requested size: 469.75502pt x 249.55048pt.
 <cssFotos/flexContainerEsquema.jpg, id=375, 1254.6875pt x 309.155pt>
 File: cssFotos/flexContainerEsquema.jpg Graphic file (type jpg)
 <use cssFotos/flexContainerEsquema.jpg>
 Package pdftex.def Info: cssFotos/flexContainerEsquema.jpg  used on input line 
-525.
+528.
 (pdftex.def)             Requested size: 469.75502pt x 115.74886pt.
 <cssFotos/cssgrid.jpg, id=376, 3854.4pt x 2073.7475pt>
 File: cssFotos/cssgrid.jpg Graphic file (type jpg)
 <use cssFotos/cssgrid.jpg>
-Package pdftex.def Info: cssFotos/cssgrid.jpg  used on input line 534.
+Package pdftex.def Info: cssFotos/cssgrid.jpg  used on input line 537.
 (pdftex.def)             Requested size: 469.75502pt x 252.73102pt.
 
-[37
-pdfTeX warning (ext4): destination with the same identifier (name{figure.35}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.538 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.36}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.538 
-       <./cssFotos/flexContainer.jpg> <./cssFotos/flexContainerEsquema.jpg>]
-<cssFotos/cssgridEsquema.jpg, id=384, 1764.5925pt x 552.0625pt>
-File: cssFotos/cssgridEsquema.jpg Graphic file (type jpg)
-<use cssFotos/cssgridEsquema.jpg>
-Package pdftex.def Info: cssFotos/cssgridEsquema.jpg  used on input line 541.
-(pdftex.def)             Requested size: 469.75502pt x 146.96133pt.
-<cssFotos/bootstrap.jpg, id=385, 1905.1175pt x 1784.6675pt>
-File: cssFotos/bootstrap.jpg Graphic file (type jpg)
-<use cssFotos/bootstrap.jpg>
-Package pdftex.def Info: cssFotos/bootstrap.jpg  used on input line 550.
-(pdftex.def)             Requested size: 328.82707pt x 308.01888pt.
-
-[38
-pdfTeX warning (ext4): destination with the same identifier (name{figure.37}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.554 
-      
+[35
 pdfTeX warning (ext4): destination with the same identifier (name{figure.38}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.554 
-       <./cssFotos/cssgrid.jpg> <./cssFotos/cssgridEsquema.jpg>]
-<cssFotos/bootstrapEsquema.jpg, id=392, 1031.855pt x 672.5125pt>
-File: cssFotos/bootstrapEsquema.jpg Graphic file (type jpg)
-<use cssFotos/bootstrapEsquema.jpg>
-Package pdftex.def Info: cssFotos/bootstrapEsquema.jpg  used on input line 557.
-
-(pdftex.def)             Requested size: 328.82707pt x 214.30536pt.
-<cssFotos/LibrosEA.jpg, id=393, 3854.4pt x 2154.0475pt>
-File: cssFotos/LibrosEA.jpg Graphic file (type jpg)
-<use cssFotos/LibrosEA.jpg>
-Package pdftex.def Info: cssFotos/LibrosEA.jpg  used on input line 566.
-(pdftex.def)             Requested size: 328.82707pt x 183.76541pt.
- [39
+l.541 
+      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.39}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.569 \end{figure}
-                  
+l.541 
+       <./cssFotos/flexContainer.jpg> <./cssFotos/flexContainerEsquema.jpg>]
+<cssFotos/cssgridEsquema.jpg, id=383, 1764.5925pt x 552.0625pt>
+File: cssFotos/cssgridEsquema.jpg Graphic file (type jpg)
+<use cssFotos/cssgridEsquema.jpg>
+Package pdftex.def Info: cssFotos/cssgridEsquema.jpg  used on input line 544.
+(pdftex.def)             Requested size: 469.75502pt x 146.96133pt.
+<cssFotos/bootstrap.jpg, id=384, 1905.1175pt x 1784.6675pt>
+File: cssFotos/bootstrap.jpg Graphic file (type jpg)
+<use cssFotos/bootstrap.jpg>
+Package pdftex.def Info: cssFotos/bootstrap.jpg  used on input line 553.
+(pdftex.def)             Requested size: 328.82707pt x 308.01888pt.
+
+[36
 pdfTeX warning (ext4): destination with the same identifier (name{figure.40}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.569 \end{figure}
+l.557 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.41}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.557 
+       <./cssFotos/cssgrid.jpg> <./cssFotos/cssgridEsquema.jpg>]
+<cssFotos/bootstrapEsquema.jpg, id=391, 1031.855pt x 672.5125pt>
+File: cssFotos/bootstrapEsquema.jpg Graphic file (type jpg)
+<use cssFotos/bootstrapEsquema.jpg>
+Package pdftex.def Info: cssFotos/bootstrapEsquema.jpg  used on input line 560.
+
+(pdftex.def)             Requested size: 328.82707pt x 214.30536pt.
+<cssFotos/LibrosEA.jpg, id=392, 3854.4pt x 2154.0475pt>
+File: cssFotos/LibrosEA.jpg Graphic file (type jpg)
+<use cssFotos/LibrosEA.jpg>
+Package pdftex.def Info: cssFotos/LibrosEA.jpg  used on input line 569.
+(pdftex.def)             Requested size: 328.82707pt x 183.76541pt.
+ [37
+pdfTeX warning (ext4): destination with the same identifier (name{figure.42}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.572 \end{figure}
+                  
+pdfTeX warning (ext4): destination with the same identifier (name{figure.43}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.572 \end{figure}
                    <./cssFotos/bootstrap.jpg> <./cssFotos/bootstrapEsquema.jpg>
 ]
 <cssFotos/LibrosEAEsquema.jpg, id=400, 1027.84pt x 672.5125pt>
 File: cssFotos/LibrosEAEsquema.jpg Graphic file (type jpg)
 <use cssFotos/LibrosEAEsquema.jpg>
-Package pdftex.def Info: cssFotos/LibrosEAEsquema.jpg  used on input line 573.
+Package pdftex.def Info: cssFotos/LibrosEAEsquema.jpg  used on input line 576.
 (pdftex.def)             Requested size: 328.82707pt x 215.14682pt.
- [40
-pdfTeX warning (ext4): destination with the same identifier (name{figure.41}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.578 \newpage
-              
-pdfTeX warning (ext4): destination with the same identifier (name{figure.42}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.578 \newpage
-               <./cssFotos/LibrosEA.jpg> <./cssFotos/LibrosEAEsquema.jpg>]
-<jsFotos/headerJS.jpg, id=407, 1870.99pt x 234.8775pt>
-File: jsFotos/headerJS.jpg Graphic file (type jpg)
-<use jsFotos/headerJS.jpg>
-Package pdftex.def Info: jsFotos/headerJS.jpg  used on input line 594.
-(pdftex.def)             Requested size: 469.75502pt x 58.9701pt.
-<jsFotos/headerJSFnct.jpg, id=408, 1423.3175pt x 941.5175pt>
-File: jsFotos/headerJSFnct.jpg Graphic file (type jpg)
-<use jsFotos/headerJSFnct.jpg>
-Package pdftex.def Info: jsFotos/headerJSFnct.jpg  used on input line 601.
-(pdftex.def)             Requested size: 281.85587pt x 186.43253pt.
-
-[41
-pdfTeX warning (ext4): destination with the same identifier (name{figure.43}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.606 \newpage
-              
+ [38
 pdfTeX warning (ext4): destination with the same identifier (name{figure.44}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.606 \newpage
+l.581 \newpage
+              
+pdfTeX warning (ext4): destination with the same identifier (name{figure.45}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.581 \newpage
+               <./cssFotos/LibrosEA.jpg> <./cssFotos/LibrosEAEsquema.jpg>]
+<jsFotos/headerJS.jpg, id=407, 1870.99pt x 234.8775pt>
+File: jsFotos/headerJS.jpg Graphic file (type jpg)
+<use jsFotos/headerJS.jpg>
+Package pdftex.def Info: jsFotos/headerJS.jpg  used on input line 597.
+(pdftex.def)             Requested size: 469.75502pt x 58.9701pt.
+<jsFotos/headerJSFnct.jpg, id=408, 1423.3175pt x 941.5175pt>
+File: jsFotos/headerJSFnct.jpg Graphic file (type jpg)
+<use jsFotos/headerJSFnct.jpg>
+Package pdftex.def Info: jsFotos/headerJSFnct.jpg  used on input line 604.
+(pdftex.def)             Requested size: 281.85587pt x 186.43253pt.
+
+[39
+pdfTeX warning (ext4): destination with the same identifier (name{figure.46}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.609 \newpage
+              
+pdfTeX warning (ext4): destination with the same identifier (name{figure.47}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.609 \newpage
                <./jsFotos/headerJS.jpg> <./jsFotos/headerJSFnct.jpg>]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 610.
+nput line 613.
 
 
 ! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
@@ -1446,7 +1464,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.612     * Función 
+l.615     * Función 
                      para mostrar y ocultar el menú de navegación en dispo...
 
 ? 
@@ -1457,7 +1475,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.612     * Función 
+l.615     * Función 
                      para mostrar y ocultar el menú de navegación en dispo...
 
 ? 
@@ -1468,7 +1486,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.612 ...Función para mostrar y ocultar el menú 
+l.615 ...Función para mostrar y ocultar el menú 
                                                   de navegación en disposit...
 
 ? 
@@ -1479,7 +1497,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.612 ...Función para mostrar y ocultar el menú 
+l.615 ...Función para mostrar y ocultar el menú 
                                                   de navegación en disposit...
 
 ? 
@@ -1490,7 +1508,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.612 ...ostrar y ocultar el menú de navegación 
+l.615 ...ostrar y ocultar el menú de navegación 
                                                   en dispositivos móviles
 ? 
 
@@ -1500,7 +1518,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.612 ...ostrar y ocultar el menú de navegación 
+l.615 ...ostrar y ocultar el menú de navegación 
                                                   en dispositivos móviles
 ? 
 
@@ -1510,7 +1528,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.612 ...� de navegación en dispositivos móviles
+l.615 ...� de navegación en dispositivos móviles
                                                   
 ? 
 
@@ -1520,7 +1538,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.612 ...� de navegación en dispositivos móviles
+l.615 ...� de navegación en dispositivos móviles
                                                   
 ? 
 
@@ -1530,7 +1548,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.626 ...Evento para manejar el cambio de tamaño 
+l.629 ...Evento para manejar el cambio de tamaño 
                                                   de la ventana
 ? 
 
@@ -1540,7 +1558,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.626 ...Evento para manejar el cambio de tamaño 
+l.629 ...Evento para manejar el cambio de tamaño 
                                                   de la ventana
 ? 
 
@@ -1550,7 +1568,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.630             // Elimina el estilo en línea 
+l.633             // Elimina el estilo en línea 
                                                  para permitir que los estil...
 
 ? 
@@ -1561,40 +1579,40 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.630             // Elimina el estilo en línea 
+l.633             // Elimina el estilo en línea 
                                                  para permitir que los estil...
 
 ? 
-[42]
+[40]
 <jsFotos/mapaJS.jpg, id=445, 1866.975pt x 2135.98pt>
 File: jsFotos/mapaJS.jpg Graphic file (type jpg)
 <use jsFotos/mapaJS.jpg>
-Package pdftex.def Info: jsFotos/mapaJS.jpg  used on input line 671.
+Package pdftex.def Info: jsFotos/mapaJS.jpg  used on input line 674.
 (pdftex.def)             Requested size: 230.18253pt x 263.3465pt.
 <jsFotos/mapaMouseOver.jpg, id=446, 1881.0275pt x 2144.01pt>
 File: jsFotos/mapaMouseOver.jpg Graphic file (type jpg)
 <use jsFotos/mapaMouseOver.jpg>
-Package pdftex.def Info: jsFotos/mapaMouseOver.jpg  used on input line 677.
+Package pdftex.def Info: jsFotos/mapaMouseOver.jpg  used on input line 680.
 (pdftex.def)             Requested size: 230.18253pt x 262.34091pt.
- [43
-pdfTeX warning (ext4): destination with the same identifier (name{figure.45}) h
+ [41
+pdfTeX warning (ext4): destination with the same identifier (name{figure.48}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.684 \newpage
+l.687 \newpage
               
-pdfTeX warning (ext4): destination with the same identifier (name{figure.46}) h
+pdfTeX warning (ext4): destination with the same identifier (name{figure.49}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.684 \newpage
+l.687 \newpage
                <./jsFotos/mapaJS.jpg> <./jsFotos/mapaMouseOver.jpg>]
-<jsFotos/mapaLista.jpg, id=455, 1879.02pt x 2144.01pt>
+<jsFotos/mapaLista.jpg, id=454, 1879.02pt x 2144.01pt>
 File: jsFotos/mapaLista.jpg Graphic file (type jpg)
 <use jsFotos/mapaLista.jpg>
-Package pdftex.def Info: jsFotos/mapaLista.jpg  used on input line 720.
+Package pdftex.def Info: jsFotos/mapaLista.jpg  used on input line 723.
 (pdftex.def)             Requested size: 234.8775pt x 268.0006pt.
- [44]
+ [42]
 
 ! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
 
@@ -1602,7 +1620,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.728 ...------------------- Barra de Navegación 
+l.731 ...------------------- Barra de Navegación 
                                                   --------------------
 ? 
 
@@ -1612,7 +1630,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.728 ...------------------- Barra de Navegación 
+l.731 ...------------------- Barra de Navegación 
                                                   --------------------
 ? 
 
@@ -1622,7 +1640,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.729     // Agregar barra de navegación 
+l.732     // Agregar barra de navegación 
                                           que nos permitira movernos por el ...
 
 ? 
@@ -1633,28 +1651,28 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.729     // Agregar barra de navegación 
+l.732     // Agregar barra de navegación 
                                           que nos permitira movernos por el ...
 
 ? 
-[45
-pdfTeX warning (ext4): destination with the same identifier (name{figure.47}) h
+[43
+pdfTeX warning (ext4): destination with the same identifier (name{figure.50}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.739 \end{document}
-                     <./jsFotos/mapaLista.jpg>] (./informe1.aux)
+l.742 \newpage
+               <./jsFotos/mapaLista.jpg>] [44] (./informe1.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `informe1.out' has not changed.
-(rerunfilecheck)             Checksum: A53CB4C612BB592DF8689F8D1C19CB89;3253.
+(rerunfilecheck)             Checksum: 9CD658B3E4BEA2E309F2081F0EE9C34A;3363.
  ) 
 Here is how much of TeX's memory you used:
- 21699 strings out of 477476
- 407032 string characters out of 5824243
+ 21705 strings out of 477476
+ 407140 string characters out of 5824243
  2047388 words of memory out of 5000000
- 41373 multiletter control sequences out of 15000+600000
+ 41376 multiletter control sequences out of 15000+600000
  517858 words of font info for 51 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  84i,11n,89p,757b,1230s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1667,10 +1685,10 @@ pe1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023basic/texmf-dist/fonts
 nts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2023basic/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023basic/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on informe1.pdf (45 pages, 27605480 bytes).
+Output written on informe1.pdf (44 pages, 27605488 bytes).
 PDF statistics:
- 567 PDF objects out of 1000 (max. 8388607)
- 439 compressed objects within 5 object streams
- 174 named destinations out of 1000 (max. 500000)
- 480 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 572 PDF objects out of 1000 (max. 8388607)
+ 445 compressed objects within 5 object streams
+ 177 named destinations out of 1000 (max. 500000)
+ 488 words of extra memory for PDF output out of 10000 (max. 10000000)
 
