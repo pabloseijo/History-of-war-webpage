@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.17)  30 MAR 2024 22:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.17)  31 MAR 2024 15:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -740,6 +740,24 @@ LaTeX Warning: Label `fig:prototipo_foro' multiply defined.
 
 LaTeX Warning: Label `fig:foro_interface' multiply defined.
 
+
+LaTeX Warning: Label `fig:foro_interface' multiply defined.
+
+
+LaTeX Warning: Label `fig:foro_interface' multiply defined.
+
+
+LaTeX Warning: Label `fig:foro_interface' multiply defined.
+
+
+LaTeX Warning: Label `fig:foro_interface' multiply defined.
+
+
+LaTeX Warning: Label `fig:prototipo_foro' multiply defined.
+
+
+LaTeX Warning: Label `fig:foro_interface' multiply defined.
+
 )
 \openout1 = `informe1.aux'.
 
@@ -844,7 +862,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \openout5 = `informe1.toc'.
 
  [2] [3]
-<Esquemas/InventarioContenido.png, id=151, 833.1125pt x 642.4pt>
+<Esquemas/InventarioContenido.png, id=161, 833.1125pt x 642.4pt>
 File: Esquemas/InventarioContenido.png Graphic file (type png)
 <use Esquemas/InventarioContenido.png>
 Package pdftex.def Info: Esquemas/InventarioContenido.png  used on input line 1
@@ -857,7 +875,7 @@ s been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.108 \newpage
                <./Esquemas/InventarioContenido.png>]
-<Esquemas/Arquitectura de Informacion.jpg, id=159, 2419.0375pt x 1308.89pt>
+<Esquemas/Arquitectura de Informacion.jpg, id=169, 2419.0375pt x 1308.89pt>
 File: Esquemas/Arquitectura de Informacion.jpg Graphic file (type jpg)
 <use Esquemas/Arquitectura de Informacion.jpg>
 Package pdftex.def Info: Esquemas/Arquitectura de Informacion.jpg  used on inpu
@@ -870,13 +888,13 @@ s been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.127 \newpage
                <./Esquemas/Arquitectura de Informacion.jpg>]
-<Esquemas/CasosDeUsoSegmentado(1).jpg, id=165, 3169.8425pt x 1343.0175pt>
+<Esquemas/CasosDeUsoSegmentado(1).jpg, id=176, 3169.8425pt x 1343.0175pt>
 File: Esquemas/CasosDeUsoSegmentado(1).jpg Graphic file (type jpg)
 <use Esquemas/CasosDeUsoSegmentado(1).jpg>
 Package pdftex.def Info: Esquemas/CasosDeUsoSegmentado(1).jpg  used on input li
 ne 137.
 (pdftex.def)             Requested size: 469.75502pt x 199.02579pt.
-<Esquemas/CasosDeUsoSegamentado(2).jpg, id=166, 2748.2675pt x 1764.5925pt>
+<Esquemas/CasosDeUsoSegamentado(2).jpg, id=177, 2748.2675pt x 1764.5925pt>
 File: Esquemas/CasosDeUsoSegamentado(2).jpg Graphic file (type jpg)
 <use Esquemas/CasosDeUsoSegamentado(2).jpg>
 Package pdftex.def Info: Esquemas/CasosDeUsoSegamentado(2).jpg  used on input l
@@ -895,7 +913,7 @@ s been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.149 \newpage
                <./Esquemas/CasosDeUsoSegamentado(2).jpg>]
-<Esquemas/MapawebFinal.png, id=179, 1304.875pt x 923.45pt>
+<Esquemas/MapawebFinal.png, id=189, 1304.875pt x 923.45pt>
 File: Esquemas/MapawebFinal.png Graphic file (type png)
 <use Esquemas/MapawebFinal.png>
 Package pdftex.def Info: Esquemas/MapawebFinal.png  used on input line 157.
@@ -907,7 +925,7 @@ s been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.162 \newpage
                <./Esquemas/MapawebFinal.png>]
-<Esquemas/Sketch.PNG, id=186, 1309.89375pt x 1388.18625pt>
+<Esquemas/Sketch.PNG, id=196, 1309.89375pt x 1388.18625pt>
 File: Esquemas/Sketch.PNG Graphic file (type png)
 <use Esquemas/Sketch.PNG>
 Package pdftex.def Info: Esquemas/Sketch.PNG  used on input line 172.
@@ -919,13 +937,13 @@ s been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.177 \newpage
                <./Esquemas/Sketch.PNG>]
-<Wireframes/PaginaPrincipal.jpg, id=192, 2567.5925pt x 1612.0225pt>
+<Wireframes/PaginaPrincipal.jpg, id=202, 2567.5925pt x 1612.0225pt>
 File: Wireframes/PaginaPrincipal.jpg Graphic file (type jpg)
 <use Wireframes/PaginaPrincipal.jpg>
 Package pdftex.def Info: Wireframes/PaginaPrincipal.jpg  used on input line 185
 .
 (pdftex.def)             Requested size: 469.75502pt x 294.92343pt.
-<Wireframes/Mapa.jpg, id=193, 2567.5925pt x 1606.0pt>
+<Wireframes/Mapa.jpg, id=203, 2567.5925pt x 1606.0pt>
 File: Wireframes/Mapa.jpg Graphic file (type jpg)
 <use Wireframes/Mapa.jpg>
 Package pdftex.def Info: Wireframes/Mapa.jpg  used on input line 192.
@@ -937,7 +955,7 @@ s been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.196 
        <./Wireframes/PaginaPrincipal.jpg>]
-<Wireframes/EjemploBatalla.jpg, id=199, 2565.585pt x 1606.0pt>
+<Wireframes/EjemploBatalla.jpg, id=209, 2565.585pt x 1606.0pt>
 File: Wireframes/EjemploBatalla.jpg Graphic file (type jpg)
 <use Wireframes/EjemploBatalla.jpg>
 Package pdftex.def Info: Wireframes/EjemploBatalla.jpg  used on input line 199.
@@ -950,7 +968,7 @@ s been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.203 
        <./Wireframes/Mapa.jpg>]
-<Wireframes/Batallas.jpg, id=205, 2573.615pt x 1608.0075pt>
+<Wireframes/Batallas.jpg, id=215, 2573.615pt x 1608.0075pt>
 File: Wireframes/Batallas.jpg Graphic file (type jpg)
 <use Wireframes/Batallas.jpg>
 Package pdftex.def Info: Wireframes/Batallas.jpg  used on input line 206.
@@ -962,7 +980,7 @@ s been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.210 
        <./Wireframes/EjemploBatalla.jpg>]
-<Wireframes/AH.jpg, id=211, 2569.6pt x 1608.0075pt>
+<Wireframes/AH.jpg, id=221, 2569.6pt x 1608.0075pt>
 File: Wireframes/AH.jpg Graphic file (type jpg)
 <use Wireframes/AH.jpg>
 Package pdftex.def Info: Wireframes/AH.jpg  used on input line 213.
@@ -974,7 +992,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.217 
        <./Wireframes/Batallas.jpg>]
-<Mockup/PaginaPrincipal (1).jpg, id=218, 2386.9175pt x 1489.565pt>
+<Mockup/PaginaPrincipal (1).jpg, id=228, 2386.9175pt x 1489.565pt>
 File: Mockup/PaginaPrincipal (1).jpg Graphic file (type jpg)
 <use Mockup/PaginaPrincipal (1).jpg>
 Package pdftex.def Info: Mockup/PaginaPrincipal (1).jpg  used on input line 224
@@ -987,7 +1005,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.228 
        <./Wireframes/AH.jpg>]
-<Mockup/MapaMockup.jpg, id=224, 2388.925pt x 1491.5725pt>
+<Mockup/MapaMockup.jpg, id=234, 2388.925pt x 1491.5725pt>
 File: Mockup/MapaMockup.jpg Graphic file (type jpg)
 <use Mockup/MapaMockup.jpg>
 Package pdftex.def Info: Mockup/MapaMockup.jpg  used on input line 231.
@@ -999,7 +1017,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.235 
        <./Mockup/PaginaPrincipal (1).jpg>]
-<Mockup/EjemploBatallaMockup.jpg, id=230, 2380.895pt x 1481.535pt>
+<Mockup/EjemploBatallaMockup.jpg, id=240, 2380.895pt x 1481.535pt>
 File: Mockup/EjemploBatallaMockup.jpg Graphic file (type jpg)
 <use Mockup/EjemploBatallaMockup.jpg>
 Package pdftex.def Info: Mockup/EjemploBatallaMockup.jpg  used on input line 23
@@ -1012,7 +1030,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.242 
        <./Mockup/MapaMockup.jpg>]
-<Mockup/BatallasMockup.jpg, id=236, 1591.9475pt x 1001.7425pt>
+<Mockup/BatallasMockup.jpg, id=246, 1591.9475pt x 1001.7425pt>
 File: Mockup/BatallasMockup.jpg Graphic file (type jpg)
 <use Mockup/BatallasMockup.jpg>
 Package pdftex.def Info: Mockup/BatallasMockup.jpg  used on input line 245.
@@ -1024,7 +1042,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.249 
        <./Mockup/EjemploBatallaMockup.jpg>]
-<Mockup/AHMockup.jpg, id=242, 2382.9025pt x 1489.565pt>
+<Mockup/AHMockup.jpg, id=252, 2382.9025pt x 1489.565pt>
 File: Mockup/AHMockup.jpg Graphic file (type jpg)
 <use Mockup/AHMockup.jpg>
 Package pdftex.def Info: Mockup/AHMockup.jpg  used on input line 252.
@@ -1042,21 +1060,21 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.257 \newpage
                <./Mockup/AHMockup.jpg>]
-<Storyboards/StoryBoard_seleccion_batalla.png, id=254, 1750.54pt x 665.48625pt>
+<Storyboards/StoryBoard_seleccion_batalla.png, id=264, 1750.54pt x 665.48625pt>
 
 File: Storyboards/StoryBoard_seleccion_batalla.png Graphic file (type png)
 <use Storyboards/StoryBoard_seleccion_batalla.png>
 Package pdftex.def Info: Storyboards/StoryBoard_seleccion_batalla.png  used on 
 input line 265.
 (pdftex.def)             Requested size: 469.75502pt x 178.57684pt.
-<Storyboards/StoryBoard_seleccion_libro.png, id=255, 837.42862pt x 239.39438pt>
+<Storyboards/StoryBoard_seleccion_libro.png, id=265, 837.42862pt x 239.39438pt>
 
 File: Storyboards/StoryBoard_seleccion_libro.png Graphic file (type png)
 <use Storyboards/StoryBoard_seleccion_libro.png>
 Package pdftex.def Info: Storyboards/StoryBoard_seleccion_libro.png  used on in
 put line 272.
 (pdftex.def)             Requested size: 469.75502pt x 134.29005pt.
-<Storyboards/StoryBoard_seleccion_guerra.png, id=256, 842.84888pt x 343.2825pt>
+<Storyboards/StoryBoard_seleccion_guerra.png, id=266, 842.84888pt x 343.2825pt>
 
 File: Storyboards/StoryBoard_seleccion_guerra.png Graphic file (type png)
 <use Storyboards/StoryBoard_seleccion_guerra.png>
@@ -1077,13 +1095,13 @@ as been already used, duplicate ignored
 l.283 
        <./Storyboards/StoryBoard_seleccion_batalla.png> <./Storyboards/StoryBoa
 rd_seleccion_libro.png>]
-<Storyboards/StoryboardPersonaje.jpg, id=265, 1567.8575pt x 574.145pt>
+<Storyboards/StoryboardPersonaje.jpg, id=275, 1567.8575pt x 574.145pt>
 File: Storyboards/StoryboardPersonaje.jpg Graphic file (type jpg)
 <use Storyboards/StoryboardPersonaje.jpg>
 Package pdftex.def Info: Storyboards/StoryboardPersonaje.jpg  used on input lin
 e 286.
 (pdftex.def)             Requested size: 469.75502pt x 172.01704pt.
-<Storyboards/StroryBoardInicioSesion.jpg, id=266, 1599.9775pt x 943.525pt>
+<Storyboards/StroryBoardInicioSesion.jpg, id=276, 1599.9775pt x 943.525pt>
 File: Storyboards/StroryBoardInicioSesion.jpg Graphic file (type jpg)
 <use Storyboards/StroryBoardInicioSesion.jpg>
 Package pdftex.def Info: Storyboards/StroryBoardInicioSesion.jpg  used on input
@@ -1109,7 +1127,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.298 \newpage
                <./Storyboards/StroryBoardInicioSesion.jpg>]
-<Esquemas/EstructuraDeFicheros.jpg, id=279, 1447.4075pt x 1612.0225pt>
+<Esquemas/EstructuraDeFicheros.jpg, id=289, 1447.4075pt x 1612.0225pt>
 File: Esquemas/EstructuraDeFicheros.jpg Graphic file (type jpg)
 <use Esquemas/EstructuraDeFicheros.jpg>
 Package pdftex.def Info: Esquemas/EstructuraDeFicheros.jpg  used on input line 
@@ -1122,18 +1140,18 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.312 
        <./Esquemas/EstructuraDeFicheros.jpg>] [24]
-<htmlFotos/pagPrincipal.png, id=289, 1895.08pt x 2150.0325pt>
+<htmlFotos/pagPrincipal.png, id=299, 1895.08pt x 2150.0325pt>
 File: htmlFotos/pagPrincipal.png Graphic file (type png)
 <use htmlFotos/pagPrincipal.png>
 Package pdftex.def Info: htmlFotos/pagPrincipal.png  used on input line 329.
 (pdftex.def)             Requested size: 230.18253pt x 261.14223pt.
-<htmlFotos/prototipoPagPrincipal.png, id=290, 945.5325pt x 1073.00874pt>
+<htmlFotos/prototipoPagPrincipal.png, id=300, 945.5325pt x 1073.00874pt>
 File: htmlFotos/prototipoPagPrincipal.png Graphic file (type png)
 <use htmlFotos/prototipoPagPrincipal.png>
 Package pdftex.def Info: htmlFotos/prototipoPagPrincipal.png  used on input lin
 e 334.
 (pdftex.def)             Requested size: 230.18253pt x 261.21123pt.
-<htmlFotos/MEindex.png, id=291, 859.21pt x 1272.755pt>
+<htmlFotos/MEindex.png, id=301, 859.21pt x 1272.755pt>
 File: htmlFotos/MEindex.png Graphic file (type png)
 <use htmlFotos/MEindex.png>
 Package pdftex.def Info: htmlFotos/MEindex.png  used on input line 344.
@@ -1168,17 +1186,17 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.348 \newpage
                <./htmlFotos/MEindex.png>]
-<htmlFotos/mapa.jpg, id=307, 1870.99pt x 2137.9875pt>
+<htmlFotos/mapa.jpg, id=318, 1870.99pt x 2137.9875pt>
 File: htmlFotos/mapa.jpg Graphic file (type jpg)
 <use htmlFotos/mapa.jpg>
 Package pdftex.def Info: htmlFotos/mapa.jpg  used on input line 358.
 (pdftex.def)             Requested size: 230.18253pt x 263.00679pt.
-<htmlFotos/prototipoMapa.jpg, id=308, 1881.0275pt x 2142.0025pt>
+<htmlFotos/prototipoMapa.jpg, id=319, 1881.0275pt x 2142.0025pt>
 File: htmlFotos/prototipoMapa.jpg Graphic file (type jpg)
 <use htmlFotos/prototipoMapa.jpg>
 Package pdftex.def Info: htmlFotos/prototipoMapa.jpg  used on input line 362.
 (pdftex.def)             Requested size: 230.18253pt x 262.09528pt.
-<htmlFotos/MEmapa.jpg, id=309, 909.3975pt x 1688.3075pt>
+<htmlFotos/MEmapa.jpg, id=320, 909.3975pt x 1688.3075pt>
 File: htmlFotos/MEmapa.jpg Graphic file (type jpg)
 <use htmlFotos/MEmapa.jpg>
 Package pdftex.def Info: htmlFotos/MEmapa.jpg  used on input line 369.
@@ -1191,17 +1209,17 @@ as been already used, duplicate ignored
 l.374 \newpage
                <./htmlFotos/mapa.jpg> <./htmlFotos/prototipoMapa.jpg> <./htmlFo
 tos/MEmapa.jpg>]
-<htmlFotos/AH.jpg, id=317, 1907.125pt x 1682.285pt>
+<htmlFotos/AH.jpg, id=327, 1907.125pt x 1682.285pt>
 File: htmlFotos/AH.jpg Graphic file (type jpg)
 <use htmlFotos/AH.jpg>
 Package pdftex.def Info: htmlFotos/AH.jpg  used on input line 384.
 (pdftex.def)             Requested size: 230.18253pt x 203.0463pt.
-<htmlFotos/prototipoAH.jpg, id=318, 1905.1175pt x 1672.2475pt>
+<htmlFotos/prototipoAH.jpg, id=328, 1905.1175pt x 1672.2475pt>
 File: htmlFotos/prototipoAH.jpg Graphic file (type jpg)
 <use htmlFotos/prototipoAH.jpg>
 Package pdftex.def Info: htmlFotos/prototipoAH.jpg  used on input line 388.
 (pdftex.def)             Requested size: 230.18253pt x 202.03893pt.
-<htmlFotos/MEAH.jpg, id=319, 1184.425pt x 1840.8775pt>
+<htmlFotos/MEAH.jpg, id=329, 1184.425pt x 1840.8775pt>
 File: htmlFotos/MEAH.jpg Graphic file (type jpg)
 <use htmlFotos/MEAH.jpg>
 Package pdftex.def Info: htmlFotos/MEAH.jpg  used on input line 395.
@@ -1214,28 +1232,28 @@ as been already used, duplicate ignored
 l.403 
        <./htmlFotos/AH.jpg> <./htmlFotos/prototipoAH.jpg> <./htmlFotos/MEAH.jpg
 >]
-<htmlFotos/libros.jpg, id=326, 1883.035pt x 1658.195pt>
+<htmlFotos/libros.jpg, id=336, 1883.035pt x 1658.195pt>
 File: htmlFotos/libros.jpg Graphic file (type jpg)
 <use htmlFotos/libros.jpg>
 Package pdftex.def Info: htmlFotos/libros.jpg  used on input line 408.
 (pdftex.def)             Requested size: 230.18253pt x 202.6942pt.
-<htmlFotos/prototipoLibros.jpg, id=327, 1872.9975pt x 1644.1425pt>
+<htmlFotos/prototipoLibros.jpg, id=337, 1872.9975pt x 1644.1425pt>
 File: htmlFotos/prototipoLibros.jpg Graphic file (type jpg)
 <use htmlFotos/prototipoLibros.jpg>
 Package pdftex.def Info: htmlFotos/prototipoLibros.jpg  used on input line 412.
 
 (pdftex.def)             Requested size: 230.18253pt x 202.05522pt.
-<htmlFotos/MElibros.jpg, id=328, 1120.185pt x 1792.6975pt>
+<htmlFotos/MElibros.jpg, id=338, 1120.185pt x 1792.6975pt>
 File: htmlFotos/MElibros.jpg Graphic file (type jpg)
 <use htmlFotos/MElibros.jpg>
 Package pdftex.def Info: htmlFotos/MElibros.jpg  used on input line 419.
 (pdftex.def)             Requested size: 162.56795pt x 260.16699pt.
-<htmlFotos/foro.jpg, id=329, 1862.96pt x 2117.9125pt>
+<htmlFotos/foro.jpg, id=339, 1862.96pt x 2117.9125pt>
 File: htmlFotos/foro.jpg Graphic file (type jpg)
 <use htmlFotos/foro.jpg>
 Package pdftex.def Info: htmlFotos/foro.jpg  used on input line 433.
 (pdftex.def)             Requested size: 230.18253pt x 261.66832pt.
-<htmlFotos/prototipoForo.jpg, id=330, 1858.945pt x 2107.875pt>
+<htmlFotos/prototipoForo.jpg, id=340, 1858.945pt x 2107.875pt>
 File: htmlFotos/prototipoForo.jpg Graphic file (type jpg)
 <use htmlFotos/prototipoForo.jpg>
 Package pdftex.def Info: htmlFotos/prototipoForo.jpg  used on input line 439.
@@ -1248,7 +1266,7 @@ as been already used, duplicate ignored
 l.443 \end{figure}
                    <./htmlFotos/libros.jpg> <./htmlFotos/prototipoLibros.jpg> <
 ./htmlFotos/MElibros.jpg>]
-<htmlFotos/MEforo.jpg, id=337, 851.18pt x 1820.8025pt>
+<htmlFotos/MEforo.jpg, id=347, 851.18pt x 1820.8025pt>
 File: htmlFotos/MEforo.jpg Graphic file (type jpg)
 <use htmlFotos/MEforo.jpg>
 Package pdftex.def Info: htmlFotos/MEforo.jpg  used on input line 451.
@@ -1266,7 +1284,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.455 
        <./htmlFotos/foro.jpg> <./htmlFotos/prototipoForo.jpg>]
-<htmlFotos/estructuraFichero1.png, id=345, 2328.7pt x 1784.6675pt>
+<htmlFotos/estructuraFichero1.png, id=355, 2328.7pt x 1784.6675pt>
 File: htmlFotos/estructuraFichero1.png Graphic file (type png)
 <use htmlFotos/estructuraFichero1.png>
 Package pdftex.def Info: htmlFotos/estructuraFichero1.png  used on input line 4
@@ -1285,18 +1303,18 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.466 \newpage
                <./htmlFotos/estructuraFichero1.png>]
-<cssFotos/flexibleGrids.jpg, id=357, 3854.4pt x 2162.0775pt>
+<cssFotos/flexibleGrids.jpg, id=367, 3854.4pt x 2162.0775pt>
 File: cssFotos/flexibleGrids.jpg Graphic file (type jpg)
 <use cssFotos/flexibleGrids.jpg>
 Package pdftex.def Info: cssFotos/flexibleGrids.jpg  used on input line 486.
 (pdftex.def)             Requested size: 230.18253pt x 129.09222pt.
-<cssFotos/flexibleGridsEsquema.jpg, id=358, 768.8725pt x 554.07pt>
+<cssFotos/flexibleGridsEsquema.jpg, id=368, 768.8725pt x 554.07pt>
 File: cssFotos/flexibleGridsEsquema.jpg Graphic file (type jpg)
 <use cssFotos/flexibleGridsEsquema.jpg>
 Package pdftex.def Info: cssFotos/flexibleGridsEsquema.jpg  used on input line 
 492.
 (pdftex.def)             Requested size: 230.18253pt x 165.87564pt.
-<cssFotos/multicol.jpg, id=359, 3854.4pt x 2162.0775pt>
+<cssFotos/multicol.jpg, id=369, 3854.4pt x 2162.0775pt>
 File: cssFotos/multicol.jpg Graphic file (type jpg)
 <use cssFotos/multicol.jpg>
 Package pdftex.def Info: cssFotos/multicol.jpg  used on input line 502.
@@ -1314,7 +1332,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.506 
        <./cssFotos/flexibleGrids.jpg> <./cssFotos/flexibleGridsEsquema.jpg>]
-<cssFotos/multicolEsquema.jpg, id=367, 1190.4475pt x 827.09pt>
+<cssFotos/multicolEsquema.jpg, id=377, 1190.4475pt x 827.09pt>
 File: cssFotos/multicolEsquema.jpg Graphic file (type jpg)
 <use cssFotos/multicolEsquema.jpg>
 Package pdftex.def Info: cssFotos/multicolEsquema.jpg  used on input line 509.
@@ -1333,18 +1351,18 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.515 \newpage
                <./cssFotos/multicol.jpg> <./cssFotos/multicolEsquema.jpg>]
-<cssFotos/flexContainer.jpg, id=374, 3854.4pt x 2047.65pt>
+<cssFotos/flexContainer.jpg, id=384, 3854.4pt x 2047.65pt>
 File: cssFotos/flexContainer.jpg Graphic file (type jpg)
 <use cssFotos/flexContainer.jpg>
 Package pdftex.def Info: cssFotos/flexContainer.jpg  used on input line 521.
 (pdftex.def)             Requested size: 469.75502pt x 249.55048pt.
-<cssFotos/flexContainerEsquema.jpg, id=375, 1254.6875pt x 309.155pt>
+<cssFotos/flexContainerEsquema.jpg, id=385, 1254.6875pt x 309.155pt>
 File: cssFotos/flexContainerEsquema.jpg Graphic file (type jpg)
 <use cssFotos/flexContainerEsquema.jpg>
 Package pdftex.def Info: cssFotos/flexContainerEsquema.jpg  used on input line 
 528.
 (pdftex.def)             Requested size: 469.75502pt x 115.74886pt.
-<cssFotos/cssgrid.jpg, id=376, 3854.4pt x 2073.7475pt>
+<cssFotos/cssgrid.jpg, id=386, 3854.4pt x 2073.7475pt>
 File: cssFotos/cssgrid.jpg Graphic file (type jpg)
 <use cssFotos/cssgrid.jpg>
 Package pdftex.def Info: cssFotos/cssgrid.jpg  used on input line 537.
@@ -1363,12 +1381,12 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.541 
        <./cssFotos/flexContainer.jpg> <./cssFotos/flexContainerEsquema.jpg>]
-<cssFotos/cssgridEsquema.jpg, id=383, 1764.5925pt x 552.0625pt>
+<cssFotos/cssgridEsquema.jpg, id=393, 1764.5925pt x 552.0625pt>
 File: cssFotos/cssgridEsquema.jpg Graphic file (type jpg)
 <use cssFotos/cssgridEsquema.jpg>
 Package pdftex.def Info: cssFotos/cssgridEsquema.jpg  used on input line 544.
 (pdftex.def)             Requested size: 469.75502pt x 146.96133pt.
-<cssFotos/bootstrap.jpg, id=384, 1905.1175pt x 1784.6675pt>
+<cssFotos/bootstrap.jpg, id=394, 1905.1175pt x 1784.6675pt>
 File: cssFotos/bootstrap.jpg Graphic file (type jpg)
 <use cssFotos/bootstrap.jpg>
 Package pdftex.def Info: cssFotos/bootstrap.jpg  used on input line 553.
@@ -1387,13 +1405,13 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.557 
        <./cssFotos/cssgrid.jpg> <./cssFotos/cssgridEsquema.jpg>]
-<cssFotos/bootstrapEsquema.jpg, id=391, 1031.855pt x 672.5125pt>
+<cssFotos/bootstrapEsquema.jpg, id=401, 1031.855pt x 672.5125pt>
 File: cssFotos/bootstrapEsquema.jpg Graphic file (type jpg)
 <use cssFotos/bootstrapEsquema.jpg>
 Package pdftex.def Info: cssFotos/bootstrapEsquema.jpg  used on input line 560.
 
 (pdftex.def)             Requested size: 328.82707pt x 214.30536pt.
-<cssFotos/LibrosEA.jpg, id=392, 3854.4pt x 2154.0475pt>
+<cssFotos/LibrosEA.jpg, id=402, 3854.4pt x 2154.0475pt>
 File: cssFotos/LibrosEA.jpg Graphic file (type jpg)
 <use cssFotos/LibrosEA.jpg>
 Package pdftex.def Info: cssFotos/LibrosEA.jpg  used on input line 569.
@@ -1412,7 +1430,7 @@ as been already used, duplicate ignored
 l.572 \end{figure}
                    <./cssFotos/bootstrap.jpg> <./cssFotos/bootstrapEsquema.jpg>
 ]
-<cssFotos/LibrosEAEsquema.jpg, id=400, 1027.84pt x 672.5125pt>
+<cssFotos/LibrosEAEsquema.jpg, id=410, 1027.84pt x 672.5125pt>
 File: cssFotos/LibrosEAEsquema.jpg Graphic file (type jpg)
 <use cssFotos/LibrosEAEsquema.jpg>
 Package pdftex.def Info: cssFotos/LibrosEAEsquema.jpg  used on input line 576.
@@ -1430,12 +1448,12 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.581 \newpage
                <./cssFotos/LibrosEA.jpg> <./cssFotos/LibrosEAEsquema.jpg>]
-<jsFotos/headerJS.jpg, id=407, 1870.99pt x 234.8775pt>
+<jsFotos/headerJS.jpg, id=417, 1870.99pt x 234.8775pt>
 File: jsFotos/headerJS.jpg Graphic file (type jpg)
 <use jsFotos/headerJS.jpg>
 Package pdftex.def Info: jsFotos/headerJS.jpg  used on input line 597.
 (pdftex.def)             Requested size: 469.75502pt x 58.9701pt.
-<jsFotos/headerJSFnct.jpg, id=408, 1423.3175pt x 941.5175pt>
+<jsFotos/headerJSFnct.jpg, id=418, 1423.3175pt x 941.5175pt>
 File: jsFotos/headerJSFnct.jpg Graphic file (type jpg)
 <use jsFotos/headerJSFnct.jpg>
 Package pdftex.def Info: jsFotos/headerJSFnct.jpg  used on input line 604.
@@ -1584,12 +1602,12 @@ l.633             // Elimina el estilo en línea
 
 ? 
 [40]
-<jsFotos/mapaJS.jpg, id=445, 1866.975pt x 2135.98pt>
+<jsFotos/mapaJS.jpg, id=456, 1866.975pt x 2135.98pt>
 File: jsFotos/mapaJS.jpg Graphic file (type jpg)
 <use jsFotos/mapaJS.jpg>
 Package pdftex.def Info: jsFotos/mapaJS.jpg  used on input line 674.
 (pdftex.def)             Requested size: 230.18253pt x 263.3465pt.
-<jsFotos/mapaMouseOver.jpg, id=446, 1881.0275pt x 2144.01pt>
+<jsFotos/mapaMouseOver.jpg, id=457, 1881.0275pt x 2144.01pt>
 File: jsFotos/mapaMouseOver.jpg Graphic file (type jpg)
 <use jsFotos/mapaMouseOver.jpg>
 Package pdftex.def Info: jsFotos/mapaMouseOver.jpg  used on input line 680.
@@ -1607,7 +1625,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.687 \newpage
                <./jsFotos/mapaJS.jpg> <./jsFotos/mapaMouseOver.jpg>]
-<jsFotos/mapaLista.jpg, id=454, 1879.02pt x 2144.01pt>
+<jsFotos/mapaLista.jpg, id=464, 1879.02pt x 2144.01pt>
 File: jsFotos/mapaLista.jpg Graphic file (type jpg)
 <use jsFotos/mapaLista.jpg>
 Package pdftex.def Info: jsFotos/mapaLista.jpg  used on input line 723.
@@ -1661,34 +1679,967 @@ as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.742 \newpage
-               <./jsFotos/mapaLista.jpg>] [44] (./informe1.aux)
+               <./jsFotos/mapaLista.jpg>]
+<jsFotos/buscador.jpg, id=502, 1903.11pt x 1272.755pt>
+File: jsFotos/buscador.jpg Graphic file (type jpg)
+<use jsFotos/buscador.jpg>
+Package pdftex.def Info: jsFotos/buscador.jpg  used on input line 754.
+(pdftex.def)             Requested size: 281.85587pt x 188.49686pt.
+<jsFotos/buscadorNoEncontrado.jpg, id=503, 1905.1175pt x 1144.275pt>
+File: jsFotos/buscadorNoEncontrado.jpg Graphic file (type jpg)
+<use jsFotos/buscadorNoEncontrado.jpg>
+Package pdftex.def Info: jsFotos/buscadorNoEncontrado.jpg  used on input line 7
+61.
+(pdftex.def)             Requested size: 281.85587pt x 169.2767pt.
+ [44
+pdfTeX warning (ext4): destination with the same identifier (name{figure.51}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.766 \newpage
+              
+pdfTeX warning (ext4): destination with the same identifier (name{figure.52}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.766 \newpage
+               <./jsFotos/buscador.jpg> <./jsFotos/buscadorNoEncontrado.jpg>]
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.774 ...t(); // Prevenir la recarga de la página
+                                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.774 ...t(); // Prevenir la recarga de la página
+                                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.777         // Filtrar las páginas 
+                                      que coincidan con el término de búsq...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.777         // Filtrar las páginas 
+                                      que coincidan con el término de búsq...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.777 ...s páginas que coincidan con el término 
+                                                  de búsqueda
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.777 ...s páginas que coincidan con el término 
+                                                  de búsqueda
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.777 ...ue coincidan con el término de búsqueda
+                                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "BA.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.777 ...ue coincidan con el término de búsqueda
+                                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.782 ...esultados, redirige al primero. Podrías 
+                                                  mejorar esto para mostrar ...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "AD.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.782 ...esultados, redirige al primero. Podrías 
+                                                  mejorar esto para mostrar ...
+
+? 
+[45]
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.829     // Función 
+                      para cargar las páginas desde el archivo JSON usando ...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "B3.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.829     // Función 
+                      para cargar las páginas desde el archivo JSON usando ...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.829     // Función para cargar las páginas 
+                                               desde el archivo JSON usando ...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.829     // Función para cargar las páginas 
+                                               desde el archivo JSON usando ...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.831 ...permite hacer peticiones HTTP asíncronas
+                                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "AD.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.831 ...permite hacer peticiones HTTP asíncronas
+                                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.834         // Configuramos la petición
+                                          
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "B3.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.834         // Configuramos la petición
+                                          
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.852         // Envía 
+                        la petición
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "AD.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.852         // Envía 
+                        la petición
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.852         // Envía la petición
+                                    
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "B3.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.852         // Envía la petición
+                                    
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.857     // Cargar las páginas 
+                                 al iniciar
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.857     // Cargar las páginas 
+                                 al iniciar
+? 
+[46]
+<jsFotos/comentarios.jpg, id=596, 1852.9225pt x 2073.7475pt>
+File: jsFotos/comentarios.jpg Graphic file (type jpg)
+<use jsFotos/comentarios.jpg>
+Package pdftex.def Info: jsFotos/comentarios.jpg  used on input line 877.
+(pdftex.def)             Requested size: 281.85587pt x 315.44705pt.
+LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
+886.
+ (/usr/local/texlive/2023basic/texmf-dist/tex/latex/base/ts1cmtt.fd
+File: ts1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.887         $(this).hide(); // Oculta el botón
+                                                 
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "B3.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.887         $(this).hide(); // Oculta el botón
+                                                 
+? 
+[47
+pdfTeX warning (ext4): destination with the same identifier (name{figure.53}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.891  
+                  url: "datos.xml", // Ajusta esta ruta <./jsFotos/comentarios.
+jpg>]
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.916 ...<i class="fas fa-plus"></i> Descripción<
+                                                  /button>'));
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "B3.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.916 ...<i class="fas fa-plus"></i> Descripción<
+                                                  /button>'));
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.918                     // Añadir 
+                                     contadores de likes y dislikes
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "B1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.918                     // Añadir 
+                                     contadores de likes y dislikes
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.936 ...clic para mostrar/ocultar la descripción
+                                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "B3.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.936 ...clic para mostrar/ocultar la descripción
+                                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.939         // Cambia el ícono 
+                                  y el texto del botón dependiendo del estado
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "AD.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.939         // Cambia el ícono 
+                                  y el texto del botón dependiendo del estado
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.939 .../ Cambia el ícono y el texto del botón 
+                                                  dependiendo del estado
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "B3.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.939 .../ Cambia el ícono y el texto del botón 
+                                                  dependiendo del estado
+? 
+[48]
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.943 ...biar solo el texto, manteniendo el ícono
+                                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "AD.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.943 ...biar solo el texto, manteniendo el ícono
+                                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.950 ...biar solo el texto, manteniendo el ícono
+                                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "AD.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.950 ...biar solo el texto, manteniendo el ícono
+                                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.954             $(this).append(' Descripción'
+                                                );
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "B3.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.954             $(this).append(' Descripción'
+                                                );
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.972                 // Si el botón 
+                                      opuesto está activo, ajusta su contad...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "B3.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.972                 // Si el botón 
+                                      opuesto está activo, ajusta su contad...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.972 ...           // Si el botón opuesto está 
+                                                  activo, ajusta su contador...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.972 ...           // Si el botón opuesto está 
+                                                  activo, ajusta su contador...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.972 ...está activo, ajusta su contador también
+                                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.972 ...está activo, ajusta su contador también
+                                                  
+? 
+[49]
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1018 ...stablece el formulario solo si se está 
+                                                  cerrando
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1018 ...stablece el formulario solo si se está 
+                                                  cerrando
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1020                 // Restablece también 
+                                              el texto de archivo seleccionado
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1020                 // Restablece también 
+                                              el texto de archivo seleccionado
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1021 ...        $('#file-chosen').text('Ningún 
+                                                  archivo seleccionado');
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "BA.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1021 ...        $('#file-chosen').text('Ningún 
+                                                  archivo seleccionado');
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1025         // Cambiar el ícono 
+                                    del botón dependiendo del estado del fo...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "AD.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1025         // Cambiar el ícono 
+                                    del botón dependiendo del estado del fo...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1025         // Cambiar el ícono del botón 
+                                               dependiendo del estado del fo...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "B3.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1025         // Cambiar el ícono del botón 
+                                               dependiendo del estado del fo...
+
+? 
+[50]
+<jsFotos/anadirComentario.jpg, id=761, 1090.0725pt x 807.015pt>
+File: jsFotos/anadirComentario.jpg Graphic file (type jpg)
+<use jsFotos/anadirComentario.jpg>
+Package pdftex.def Info: jsFotos/anadirComentario.jpg  used on input line 1053.
+
+(pdftex.def)             Requested size: 230.18253pt x 170.4017pt.
+<jsFotos/miComentario.jpg, id=762, 971.63pt x 1072.005pt>
+File: jsFotos/miComentario.jpg Graphic file (type jpg)
+<use jsFotos/miComentario.jpg>
+Package pdftex.def Info: jsFotos/miComentario.jpg  used on input line 1059.
+(pdftex.def)             Requested size: 230.18253pt x 253.94954pt.
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1068     // Manejo del envío 
+                                del formulario para crear un nuevo post
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "AD.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1068     // Manejo del envío 
+                                del formulario para crear un nuevo post
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1072         // Recopilar la información 
+                                            del formulario
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "B3.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1072         // Recopilar la información 
+                                            del formulario
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1077 ...ear el nuevo post, incluyendo el botón 
+                                                  de eliminar
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "B3.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1077 ...ear el nuevo post, incluyendo el botón 
+                                                  de eliminar
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1083 ...i class="fas fa-plus"></i> Descripción<
+                                                  /button>' +
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "B3.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1083 ...i class="fas fa-plus"></i> Descripción<
+                                                  /button>' +
+? 
+[51
+pdfTeX warning (ext4): destination with the same identifier (name{figure.54}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1084  
+                                       '<div class="voting-buttons">' +
+pdfTeX warning (ext4): destination with the same identifier (name{figure.55}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1084  
+                                       '<div class="voting-buttons">' + <./jsFo
+tos/anadirComentario.jpg> <./jsFotos/miComentario.jpg>]
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1091         // Añadir 
+                          el nuevo post al principio de la sección principal
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "B1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1091         // Añadir 
+                          el nuevo post al principio de la sección principal
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1091 ... nuevo post al principio de la sección 
+                                                  principal
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "B3.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1091 ... nuevo post al principio de la sección 
+                                                  principal
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1097         // Restablecer el ícono 
+                                        del botón flotante
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "AD.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1097         // Restablecer el ícono 
+                                        del botón flotante
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1097 ...    // Restablecer el ícono del botón 
+                                                  flotante
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "B3.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1097 ...    // Restablecer el ícono del botón 
+                                                  flotante
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1103 ...ost').remove(); // Elimina el post más 
+                                                  cercano al botón clickeado
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1103 ...ost').remove(); // Elimina el post más 
+                                                  cercano al botón clickeado
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1103 ... Elimina el post más cercano al botón 
+                                                  clickeado
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "B3.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1103 ... Elimina el post más cercano al botón 
+                                                  clickeado
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1109 ...n').text(fileName ? fileName : 'Ningún 
+                                                  archivo seleccionado'); //...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "BA.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1109 ...n').text(fileName ? fileName : 'Ningún 
+                                                  archivo seleccionado'); //...
+
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.1118 ...ubmit) del formulario identificado por #
+                                                  miForm para evitar que se ...
+
+? 
+
+Overfull \hbox (6.05139pt too wide) in paragraph at lines 1122--1123
+[]\OT1/cmr/m/n/10 Limpia los cam-pos del for-mu-la-rio y oculta el con-tene-dor
+ del for-mu-la-rio (form-Con-tainer), y restablece
+ []
+
+[52]
+! You can't use `macro parameter character #' in horizontal mode.
+l.1130 ...texto de un elemento (identificado por #
+                                                  file-chosen) para mostrar ...
+
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.1130 ...avés del campo de entrada de archivo (#
+                                                  myfile), se extrae su nomb...
+
+? 
+[53]
+<jsFotos/estructuraFinal.jpg, id=822, 2708.1175pt x 1814.78pt>
+File: jsFotos/estructuraFinal.jpg Graphic file (type jpg)
+<use jsFotos/estructuraFinal.jpg>
+Package pdftex.def Info: jsFotos/estructuraFinal.jpg  used on input line 1144.
+(pdftex.def)             Requested size: 469.75502pt x 314.79443pt.
+ [54
+pdfTeX warning (ext4): destination with the same identifier (name{figure.56}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1149 \newpage
+                <./jsFotos/estructuraFinal.jpg>] [55] (./informe1.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `informe1.out' has not changed.
-(rerunfilecheck)             Checksum: 9CD658B3E4BEA2E309F2081F0EE9C34A;3363.
+
+Package rerunfilecheck Warning: File `informe1.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `informe1.out':
+(rerunfilecheck)             Before: 367803F35495F2682AC3B51865CCA8DF;3632
+(rerunfilecheck)             After:  39B2619DAEDBA63A98BC7B2CC9556D22;3919.
  ) 
 Here is how much of TeX's memory you used:
- 21705 strings out of 477476
- 407140 string characters out of 5824243
- 2047388 words of memory out of 5000000
- 41376 multiletter control sequences out of 15000+600000
- 517858 words of font info for 51 fonts, out of 8000000 for 9000
+ 22143 strings out of 477476
+ 413879 string characters out of 5824243
+ 2641388 words of memory out of 5000000
+ 41519 multiletter control sequences out of 15000+600000
+ 518155 words of font info for 52 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 84i,11n,89p,757b,1230s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,12n,89p,757b,2003s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/pabloseijo/Library/texlive/2023basic/texmf-var/fonts/pk/ljfour/jknap
-pen/ec/tcrm1000.600pk></usr/local/texlive/2023basic/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023basic/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023basic/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2023basic/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023basic/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on informe1.pdf (44 pages, 27605488 bytes).
+pen/ec/tctt0900.600pk> </Users/pabloseijo/Library/texlive/2023basic/texmf-var/f
+onts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/local/texlive/2023basic/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023basic/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023basic
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023ba
+sic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/202
+3basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2
+023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texli
+ve/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on informe1.pdf (55 pages, 29757170 bytes).
 PDF statistics:
- 572 PDF objects out of 1000 (max. 8388607)
- 445 compressed objects within 5 object streams
- 177 named destinations out of 1000 (max. 500000)
- 488 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 973 PDF objects out of 1000 (max. 8388607)
+ 824 compressed objects within 9 object streams
+ 462 named destinations out of 1000 (max. 500000)
+ 534 words of extra memory for PDF output out of 10000 (max. 10000000)
 

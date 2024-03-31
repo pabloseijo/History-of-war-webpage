@@ -743,6 +743,419 @@ En estas funciones podemos ver que utilizamos métodos de la librería Leaflet, 
 
 \subsubsection{Buscador}
 
+Otra funcionalidad de la página web es el buscador, que permite al usuario buscar por palabras clave en la página web. Por ejemplo, inserte usted en el buscador la palabra "Covadonga" y le redirigirá a la página de la batalla de Covadonga.
 
+Debido a la complejidad del proyecto, no se puede implementar mediante una base de datos, por lo que tuvimos que hacerlo de una manera ciertamente rudimentaria, pero que al final cumple su función. Para hacer esto utilizamos una página JSON en la cual definimos el título de la página y la URL a la que redirigir.
+
+La primera funcionalidad es la siguiente:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{jsFotos/buscador.jpg}
+    \caption{Buscador}
+    \label{fig:foro_interface}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{jsFotos/buscadorNoEncontrado.jpg}
+    \caption{Búsqueda no encontrada}
+    \label{fig:foro_interface}
+\end{figure}
+
+\newpage
+
+Para ello, hemos utilizado el siguiente código JavaScript:
+
+\begin{lstlisting}[language=JavaScript, caption=Código para el buscador]
+    document.getElementById('searchForm').onsubmit = function(event) {
+        document.getElementById('noResults').style.display = 'none';
+        
+        event.preventDefault(); // Prevenir la recarga de la página
+        let searchTerm = document.getElementById('searchInput').value.toLowerCase();
+
+        // Filtrar las páginas que coincidan con el término de búsqueda
+        let searchResults = pages.filter(function(page) {
+            return page.title.toLowerCase().indexOf(searchTerm) > -1;
+        });
+
+        // Si hay resultados, redirige al primero. Podrías mejorar esto para mostrar una lista.
+        if (searchResults.length > 0) {
+            window.location.href = searchResults[0].url;
+        } else {
+            document.getElementById('noResults').style.display = 'block';   
+
+        }
+    };
+\end{lstlisting}
+
+Este fragmento de código JavaScript configura un controlador de eventos para el formulario de búsqueda identificado por searchForm, que intercepta el evento de envío para prevenir la recarga de la página y en su lugar realiza una búsqueda. Extrae el término de búsqueda ingresado en el campo searchInput, lo convierte a minúsculas y lo compara con un conjunto de páginas (almacenado en la variable pages) para encontrar coincidencias basadas en el título de la página. 
+
+Si encuentra al menos un resultado, redirige al navegador a la URL del primer resultado encontrado. Si no hay coincidencias, muestra un elemento del DOM, identificado como noResults, para indicar al usuario que no se encontraron resultados para su búsqueda. 
+
+Por otra parte, tenemos la carga de las páginas en el JSON:
+
+\begin{lstlisting}[language=JavaScript, caption=Carga de las páginas en el JSON]
+    [
+    {
+        "title": "mapa",
+        "url": "../Mapa/mapa.html"
+    },
+    {
+        "title": "aconteicmientos historicos",
+        "url": "../AcontecimientosHistoricos/AH.html"
+    },
+    {
+        "title": "biblioteca",
+        "url": "../biblioteca/biblioteca.html"
+    },
+    {
+        "title": "iniciar sesion",
+        "url": "../login/login.html"
+    },
+    {
+        "title": "batallas",
+        "url": "../AcontecimientosHistoricos/batallas.html"
+    },
+    [...]
+    ]
+\end{lstlisting}
+
+Que se carga en la variable \textbf{pages}, de la siguiente manera:
+
+\begin{lstlisting}[language=JavaScript, caption=Carga de las páginas en el JSON]
+    let pages = [];
+
+    // Función para cargar las páginas desde el archivo JSON usando XMLHttpRequest
+    function loadPages() {
+        // Creamos un objeto XMLHttpRequest, que nos permite hacer peticiones HTTP asíncronas
+        var xhr = new XMLHttpRequest();
+
+        // Configuramos la petición
+        xhr.open('GET', './buscador.json', true);
+
+        xhr.onload = function() {
+            // Si la respuesta del servidor es satisfactoria
+            if (this.status >= 200 && this.status < 300) {
+                // Parsea y carga los datos en la variable 'pages'
+                pages = JSON.parse(this.responseText);
+            } else {
+                // Maneja errores de respuesta del servidor
+                console.error('Error al cargar el archivo JSON:', this.statusText);
+            }
+        };
+
+        xhr.onerror = function() {
+            // Maneja errores de red
+            console.error('Error de red.');
+        };
+        // Envía la petición
+        xhr.send();
+    }
+
+
+    // Cargar las páginas al iniciar
+    loadPages();
+\end{lstlisting}
+
+\newpage
+
+\subsubsection{Foro}
+
+Esta sección es la joya de la corona de nuestra página web, en la que los usuarios pueden interactuar entre ellos, comentar y discutir sobre distintos temas. Debido a la rudimentariedad del proyecto (al no incluir una base de datos para los usuarios por ejemplo), no se puede implementar un sistema de usuarios, por lo que hemos inlcuido comentarios de prueba hechos por nosotros mismos.
+
+El usuario de la página web puede añadir un comentario, y este se añadirá a la lista. De la misma manera, tiene la capacidad de borrar su propio comentario. 
+
+Otra funcionalidad para el usuario, es la de darle "like" y "dislike" a los comentarios, y ver cuantos tiene cada uno. Así como la inclusión de una columna de trending topics, que muestra los comentarios más populares.
+
+También tenemos un botón para mostrar los nuevos posts.
+
+Primero mostraremos los comentarios base, y como se cargan en la página web mediante un fichero XML:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{jsFotos/comentarios.jpg}
+    \caption{Comentarios}
+    \label{fig:foro_interface}
+\end{figure}
+
+Lo implementamos con el siguiente código JavaScript:
+
+\begin{lstlisting}[language=JavaScript, caption=Carga de los comentarios]
+    // Cargar los posts desde el archivo XML
+    $("#btn_mostrar").click(function () {
+        $(this).hide(); // Oculta el botón
+
+        $.ajax({
+            type: "GET",
+            url: "datos.xml", // Ajusta esta ruta
+            dataType: "xml",
+            success: function (xml) {
+                $('#fill_data').empty();
+                $(xml).find('post').each(function () {
+                    let postId = $(this).attr('id');
+                    let imagenSrc = $(this).find('imagen').attr('src');
+                    let titulo = $(this).find('titulo').text();
+                    let autor = $(this).find('autor').text();
+                    let pfpSrc = $(this).find('pfp').attr('src') || "../Images/pfp.png";
+                    let likes = $(this).find('likes').text() || "0"; 
+                    let dislikes = $(this).find('dislikes').text() || "0";
+                    let texto = $(this).find('texto').text();
+
+                    let postDiv = $('<div class="post" id="' + postId + '"></div>');
+                    if (imagenSrc) {
+                        postDiv.append($('<img class="img_post" src="' + imagenSrc + '" alt="Imagen del post">'));
+                    }
+                    postDiv.append($('<h2 class="titulo">' + titulo + '</h2>'));
+                    let infoDiv = $('<div class="info"></div>').append(
+                        $('<img class="pfp" src="' + pfpSrc + '" width="50px" height="50px" alt="Imagen de perfil">'),
+                        $('<p class="autor">' + autor + '</p>')
+                    );
+                    postDiv.append(infoDiv);
+                    postDiv.append($('<p class="texto oculto">' + texto + '</p>'));
+                    postDiv.append($('<button class="mostrar-descripcion"><i class="fas fa-plus"></i> Descripción</button>'));
+
+                    // Añadir contadores de likes y dislikes
+                    let votingDiv = $('<div class="voting-buttons"></div>').append(
+                        $('<i class="fa fa-arrow-up like-button" aria-hidden="true"></i>'),
+                        $('<span class="likes-count">' + likes + '</span>'),
+                        $('<i class="fa fa-arrow-down dislike-button" aria-hidden="true"></i>'),
+                        $('<span class="dislikes-count">' + dislikes + '</span>')
+                    );
+                    postDiv.append(votingDiv);
+
+                    $('#fill_data').append(postDiv);
+                });
+            },
+            error: function (xhr, status, error) {
+                console.error("Error al cargar el archivo XML:", error);
+            }
+        });
+    });
+
+    // Manejador de clic para mostrar/ocultar la descripción
+    $(document).on('click', '.mostrar-descripcion', function() {
+        $(this).prev('.texto').toggleClass('oculto');
+        // Cambia el ícono y el texto del botón dependiendo del estado
+        let icon = $(this).find('i');
+        if (icon.hasClass('fa-plus')) {
+            icon.removeClass('fa-plus').addClass('fa-minus');
+            // Cambiar solo el texto, manteniendo el ícono
+            $(this).contents().filter(function(){
+                return this.nodeType == 3;
+            }).remove();
+            $(this).append(' Ocultar');
+        } else {
+            icon.removeClass('fa-minus').addClass('fa-plus');
+            // Cambiar solo el texto, manteniendo el ícono
+            $(this).contents().filter(function(){
+                return this.nodeType == 3;
+            }).remove();
+            $(this).append(' Descripción');
+        }
+    });
+
+
+    // Manejador de eventos para los botones de like y dislike
+    $(document).on('click', '.like-button, .dislike-button', function() {
+        let isLikeButton = $(this).hasClass('like-button');
+        let likesCount = $(this).siblings('.likes-count');
+        let dislikesCount = $(this).siblings('.dislikes-count');
+
+        // Toggle active class
+        $(this).toggleClass('active');
+
+        if ($(this).hasClass('active')) {
+            // Incrementa o decrementa el contador adecuadamente
+            if (isLikeButton) {
+                likesCount.text(parseInt(likesCount.text()) + 1);
+                // Si el botón opuesto está activo, ajusta su contador también
+                if ($(this).siblings('.dislike-button').hasClass('active')) {
+                    $(this).siblings('.dislike-button').removeClass('active');
+                    dislikesCount.text(parseInt(dislikesCount.text()) - 1);
+                }
+            } else {
+                dislikesCount.text(parseInt(dislikesCount.text()) + 1);
+                if ($(this).siblings('.like-button').hasClass('active')) {
+                    $(this).siblings('.like-button').removeClass('active');
+                    likesCount.text(parseInt(likesCount.text()) - 1);
+                }
+            }
+        } else {
+            if (isLikeButton) {
+                likesCount.text(parseInt(likesCount.text()) - 1);
+            } else {
+                dislikesCount.text(parseInt(dislikesCount.text()) - 1);
+            }
+        }
+    });
+     // Evento de clic para mostrar la imagen ampliada
+            //lo ponemos con on para que tambien se apliqeu a las posts nuevos que introducimos y no solo a los que estan por defecto.
+    $(document).on('click', '.img_post, .pfp', function () {
+        let src = $(this).attr('src');
+        if (src == null) console.log("source = NULL");
+        $('#imagenAmpliadaContenido').attr('src', src);
+        $('#imagenAmpliada').fadeIn();
+    });
+
+    // Evento de clic para ocultar la imagen ampliada
+    $('#imagenAmpliada').click(function () {
+        $(this).fadeOut();
+    });
+
+    $('.lista_nav li a').mouseover(function () {
+        $(this).find('i').css('visibility', 'visible');
+    });
+
+    $('.lista_nav li a').mouseout(function () {
+        $(this).find('i').css('visibility', 'hidden');
+    });
+
+    $("#mostrarFormBtn").click(function() {
+        var formVisible = $("#formContainer").is(":visible");
+        $("#formContainer").slideToggle('fast', function() {
+            if (!formVisible) {
+                // Restablece el formulario solo si se está cerrando
+                $('#miForm')[0].reset();
+                // Restablece también el texto de archivo seleccionado
+                $('#file-chosen').text('Ningún archivo seleccionado');
+            }
+        });
+
+        // Cambiar el ícono del botón dependiendo del estado del formulario
+        $(this).html(formVisible ? '<i class="fas fa-plus"></i>' : '<i class="fas fa-minus"></i>');
+    });
+\end{lstlisting}
+
+Este extenso fragmento de código JavaScript, integrado con jQuery, implementa diversas funcionalidades interactivas para una página web, principalmente orientadas a la gestión y visualización de contenido dinámico, como posts o artículos, desde un archivo XML. A continuación, se describe cada segmento de funcionalidad:
+
+\begin{itemize}
+    \item \textbf{Cargar y Mostrar Posts:} Al hacer clic en un botón identificado por btnmostrar, se oculta dicho botón y se realiza una petición AJAX para cargar datos desde un archivo datos.xml. Los posts contenidos en el archivo XML se procesan individualmente, extrayendo detalles como identificador, imagen, título, autor, imagen de perfil (pfp), contador de likes y dislikes, y texto. Para cada post, se crea un elemento div con esta información y se añade a un contenedor en la página. Si hay una imagen asociada al post, se incluye al principio del div. Además, se añaden botones dinámicos para mostrar u ocultar la descripción del post y contadores de votos (likes/dislikes).
+
+    \item \textbf{Manejadores de Eventos para Likes/Dislikes:} Se utilizan eventos jQuery on para gestionar clics en los botones de like y dislike, ajustando los contadores correspondientes. Si un usuario da like a un post que previamente había dado dislike (o viceversa), el contador del voto opuesto se ajusta también. Los botones alternan una clase active para reflejar el estado actual del voto del usuario.
+
+    \item \textbf{Visualización Ampliada de Imágenes:} Al hacer clic en imágenes de posts o de perfil, se muestra una versión ampliada de la imagen en un modal o un contenedor específico para ello. Al hacer clic fuera de la imagen ampliada, esta se oculta.
+
+    \item \textbf{Interacción con Elementos de Navegación:} Se añaden efectos visuales a elementos de navegación (listanav li a), como hacer visibles los íconos al pasar el ratón por encima y ocultarlos al retirarlo.
+
+    \item \textbf{Mostrar/Ocultar Formulario:} Un botón permite alternar la visibilidad de un formulario (formContainer), deslizándolo hacia arriba o hacia abajo. Al ocultar el formulario, se resetea su contenido y se actualiza el texto del botón para reflejar el estado del formulario (mostrado u oculto), cambiando el ícono del botón adecuadamente.
+
+\end{itemize}
+
+Este código utiliza técnicas de jQuery para simplificar la selección y manipulación del DOM, el manejo de eventos, y las transiciones visuales.
+
+La otra funcionalidad viene implementada de la siguiente manera:
+
+\begin{figure}[H]
+    \centering
+    % Primera imagen (izquierda)
+    \begin{minipage}{0.49\textwidth}
+        \includegraphics[width=\linewidth]{jsFotos/anadirComentario.jpg}
+        \caption{Añadir comentario}
+        \label{fig:foro_interface}
+    \end{minipage}\hfill
+    % Segunda imagen (derecha)
+    \begin{minipage}{0.49\textwidth}
+        \includegraphics[width=\linewidth]{jsFotos/miComentario.jpg}
+        \caption{Borrar comentario}
+        \label{fig:prototipo_foro}
+    \end{minipage}
+\end{figure}
+
+Con el consecuente código JavaScript:
+
+\begin{lstlisting}[language=JavaScript, caption=Nuevo post]
+    // Manejo del envío del formulario para crear un nuevo post
+    $('#miForm').submit(function (event) {
+        event.preventDefault(); // Prevenir el comportamiento predeterminado
+
+        // Recopilar la información del formulario
+        let titulo = $('#input_titulo').val();
+        let texto = $('#input_txt').val();
+        let archivo = $('#myfile')[0].files[0];
+
+        // Crear el nuevo post, incluyendo el botón de eliminar
+        let nuevoPostHTML = '<div class="post">' +
+                                (archivo ? '<img class="img_post" src="' + URL.createObjectURL(archivo) + '">' : '') +
+                                '<h2 class="titulo">' + titulo + '</h2>' +
+                                '<div class="info"><img class="pfp" src="../Images/pfp.png" width="50px" height="50px"><p class="autor">GUEST</p></div>' +
+                                '<p class="texto oculto">' + texto + '</p>' +
+                                '<button class="mostrar-descripcion"><i class="fas fa-plus"></i> Descripción</button>' +
+                                '<div class="voting-buttons">' +
+                                    '<i class="fa fa-arrow-up like-button" aria-hidden="true"></i><span class="likes-count">0</span>' +
+                                    '<i class="fa fa-arrow-down dislike-button" aria-hidden="true"></i><span class="dislikes-count">0</span>' +
+                                '</div>' +
+                                '<button class="boton-eliminar"> <span class="texto-eliminar animate__animated">Delete</span><i class="fas fa-trash animate__animated"></i></button>'
+                            '</div>';
+
+        // Añadir el nuevo post al principio de la sección principal
+        $('#fill_data').prepend(nuevoPostHTML);
+
+        // Limpiar el formulario y ocultarlo
+        $('#miForm')[0].reset();
+        $("#formContainer").slideUp();
+        // Restablecer el ícono del botón flotante
+        $("#mostrarFormBtn").html('<i class="fas fa-plus"></i>');
+    });
+
+    // Evento de clic para eliminar un post
+    $(document).on('click', '.boton-eliminar', function() {
+        $(this).closest('.post').remove(); // Elimina el post más cercano al botón clickeado
+    });
+
+     // Actualizar el texto al elegir un archivo
+     $('#myfile').change(function () {
+        var fileName = $(this).val().split('\\').pop(); // Obtiene el nombre del archivo
+        $('#file-chosen').text(fileName ? fileName : 'Ningún archivo seleccionado'); // Actualiza el texto
+    });
+\end{lstlisting}
+
+Este bloque de código JavaScript maneja varias funcionalidades interactivas en una página web, principalmente enfocadas en la creación y gestión de publicaciones o "posts" a través de un formulario, así como la interacción con un sistema de votos y la visualización de archivos seleccionados. Aquí tienes un resumen de sus operaciones:
+
+\begin{itemize}
+    \item \textbf{Creación de un Nuevo Post:}
+    \begin{itemize}
+        \item Se intercepta el evento de envío (submit) del formulario identificado por #miForm para evitar que se recargue la página (comportamiento predeterminado de los formularios).
+        \item Recopila los valores ingresados por el usuario en los campos del formulario: título, texto y un archivo seleccionado.
+        \item CCrea un nuevo post en formato HTML, utilizando la información proporcionada. Si se ha seleccionado un archivo, se muestra como parte del post utilizando URL.createObjectURL(archivo) para generar una URL temporal para el archivo seleccionado.
+        \item Añade dinámicamente el nuevo post al principio de la sección de publicaciones (filldata) en la página.
+        \item Limpia los campos del formulario y oculta el contenedor del formulario (formContainer), y restablece el ícono del botón utilizado para mostrar el formulario.
+    \end{itemize}
+    \item \textbf{Eliminación de un Post:}
+    \begin{itemize}
+        \item Implementa la funcionalidad para eliminar un post. Cuando se hace clic en el botón de eliminar de un post específico (identificado por .boton-eliminar), el post correspondiente se elimina del DOM. Esto se logra buscando el contenedor .post más cercano al botón clickeado y eliminándolo de la página.
+    \end{itemize}
+    \item \textbf{Visualización del Nombre del Archivo Seleccionado:}
+    \begin{itemize}
+        \item ctualiza dinámicamente el texto de un elemento (identificado por #file-chosen) para mostrar el nombre del archivo seleccionado por el usuario. Si se selecciona un archivo a través del campo de entrada de archivo (#myfile), se extrae su nombre y se muestra. Si no se selecciona ningún archivo, se muestra un mensaje predeterminado ("Ningún archivo seleccionado").
+    \end{itemize}
+\end{itemize}
+
+Este conjunto de funcionalidades facilita la interacción del usuario con la página, permitiéndole añadir contenido de manera intuitiva y visual, y proporcionando retroalimentación inmediata, como la visualización del nombre del archivo seleccionado y la posibilidad de eliminar publicaciones de forma directa. 
+
+\newpage
+
+\section{Estructura de datos final}
+
+La estructura de datos final con todos nuestros archivos de la página web es la siguiente. Cabe destacar que por la simplicidad del diagrama (debido a que hay una cantidad enorme de archivos), no se incluirán todas los archivos de la web en el diagrama, sino que se incluirán representaciones de como es cada uno.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{jsFotos/estructuraFinal.jpg}
+    \caption{Diagrama de estructura de datos final}
+    \label{fig:foro_interface}
+\end{figure}
+
+\newpage
+
+\section{De la idea primigenia a la página web final}
+
+En un principio mostramos una idea de una página web con una estructura muy básica, con un menú de navegación, un mapa, la pagina de acontecimientos históricos y una biblioteca. 
+
+A lo largo del mes de desarrollo hemos cambiado el diseño de las principales páginas web, pero manteniendo la esencia de la idea original. El header y el footer se han mantenido con ligeros cambios, como puede ser la transformación del login en una página propia, o la de centrar el footer en la página.
+
+Se han añadido la página de buscador y del foro, que no estaban en la idea original, y se han mejorado las páginas de acontecimientos históricos y la biblioteca.
+
+Se han implementado todos los efectos requeridos así como los ficheros de JavaScript necesarios para el correcto modelaje de la página web. 
 
 \end{document}
