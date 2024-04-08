@@ -1,38 +1,38 @@
-# Desarrollo del Sitio Web de Historia de Guerras 🏰
+# War History Website Development 🏰
 
-## Introducción 📜
+## Introduction 📜
 
-Este proyecto se embarca en la creación de un sitio web dedicado a explorar diversos aspectos de la historia bélica, desde batallas emblemáticas y personajes históricos hasta acontecimientos que cambiaron el curso de la humanidad. El desarrollo del sitio se centra en aplicar técnicas modernas de diseño web, asegurando una experiencia de usuario óptima en cualquier dispositivo, y enriqueciendo el contenido con dinamismo mediante JavaScript.
+This project embarks on creating a website dedicated to exploring various aspects of war history, from emblematic battles and historical figures to events that changed the course of humanity. The website's development focuses on applying modern web design techniques, ensuring an optimal user experience on any device, and enriching the content with dynamics through JavaScript.
 
-## Construcción del Sitio 🛠️
+## Site Construction 🛠️
 
-El sitio web se desarrolló inicialmente con una base sólida de HTML, empleando etiquetas semánticas de HTML5 para estructurar el contenido de manera lógica y accesible. La navegación entre las distintas páginas se facilita mediante enlaces internos coherentes, y se enriquece el sitio con enlaces externos relevantes para ampliar la información.
+The website was initially developed with a solid foundation of HTML, using HTML5 semantic tags to logically and accessibly structure the content. Navigation between different pages is facilitated through coherent internal links, and the site is enriched with relevant external links to expand the information.
 
-Para organizar el contenido, se estableció una estructura clara de carpetas y archivos, separando las páginas HTML, las hojas de estilo CSS, y los scripts de JavaScript, mejorando así el mantenimiento y la escalabilidad del proyecto.
+To organize the content, a clear folder and file structure was established, separating HTML pages, CSS stylesheets, and JavaScript scripts, thus improving the project's maintenance and scalability.
 
-### Estilización y Diseño Responsivo 👗
+### Styling and Responsive Design 👗
 
-Posteriormente, se introdujeron hojas de estilo CSS para transformar la apariencia visual del sitio, aplicando colores, tipografías, y márgenes que concuerdan con el tema histórico. Se puso especial énfasis en el diseño responsivo, utilizando técnicas como:
+Subsequently, CSS stylesheets were introduced to transform the site's visual appearance, applying colors, fonts, and margins that match the historical theme. Special emphasis was placed on responsive design, utilizing techniques such as:
 
-- **Grids Flexibles** y **Media Queries** para adaptar el layout a distintos tamaños de pantalla.
-- **CSS Multicol** para mejorar la legibilidad del texto en dispositivos amplios.
-- **Flexbox** para un posicionamiento flexible de los elementos.
-- **CSS Grid** para crear diseños más complejos y dinámicos.
-- **Bootstrap** para acelerar el desarrollo y garantizar consistencia entre diferentes navegadores y dispositivos.
+- **Flexible Grids** and **Media Queries** to adapt the layout to different screen sizes.
+- **CSS Multicol** to enhance the readability of text on wide devices.
+- **Flexbox** for flexible positioning of elements.
+- **CSS Grid** to create more complex and dynamic layouts.
+- **Bootstrap** to accelerate development and ensure consistency across different browsers and devices.
 
-Cada técnica se aplicó específicamente a distintas páginas, demostrando su efectividad y versatilidad para lograr un diseño atractivo y funcional.
+Each technique was specifically applied to different pages, demonstrating its effectiveness and versatility in achieving an attractive and functional design.
 
-### Dinamismo con JavaScript ⚡
+### Dynamics with JavaScript ⚡
 
-Para enriquecer la experiencia del usuario, se integró código JavaScript, añadiendo efectos visuales interactivos y funcionalidades avanzadas como:
+To enrich the user experience, JavaScript code was integrated, adding interactive visual effects and advanced functionalities such as:
 
-- **Manipulación del DOM** para modificar dinámicamente el contenido de la página.
-- **Eventos** para responder a acciones del usuario, como clics y desplazamientos.
-- **Animaciones** para captar la atención y mejorar la navegación.
-- **Carga de contenido** usando **XML** y **JSON**, permitiendo actualizar partes del sitio sin necesidad de recargar la página completa.
+- **DOM Manipulation** to dynamically modify the content of the page.
+- **Events** to respond to user actions, such as clicks and scrolls.
+- **Animations** to capture attention and improve navigation.
+- **Content loading** using **XML** and **JSON**, allowing parts of the site to be updated without needing to reload the entire page.
 
-Se utilizaron tanto técnicas nativas de JavaScript como librerías modernas como jQuery para simplificar la sintaxis y mejorar la compatibilidad entre navegadores.
+Both native JavaScript techniques and modern libraries like jQuery were used to simplify syntax and improve browser compatibility.
 
-### Conclusión 🎉
+### Conclusion 🎉
 
-El desarrollo de este sitio web no solo ha sido un ejercicio de programación, sino también una inmersión en la historia militar, presentada de manera interactiva y educativa. A través de la combinación de HTML semántico, diseño responsivo con CSS, y la interactividad proporcionada por JavaScript, hemos creado un sitio que es tanto informativo como fácil de usar, asegurando que los visitantes tengan una experiencia enriquecedora, independientemente del dispositivo que utilicen para acceder a él.
+The development of this website has not only been a programming exercise but also an immersion into military history, presented in an interactive and educational manner. Through the combination of semantic HTML, responsive design with CSS, and the interactivity provided by JavaScript, we have created a site that is both informative and easy to use, ensuring that visitors have a enriching experience, regardless of the device they use to access it.
